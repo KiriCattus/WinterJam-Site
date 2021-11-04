@@ -1,8 +1,22 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import { DefaultSeo } from "next-seo";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <DefaultSeo
+        // TODO: Add more info for SEO
+        defaultTitle="WinterJam"
+        titleTemplate="%s | WinterJam 2021"
+        openGraph={{
+          type: "website",
+          site_name: "WinterJam",
+        }}
+      />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default App;
