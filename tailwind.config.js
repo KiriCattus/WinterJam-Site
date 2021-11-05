@@ -281,6 +281,17 @@ module.exports = {
         '"Courier New"',
         "monospace",
       ],
+      blocky: [
+        "'Press Start 2P'",
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        '"Segoe UI"',
+        "Roboto",
+        '"Helvetica Neue"',
+        "Arial",
+      ],
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
