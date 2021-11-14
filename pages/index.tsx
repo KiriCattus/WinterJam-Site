@@ -1,24 +1,26 @@
 import type { NextPage } from "next";
-import { NextSeo } from "next-seo";
-import React from "react";
+import { Layout, TimeTable } from "../components/";
 
 const Home: NextPage = () => {
   return (
-    <>
-      <NextSeo title="Home" />
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="inline-block">
-          <div className="font-blocky text-4xl">MMD WinterJam</div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="#a2d9ff"
-              fillOpacity="1"
-              d="M0,192L0,128L36.9,128L36.9,224L73.8,224L73.8,32L110.8,32L110.8,160L147.7,160L147.7,96L184.6,96L184.6,0L221.5,0L221.5,96L258.5,96L258.5,256L295.4,256L295.4,320L332.3,320L332.3,160L369.2,160L369.2,160L406.2,160L406.2,160L443.1,160L443.1,32L480,32L480,96L516.9,96L516.9,64L553.8,64L553.8,64L590.8,64L590.8,32L627.7,32L627.7,288L664.6,288L664.6,192L701.5,192L701.5,32L738.5,32L738.5,32L775.4,32L775.4,288L812.3,288L812.3,64L849.2,64L849.2,128L886.2,128L886.2,192L923.1,192L923.1,32L960,32L960,256L996.9,256L996.9,160L1033.8,160L1033.8,96L1070.8,96L1070.8,64L1107.7,64L1107.7,192L1144.6,192L1144.6,64L1181.5,64L1181.5,96L1218.5,96L1218.5,320L1255.4,320L1255.4,32L1292.3,32L1292.3,224L1329.2,224L1329.2,0L1366.2,0L1366.2,160L1403.1,160L1403.1,224L1440,224L1440,0L1403.1,0L1403.1,0L1366.2,0L1366.2,0L1329.2,0L1329.2,0L1292.3,0L1292.3,0L1255.4,0L1255.4,0L1218.5,0L1218.5,0L1181.5,0L1181.5,0L1144.6,0L1144.6,0L1107.7,0L1107.7,0L1070.8,0L1070.8,0L1033.8,0L1033.8,0L996.9,0L996.9,0L960,0L960,0L923.1,0L923.1,0L886.2,0L886.2,0L849.2,0L849.2,0L812.3,0L812.3,0L775.4,0L775.4,0L738.5,0L738.5,0L701.5,0L701.5,0L664.6,0L664.6,0L627.7,0L627.7,0L590.8,0L590.8,0L553.8,0L553.8,0L516.9,0L516.9,0L480,0L480,0L443.1,0L443.1,0L406.2,0L406.2,0L369.2,0L369.2,0L332.3,0L332.3,0L295.4,0L295.4,0L258.5,0L258.5,0L221.5,0L221.5,0L184.6,0L184.6,0L147.7,0L147.7,0L110.8,0L110.8,0L73.8,0L73.8,0L36.9,0L36.9,0L0,0L0,0Z"
-            ></path>
-          </svg>
-        </div>
+    <Layout title="Home" url="/">
+      <div className="md:text-3xl text-2xl text-center text-white mb-3 font-bold">
+        Welcome to WinterJam!
       </div>
-    </>
+      <p className="text-white text-xl md:text-2xl text-justify mb-10">
+        This is MMD's annual winter celebration for the modded Minecraft
+        community. During the winter we host a mod jam where members of the
+        community are encouraged to create new mods that fit the seasonal vibe.
+        Participants are encouraged to collaborate, explore new skills, and
+        challenge themselves. During WinterJam we also host a public Minecraft
+        server where anyone can join and check out the valid mod jam
+        submissions.
+      </p>
+      <h1 className="md:text-3xl text-2xl text-center font-bold text-white mb-5">
+        Important Dates
+      </h1>
+      <TimeTable />
+    </Layout>
   );
 };
 
