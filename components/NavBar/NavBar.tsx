@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { SnowParticles, Title } from "..";
+import { Title } from "..";
 
 function NavLink({
   title,
@@ -38,18 +38,18 @@ function NavLink({
   );
 }
 
-export function NavBar() {
-  const [snowOn, setSnowOn] = useState(false);
+interface Props {
+  onSnowToggle?: () => void;
+  className?: string;
+}
+
+export function NavBar({ onSnowToggle, className = "" }: Props) {
   const [expanded, setExpanded] = useState(false);
   return (
-    <nav className="text-white w-full">
-      {snowOn && <SnowParticles />}
+    <nav className={"text-white w-full " + className}>
       <div className="hidden lg:grid sm:grid-cols-3 w-full px-16 py-4">
         <div className="flex px-4 gap-x-6 text-xl font-bold items-center">
-          <div
-            className="cursor-pointer"
-            onClick={() => setSnowOn((prev) => !prev)}
-          >
+          <div className="cursor-pointer" onClick={onSnowToggle}>
             ❄️
           </div>
           <NavLink classNames="my-auto" title="Home" location="/" />
@@ -108,10 +108,7 @@ export function NavBar() {
               title="GitHub"
               location="https://github.com/MinecraftModDevelopmentMods"
             />
-            <div
-              className="cursor-pointer py-2"
-              onClick={() => setSnowOn((prev) => !prev)}
-            >
+            <div className="cursor-pointer py-2" onClick={onSnowToggle}>
               ❄️
             </div>
           </div>

@@ -8,9 +8,19 @@ interface TimeEntryProps {
   className?: string;
 }
 
-function TimeEntry({ title, time, description, className }: TimeEntryProps) {
+function TimeEntry({
+  title,
+  time,
+  description,
+  className = "",
+}: TimeEntryProps) {
   return (
-    <div className={"text-center text-white mb-5 md:mb-10 " + className}>
+    <div
+      className={
+        "text-center text-white m-2 p-2 md:mb-5 md:p-5 border border-white rounded-lg bg-blue-500 bg-opacity-20 shadow-lg " +
+        className
+      }
+    >
       <div className="text-xl font-bold underline">{title}</div>
       <div className="text-lg">
         <DateRendererLoader time={time} />
@@ -38,17 +48,18 @@ export function TimeTable() {
             encouraged to submit alpha builds before this date"
       />
       <TimeEntry
-        time={Date.UTC(2021, 10, 1, 0, 0, 0)}
+        time={Date.UTC(2021, 11, 30, 0, 0, 0)}
+        title="New Years event soft deadline"
+        description="Last call to get your mods in for the live countdown celebration"
+      />
+      <TimeEntry
+        time={Date.UTC(2022, 0, 14, 0, 0, 0)}
         title="Submission window will be closed"
         description="New submissions will not be
             accepted"
       />
       <TimeEntry
-        time={Date.UTC(2021, 10, 7, 0, 0, 0)}
-        title="Winners announced!"
-      />
-      <TimeEntry
-        time={Date.UTC(2021, 10, 14, 20, 0, 0)}
+        time={Date.UTC(2022, 0, 21, 0, 0, 0)}
         title="Public server goes offline"
         description="Backup of the save file will be
         made available for download"
