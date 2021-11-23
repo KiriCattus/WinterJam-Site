@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <Layout title="Home" url="/">
       <h1>Welcome to WinterJam!</h1>
       <p className="text-white text-xl md:text-2xl text-justify mb-10">
-        This is MMD's annual winter celebration for the modded Minecraft
+        This is MMD&apos;s annual winter celebration for the modded Minecraft
         community. During the winter we host a mod jam where members of the
         community are encouraged to create new mods that fit the seasonal vibe.
         Participants are encouraged to collaborate, explore new skills, and
@@ -70,8 +70,8 @@ const Home: NextPage = () => {
           submissions will be eligible for the Top 3 Forge and Top 3 Fabric
           categories but may only place in one of those categories. Please be
           advised that supporting both loaders is completely optional. Doing so
-          will require additional effort and may be stressful. If you're still
-          interested in doing this we recommend checking out the useful
+          will require additional effort and may be stressful. If you&apos;re
+          still interested in doing this we recommend checking out the useful
           MultiLoader-Template.
         </p>
 
@@ -79,11 +79,11 @@ const Home: NextPage = () => {
         <p>
           Everyone is welcome to participate in WinterJam. One of the easiest
           ways to join in is by giving participants feedback and encouragement
-          or play with the mods on the public event Minecraft server. If you're
-          looking to get more involved with the event you may be able to help
-          with translating submissions, helping with textures, or contributing
-          in other ways. WinterJam is also a great opportunity to learn more
-          about mod development and try to make your own mod.
+          or play with the mods on the public event Minecraft server. If
+          you&apos;re looking to get more involved with the event you may be
+          able to help with translating submissions, helping with textures, or
+          contributing in other ways. WinterJam is also a great opportunity to
+          learn more about mod development and try to make your own mod.
         </p>
 
         <h3>Can I submit a mod from previous WinterJam events?</h3>
