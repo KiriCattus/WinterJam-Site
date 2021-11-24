@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import { Layout, TimeTable } from "../components/";
 import { Rules } from "../components/Rules";
+import NavLink from "../components/NavLink";
 
 const Home: NextPage = () => {
   return (
@@ -19,35 +20,19 @@ const Home: NextPage = () => {
       <TimeTable />
       <Rules />
       <div className="lg:w-2/3 md:w-5/6 mx-auto text-white text-xl text-justify">
-        <h2>Rewards and Prizes</h2>
+        <h2>Sponsors and rewards</h2>
         <p className="mb-10">
-          Paragraph talking about the reward and prizes Cattus you can fill it
-          up
+          This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline={true} /> who has graciously provided us with our prize pool for this event.
+          There will be 6 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD's team and event sponsors. 
         </p>
-        <h2>Top 3 Submissions</h2>
-        <p className="text-justify mb-10">
-          The top three Forge submissions and the top three Fabric submissions
-          will be awarded the following prizes. Submissions that are compatible
-          with both loaders will be considered for both categories however they
-          may only win one category.
-        </p>
-        <ol className="list-decimal mb-10">
-          <li>1st Place - $xxx USD</li>
-          <li>2nd Place - $xxx USD</li>
-          <li>3rd Place - $xxx USD</li>
-        </ol>
-        <h2>Bonus Prizes</h2>
-        <p className="text-justify mb-10">
-          In addition to the prizes for top 3 submissions there are x $xx USD
-          bonus prizes. These prizes are awarded based on specific criteria and
-          may be awarded to any eligible submission including one that received
-          a top 3 prize.
-        </p>
+        <h3>Rewards</h3>
         <ul>
-          <li>
-            Originality - Awarded to the most fresh and original submission.
-          </li>
-          <li>Foo - Bar</li>
+          <li>Best Vanilla+ Content</li>
+          <li>Best World Generation - Biomes, dimensions, structures and anything generation related.</li>
+          <li>Best Mob - Visuals, AI, Behavior, loot, etc.</li>
+          <li>Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
+          <li>Most Useful - Provides utility to the player without being overpowered.</li>
+          <li>Best Player Progression - Progression may be towards a goal, boss mob, higher tier of gear, etc.</li>
         </ul>
 
         <h2>Frequently Asked Questions</h2>
