@@ -79,9 +79,9 @@ export function Rules() {
             deadline.
           </b>
           <br />
-          They must also pass CurseForge's standard project review. Participants
-          are encouraged to upload their projects as soon as possible, as this
-          review process can take some time to complete.
+          They must also pass CurseForge&apos;s standard project review.
+          Participants are encouraged to upload their projects as soon as
+          possible, as this review process can take some time to complete.
         </li>
       </ol>
     </div>
