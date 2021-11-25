@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <h2>Sponsors and rewards</h2>
         <p className="mb-10">
           This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline={true} /> who has graciously provided us with our prize pool for this event.
-          There will be 6 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD's team and event sponsors. 
+          There will be 6 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
         </p>
         <h3>Rewards</h3>
         <ul>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <li>$100 - Best Mob - Visuals, AI, Behavior, loot, etc.</li>
           <li>$100 - Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
           <li>$100 - Most Useful - Provides utility to the player without being overpowered.</li>
-          <li>$100 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla's. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
+          <li>$100 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla&apos;s. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
         </ul>
 
         <h2>Frequently Asked Questions</h2>
