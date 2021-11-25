@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <h2>Sponsors and rewards</h2>
         <p className="mb-10">
           This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline={true} /> who has graciously provided us with our prize pool for this event.
-          There will be 6 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD's team and event sponsors. 
+          There will be 6 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
         </p>
         <h3>Rewards</h3>
         <ul>
