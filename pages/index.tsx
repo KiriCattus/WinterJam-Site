@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { Layout, TimeTable } from "../components/";
 import { Rules } from "../components/Rules";
 import NavLink from "../components/NavLink";
+import Sponsor from "../components/Sponsor";
 
 const Home: NextPage = () => {
   return (
@@ -120,6 +121,15 @@ const Home: NextPage = () => {
           Yes you must submit your project before the end of the event. More
           information will follow on how to do so.
         </p>
+      </div>
+
+      <div id='sponsors'>
+        <h2>Sponsors</h2>
+        <div className='grid sm:grid-cols-3 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
+          <Sponsor name='Nodecraft' logo='./sponsor_nodecraft.png' link='https://nodecraft.com/r/mmd' description='Nodecraft offers quality server hosting for many games such as Minecraft, Rust, and Factorio.' />
+          <Sponsor name='MMD' logo='./sponsor_mmd.png' link='https://discord.mcmoddev.com/' description='Minecraft Mod Development is a safe community for mod authors to learn, improve their skills, and share their work.' />
+          <Sponsor name='YUNGNICKYOUNG' logo='./sponsor_nick.png' link='https://twitter.com/yungnickyoung' description='Content creator and Minecraft modder on a journey to improve every part of Minecraft with extensive Vanilla+ style mods.'/>
+        </div>
       </div>
     </Layout>
   );
