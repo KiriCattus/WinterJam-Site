@@ -28,12 +28,12 @@ const Home: NextPage = () => {
         </p>
         <h3>Rewards</h3>
         <ul>
-          <li>Best Vanilla+ Content</li>
-          <li>Best World Generation - Biomes, dimensions, structures and anything generation related.</li>
-          <li>Best Mob - Visuals, AI, Behavior, loot, etc.</li>
-          <li>Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
-          <li>Most Useful - Provides utility to the player without being overpowered.</li>
-          <li>Best Player Progression - Progression may be towards a goal, boss mob, higher tier of gear, etc.</li>
+          <li>$100 - Best Vanilla+ Content</li>
+          <li>$100 - Best World Generation - Biomes, dimensions, structures and anything generation related.</li>
+          <li>$100 - Best Mob - Visuals, AI, Behavior, loot, etc.</li>
+          <li>$100 - Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
+          <li>$100 - Most Useful - Provides utility to the player without being overpowered.</li>
+          <li>$100 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla's. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
         </ul>
 
         <h2>Frequently Asked Questions</h2>
