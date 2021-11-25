@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <li>$100 - Best Mob - Visuals, AI, Behavior, loot, etc.</li>
           <li>$100 - Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
           <li>$100 - Most Useful - Provides utility to the player without being overpowered.</li>
-          <li>$100 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla's. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
+          <li>$100 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla&apos;s. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
         </ul>
 
         <h2>Frequently Asked Questions</h2>
