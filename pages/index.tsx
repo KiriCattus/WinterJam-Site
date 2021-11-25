@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import { Layout, TimeTable } from "../components/";
 import { Rules } from "../components/Rules";
+import NavLink from "../components/NavLink";
+import Sponsor from "../components/Sponsor";
 
 const Home: NextPage = () => {
   return (
@@ -19,35 +21,19 @@ const Home: NextPage = () => {
       <TimeTable />
       <Rules />
       <div className="lg:w-2/3 md:w-5/6 mx-auto text-white text-xl text-justify">
-        <h2>Rewards and Prizes</h2>
+        <h2>Sponsors and rewards</h2>
         <p className="mb-10">
-          Paragraph talking about the reward and prizes Cattus you can fill it
-          up
+          This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline={true} /> who has graciously provided us with our prize pool for this event.
+          There will be 6 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
         </p>
-        <h2>Top 3 Submissions</h2>
-        <p className="text-justify mb-10">
-          The top three Forge submissions and the top three Fabric submissions
-          will be awarded the following prizes. Submissions that are compatible
-          with both loaders will be considered for both categories however they
-          may only win one category.
-        </p>
-        <ol className="list-decimal mb-10">
-          <li>1st Place - $xxx USD</li>
-          <li>2nd Place - $xxx USD</li>
-          <li>3rd Place - $xxx USD</li>
-        </ol>
-        <h2>Bonus Prizes</h2>
-        <p className="text-justify mb-10">
-          In addition to the prizes for top 3 submissions there are x $xx USD
-          bonus prizes. These prizes are awarded based on specific criteria and
-          may be awarded to any eligible submission including one that received
-          a top 3 prize.
-        </p>
+        <h3>Rewards</h3>
         <ul>
-          <li>
-            Originality - Awarded to the most fresh and original submission.
-          </li>
-          <li>Foo - Bar</li>
+          <li>$100 - Best Vanilla+ Content</li>
+          <li>$100 - Best World Generation - Biomes, dimensions, structures and anything generation related.</li>
+          <li>$100 - Best Mob - Visuals, AI, Behavior, loot, etc.</li>
+          <li>$100 - Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
+          <li>$100 - Most Useful - Provides utility to the player without being overpowered.</li>
+          <li>$100 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla&apos;s. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
         </ul>
 
         <h2>Frequently Asked Questions</h2>
@@ -66,13 +52,10 @@ const Home: NextPage = () => {
         </p>
         <h3>Can I submit the same mod for both Forge and Fabric?</h3>
         <p>
-          Yes, you may support both Forge and Fabric with your submission. These
-          submissions will be eligible for the Top 3 Forge and Top 3 Fabric
-          categories but may only place in one of those categories. Please be
+          Yes, you may support both Forge and Fabric with your submission. Please be
           advised that supporting both loaders is completely optional. Doing so
           will require additional effort and may be stressful. If you&apos;re
-          still interested in doing this we recommend checking out the useful
-          MultiLoader-Template.
+          still interested in doing this we recommend checking out the useful <NavLink title='MultiLoader-Template' location='https://github.com/jaredlll08/MultiLoader-Template' inline={true} /> by Jared and Darkhax.
         </p>
 
         <h3>I am not a mod author, how can I participate?</h3>
@@ -133,8 +116,17 @@ const Home: NextPage = () => {
         <h3>Do I need to submit my project?</h3>
         <p>
           Yes you must submit your project before the end of the event. More
-          information will follow on how to do so.
+          information will follow on how to do so soon.
         </p>
+      </div>
+
+      <div id='sponsors'>
+        <h2>Sponsors</h2>
+        <div className='grid sm:grid-cols-3 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
+          <Sponsor name='Nodecraft' logo='./sponsor_nodecraft.png' link='https://nodecraft.com/r/mmd' description='Nodecraft offers quality server hosting for many games such as Minecraft, Rust, and Factorio.' />
+          <Sponsor name='MMD' logo='./sponsor_mmd.png' link='https://discord.mcmoddev.com/' description='Minecraft Mod Development is a safe community for mod authors to learn, improve their skills, and share their work.' />
+          <Sponsor name='YUNGNICKYOUNG' logo='./sponsor_nick.png' link='https://twitter.com/yungnickyoung' description='Content creator and Minecraft modder on a journey to improve every part of Minecraft with extensive Vanilla+ style mods.'/>
+        </div>
       </div>
     </Layout>
   );

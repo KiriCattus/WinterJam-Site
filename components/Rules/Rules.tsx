@@ -54,7 +54,7 @@ export function Rules() {
           <br /> There are no limits to the size of a team, and participants may
           contribute to multiple teams. If a team submission wins a prize, the
           team is responsible for deciding how that prize will be shared amongst
-          its members.
+          its members. However we suggest teams of roughly 4.
         </li>
         <li>
           <b>
@@ -82,6 +82,12 @@ export function Rules() {
           They must also pass CurseForge&apos;s standard project review.
           Participants are encouraged to upload their projects as soon as
           possible, as this review process can take some time to complete.
+        </li>
+        <li>
+          <b>Work on world generation first!</b>
+          <br /> This is only a suggestion and may not apply to you but if you have
+          world generation related content, work on that first so that it can be generated
+          when we setup the server and pack, you can always add more content later down the line.
         </li>
       </ol>
     </div>
