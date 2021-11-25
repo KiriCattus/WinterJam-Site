@@ -52,13 +52,10 @@ const Home: NextPage = () => {
         </p>
         <h3>Can I submit the same mod for both Forge and Fabric?</h3>
         <p>
-          Yes, you may support both Forge and Fabric with your submission. These
-          submissions will be eligible for the Top 3 Forge and Top 3 Fabric
-          categories but may only place in one of those categories. Please be
+          Yes, you may support both Forge and Fabric with your submission. Please be
           advised that supporting both loaders is completely optional. Doing so
           will require additional effort and may be stressful. If you&apos;re
-          still interested in doing this we recommend checking out the useful
-          MultiLoader-Template.
+          still interested in doing this we recommend checking out the useful <NavLink title='MultiLoader-Template' location='https://github.com/jaredlll08/MultiLoader-Template' inline={true} /> by Jared and Darkhax.
         </p>
 
         <h3>I am not a mod author, how can I participate?</h3>
@@ -119,7 +116,7 @@ const Home: NextPage = () => {
         <h3>Do I need to submit my project?</h3>
         <p>
           Yes you must submit your project before the end of the event. More
-          information will follow on how to do so.
+          information will follow on how to do so soon.
         </p>
       </div>
 
