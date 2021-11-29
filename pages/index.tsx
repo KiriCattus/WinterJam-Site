@@ -28,12 +28,12 @@ const Home: NextPage = () => {
         </p>
         <h3>Rewards</h3>
         <ul>
-          <li>$100 - Best Vanilla+ Content</li>
-          <li>$100 - Best World Generation - Biomes, dimensions, structures and anything generation related.</li>
-          <li>$100 - Best Mob - Visuals, AI, Behavior, loot, etc.</li>
-          <li>$100 - Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
-          <li>$100 - Most Useful - Provides utility to the player without being overpowered.</li>
-          <li>$100 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla&apos;s. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
+          <li>$120 - Best Vanilla+ Content</li>
+          <li>$120 - Best World Generation - Biomes, dimensions, structures and anything generation related.</li>
+          <li>$120 - Best Mob - Visuals, AI, Behavior, loot, etc.</li>
+          <li>$120 - Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
+          <li>$120 - Most Useful - Provides utility to the player without being overpowered.</li>
+          <li>$120 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla&apos;s. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
         </ul>
 
         <h2>Frequently Asked Questions</h2>
@@ -126,6 +126,8 @@ const Home: NextPage = () => {
           <Sponsor name='Nodecraft' logo='./sponsor_nodecraft.png' link='https://nodecraft.com/r/mmd' description='Nodecraft offers quality server hosting for many games such as Minecraft, Rust, and Factorio.' />
           <Sponsor name='MMD' logo='./sponsor_mmd.png' link='https://discord.mcmoddev.com/' description='Minecraft Mod Development is a safe community for mod authors to learn, improve their skills, and share their work.' />
           <Sponsor name='YUNGNICKYOUNG' logo='./sponsor_nick.png' link='https://twitter.com/yungnickyoung' description='Content creator and Minecraft modder on a journey to improve every part of Minecraft with extensive Vanilla+ style mods.'/>
+          <Sponsor name='YaBoyChips' logo='./sponsor_yaboychips.png' link='https://twitter.com/yaboychips' description=''/>
+          <Sponsor name='KiriCattus' logo='./sponsor_kiricattus.png' link='https://twitter.com/kiricattus' description='I made a thing, it broke... I made another thing, why is it working!?!?'/>
         </div>
       </div>
     </Layout>

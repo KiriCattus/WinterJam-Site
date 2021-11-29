@@ -84,6 +84,14 @@ export function Rules() {
           possible, as this review process can take some time to complete.
         </li>
         <li>
+          <b>Mods should be open source (or at least visible)</b>
+          <br /> Mods should be open or visible source to allow for tracking
+          of work done (And to show you have actually done the work during the event and not cheated)
+          and to make it easier for others on the team or outside to contribute to your project.
+          Licenses and such can always be decided between team members at a later date if needed but
+          it's suggested to do so when creating the project.
+        </li>
+        <li>
           <b>Work on world generation first!</b>
           <br /> This is only a suggestion and may not apply to you but if you have
           world generation related content, work on that first so that it can be generated
