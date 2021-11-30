@@ -89,7 +89,7 @@ export function Rules() {
           of work done (And to show you have actually done the work during the event and not cheated)
           and to make it easier for others on the team or outside to contribute to your project.
           Licenses and such can always be decided between team members at a later date if needed but
-          it's suggested to do so when creating the project.
+          it&apos;s suggested to do so when creating the project.
         </li>
         <li>
           <b>Work on world generation first!</b>
