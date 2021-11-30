@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       <div className="lg:w-2/3 md:w-5/6 mx-auto text-white text-xl text-justify">
         <h2>Sponsors and rewards</h2>
         <p className="mb-10">
-          This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline={true} /> who has graciously provided us with our prize pool for this event.
+          This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline={true} /> and <NavLink title='YaBoiChips' location='https://twitter.com/yaboichips1' inline={true} /> who have graciously provided us with our prize pool for this event.
           There will be 6 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
         </p>
         <h3>Rewards</h3>
