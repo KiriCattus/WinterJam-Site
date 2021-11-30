@@ -126,8 +126,8 @@ const Home: NextPage = () => {
           <Sponsor name='Nodecraft' logo='./sponsor_nodecraft.png' link='https://nodecraft.com/r/mmd' description='Nodecraft offers quality server hosting for many games such as Minecraft, Rust, and Factorio.' />
           <Sponsor name='MMD' logo='./sponsor_mmd.png' link='https://discord.mcmoddev.com/' description='Minecraft Mod Development is a safe community for mod authors to learn, improve their skills, and share their work.' />
           <Sponsor name='YUNGNICKYOUNG' logo='./sponsor_nick.png' link='https://twitter.com/yungnickyoung' description='Content creator and Minecraft modder on a journey to improve every part of Minecraft with extensive Vanilla+ style mods.'/>
-          <Sponsor name='YaBoyChips' logo='./sponsor_yaboychips.png' link='https://twitter.com/yaboychips' description=''/>
-          <Sponsor name='KiriCattus' logo='./sponsor_kiricattus.png' link='https://twitter.com/kiricattus' description='I made a thing, it broke... I made another thing, why is it working!?!?'/>
+          <Sponsor name='YaBoyChips' logo='./sponsor_yaboychips.png' link='https://twitter.com/yaboichips1' description='Minecraft enthusiast and mod developer. Creator of the mods Charms and Dev on Oh the Biomes You&apos;ll Go'/>
+          <Sponsor name='KiriCattus' logo='./sponsor_kiricattus.png' link='https://twitter.com/kiricattus' description='I made a thing. It broke... I made another thing. Why is it working!?!?'/>
         </div>
       </div>
     </Layout>
