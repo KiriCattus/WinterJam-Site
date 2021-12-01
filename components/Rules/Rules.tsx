@@ -36,7 +36,7 @@ export function Rules() {
         <li>
           <b>
             Submissions must be compatible with Minecraft 1.18 and either
-            Forge or Fabric. (And not be nade using mcreator or generation tools that intend to make a full mod)
+            Forge or Fabric. (And not be made using mcreator or generation tools that intend to make a full mod)
           </b>
         </li>
         <li>
