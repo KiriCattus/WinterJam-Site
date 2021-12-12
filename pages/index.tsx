@@ -123,11 +123,11 @@ const Home: NextPage = () => {
       <div id='sponsors'>
         <h2>Sponsors</h2>
         <div className='grid sm:grid-cols-3 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
-          <Sponsor name='Nodecraft' logo='./sponsor_nodecraft.png' link='https://nodecraft.com/r/mmd' description='Nodecraft offers quality server hosting for many games such as Minecraft, Rust, and Factorio.' />
-          <Sponsor name='MMD' logo='./sponsor_mmd.png' link='https://discord.mcmoddev.com/' description='Minecraft Mod Development is a safe community for mod authors to learn, improve their skills, and share their work.' />
-          <Sponsor name='YUNGNICKYOUNG' logo='./sponsor_nick.png' link='https://twitter.com/yungnickyoung' description='Content creator and Minecraft modder on a journey to improve every part of Minecraft with extensive Vanilla+ style mods.'/>
-          <Sponsor name='YaBoyChips' logo='./sponsor_yaboychips.png' link='https://twitter.com/yaboichips1' description='Minecraft enthusiast and mod developer. Creator and dev of the mod Charms.'/>
-          <Sponsor name='KiriCattus' logo='./sponsor_kiricattus.png' link='https://twitter.com/kiricattus' description='I made a thing. It broke... I made another thing. Why is it working!?!?'/>
+          <Sponsor name='Nodecraft' logo='nodecraft.png' link='https://nodecraft.com/r/mmd' description='Nodecraft offers quality server hosting for many games such as Minecraft, Rust, and Factorio.' />
+          <Sponsor name='MMD' logo='mmd.png' link='https://discord.mcmoddev.com/' description='Minecraft Mod Development is a safe community for mod authors to learn, improve their skills, and share their work.' />
+          <Sponsor name='YUNGNICKYOUNG' logo='nick.png' link='https://twitter.com/yungnickyoung' description='Content creator and Minecraft modder on a journey to improve every part of Minecraft with extensive Vanilla+ style mods.'/>
+          <Sponsor name='YaBoyChips' logo='yaboychips.png' link='https://twitter.com/yaboichips1' description='Minecraft enthusiast and mod developer. Creator and dev of the mod Charms.'/>
+          <Sponsor name='KiriCattus' logo='kiricattus.png' link='https://twitter.com/kiricattus' description='I made a thing. It broke... I made another thing. Why is it working!?!?'/>
         </div>
       </div>
     </Layout>
