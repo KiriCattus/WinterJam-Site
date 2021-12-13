@@ -16,16 +16,13 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
 
-      black: colors.black,
-      white: colors.white,
-      gray: colors.gray,
-      red: colors.red,
-      yellow: colors.amber,
-      green: colors.emerald,
-      blue: colors.blue,
-      indigo: colors.indigo,
-      purple: colors.violet,
-      pink: colors.pink,
+      // custom colors
+      primary: colors.indigo[50],
+      secondary: colors.gray[800],
+      accent: colors.sky[300],
+      accent2: colors.indigo[300],
+      // important: colors.amber[500],
+      important: colors.indigo[500],
     },
     spacing: {
       px: "1px",

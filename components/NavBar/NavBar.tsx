@@ -46,7 +46,7 @@ interface Props {
 export function NavBar({ onSnowToggle, className = "" }: Props) {
   const [expanded, setExpanded] = useState(false);
   return (
-    <nav className={"text-white w-full " + className}>
+    <nav className={"text-primary w-full " + className}>
       <div className="hidden lg:grid sm:grid-cols-3 w-full px-16 py-4">
         <div className="flex px-4 gap-x-6 text-xl font-bold items-center">
           <div className="cursor-pointer" onClick={onSnowToggle}>
@@ -84,7 +84,7 @@ export function NavBar({ onSnowToggle, className = "" }: Props) {
         <div className="flex justify-between items-center p-3 px-4">
           <Title icicles={false} />
           <svg
-            className="w-9 h-9 text-white border-2 rounded-lg border-white"
+            className="w-9 h-9 text-primary border-2 rounded-lg border-primary"
             stroke="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ export function NavBar({ onSnowToggle, className = "" }: Props) {
           </svg>
         </div>
         {expanded && (
-          <div className={`py-1 font-bold text-center bg-gray-800`}>
+          <div className={`py-1 font-bold text-center bg-secondary`}>
             <NavLink title="Home" location="/" />
             <NavLink title="Submissions" location="/submissions" />
             <NavLink title="Discord" location="https://discord.mcmoddev.com/" />

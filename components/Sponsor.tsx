@@ -13,7 +13,7 @@ export interface SponsorProps {
 export default function Sponsor({name, logo, link, description} : SponsorProps): ReactElement {
 
     return (
-        <div className="text-center text-white m-2 p-2 md:mb-5 md:p-5 border border-white rounded-lg bg-blue-500 bg-opacity-20 shadow-lg">
+        <div className="text-center text-primary m-2 p-2 md:mb-5 md:p-5 border border-primary rounded-lg bg-secondary bg-opacity-40 shadow-lg">
 
             <Image src={`/sponsors/${logo}`} className="w-48 h-48 m-auto glowyimg" width="192px" height="192px" alt={name}/>
 

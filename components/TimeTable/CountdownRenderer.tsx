@@ -11,7 +11,7 @@ export default function CountdownRenderer({
 
 function renderTimer(props: CountdownRenderProps): ReactNode {
   if (props.completed) {
-    return <p>This date has passed.</p>;
+    return <p className="text-accent2">This date has passed.</p>;
   }
 
   return (

@@ -57,7 +57,7 @@ export function Layout({
         />
         <main
           className={
-            "h-full p-2 mx-2 md:px-8 lg:w-3/4 lg:mx-auto bg- bg-opacity-25 rounded-3xl mb-5 " +
+            "h-full p-2 mx-2 md:px-8 lg:w-3/4 lg:mx-auto bg-opacity-25 rounded-3xl mb-5 " +
             className
           }
         >

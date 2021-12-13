@@ -17,7 +17,7 @@ function TimeEntry({
   return (
     <div
       className={
-        "text-center text-white m-2 p-2 md:mb-5 md:p-5 border border-white rounded-lg bg-blue-500 bg-opacity-20 shadow-lg " +
+        "text-center text-primary m-2 p-2 md:mb-5 md:p-5 border border-primary rounded-lg bg-secondary bg-opacity-40 shadow-lg " +
         className
       }
     >
@@ -74,7 +74,7 @@ function TimeRow({
   children,
 }: PropsWithChildren<{ time: number }>): ReactElement {
   return (
-    <tr className={`odd:bg-gray-900`}>
+    <tr className={`odd:bg-secondary`}>
       <td className="border px-1 sm:px-3 py-3 text-center">
         <DateRendererLoader time={time} />
       </td>

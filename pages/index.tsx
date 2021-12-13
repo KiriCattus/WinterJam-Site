@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <Layout title="Home" url="/">
       <h1>Welcome to WinterJam!</h1>
-      <p className="text-white text-xl md:text-2xl text-justify mb-10">
+      <p className="text-primary text-xl md:text-2xl text-justify mb-10">
         This is MMD&apos;s annual winter celebration for the modded Minecraft
         community. During the winter we host a mod jam where members of the
         community are encouraged to create new mods that fit the seasonal vibe.
@@ -20,10 +20,10 @@ const Home: NextPage = () => {
       <h2>Important Dates</h2>
       <TimeTable />
       <Rules />
-      <div className="lg:w-2/3 md:w-5/6 mx-auto text-white text-xl text-justify">
+      <div className="lg:w-2/3 md:w-5/6 mx-auto text-primary text-xl text-justify">
         <h2>Sponsors and rewards</h2>
         <p className="mb-10">
-          This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline={true} /> and <NavLink title='YaBoiChips' location='https://twitter.com/yaboichips1' inline={true} /> who have graciously provided us with our prize pool for this event.
+          This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline /> and <NavLink title='YaBoiChips' location='https://twitter.com/yaboichips1' inline={true} /> who have graciously provided us with our prize pool for this event.
           There will be 6 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
         </p>
         <h3>Rewards</h3>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
           Yes, you may support both Forge and Fabric with your submission. Please be
           advised that supporting both loaders is completely optional. Doing so
           will require additional effort and may be stressful. If you&apos;re
-          still interested in doing this we recommend checking out the useful <NavLink title='MultiLoader-Template' location='https://github.com/jaredlll08/MultiLoader-Template' inline={true} /> by Jared and Darkhax.
+          still interested in doing this we recommend checking out the useful <NavLink title='MultiLoader-Template' location='https://github.com/jaredlll08/MultiLoader-Template' inline /> by Jared and Darkhax.
         </p>
 
         <h3>I am not a mod author, how can I participate?</h3>
