@@ -4,7 +4,7 @@ export function Rules() {
   return (
     <div
       id="rules"
-      className="lg:w-2/3 md:w-5/6 mx-auto text-primary text-xl mb-10"
+      className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl mb-10"
     >
       <h2>Rules</h2>
       <ol className="list-decimal">

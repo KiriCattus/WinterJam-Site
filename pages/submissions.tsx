@@ -10,10 +10,9 @@ import SubmissionForm from "../components/Submissions/SubmissionForm";
 const projectIds: { [key: string]: number[] } = {
 
   '2021': [],
-  '2020': [],
-  '2019': [],
-  '2018': [],
-  '2017': [],
+  '2020': [410698, 421252, 424431, 420409, 420919, 426031, 425745, 426387, 426690, 420458, 420856, 430836],
+  '2019': [353942, 355369, 354046, 353158, 354985, 355405, 355419, 356599],
+  '2018': [308081, 308265, 308663, 309675, 309710, 309786, 309838, 310088],
 }
 
 const SubmissionsPage: NextPage<StaticProps> = (props) => {
@@ -23,7 +22,7 @@ const SubmissionsPage: NextPage<StaticProps> = (props) => {
 
   return (
     <Layout title="Submissions" url="/submissions">
-      <div className="bg-secondary text-primary text-xl flex flex-col gap-y-5">
+      <div className="text-center text-primary m-2 p-2 md:mb-5 md:p-5 border border-primary rounded-lg bg-secondary bg-opacity-40 shadow-lg ">
 
         <SubmissionBox name={currentYear} entries={props[currentYear]}>
           <p className='text-base sm:text-2xl'>
