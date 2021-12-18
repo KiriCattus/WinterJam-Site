@@ -11,6 +11,3 @@ Make sure you have Node v.10 or higher installed.
 ## Running locally
 
 - `npm run dev`
-
-## Testing before pushing to Git
-- `npm run build`
