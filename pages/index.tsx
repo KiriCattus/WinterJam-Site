@@ -20,23 +20,23 @@ const Home: NextPage = () => {
       <h2>Important Dates</h2>
       <TimeTable />
       <Rules />
-      <div className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl text-justify">
+      <div className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl text-center list-inside">
         <h2>Sponsors and rewards</h2>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline />, <NavLink title='YaBoiChips' location='https://twitter.com/yaboichips1' inline /> and <NavLink title='CurseForge' location='https://twitter.com/CurseForge' inline /> who have graciously provided us with our prize pool for this event.
           There will be 10 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
         </p>
 
         <h3>Top Three Submissions</h3>
-        <p className="mb-10 text-center">The top three Forge and Fabric submissions will be awarded the following prizes. Submissions that are compatible with both loaders will be considered for both categories however they may only win one category. (Please note: The top three prizes are the only prizes that can be won on both loaders by different projects or teams)</p>
-        <ol className="list-disc">
+        <p className="mb-10">The top three Forge and Fabric submissions will be awarded the following prizes. Submissions that are compatible with both loaders will be considered for both categories however they may only win one category. (Please note: The top three prizes are the only prizes that can be won on both loaders by different projects or teams)</p>
+        <ol className="list-disc list-inside">
           <li className="text-center">1st Place - $200 USD</li>
           <li className="text-center">2nd Place - $150 USD</li>
           <li className="text-center">3rd Place - $125 USD</li>
         </ol>
 
         <h3>Prizes</h3>
-        <ol className="list-disc">
+        <ol className="list-disc list-inside">
           <li className="text-center">$100 - Project Presentation - Best CurseForge project presentation and wiki.</li>
           <li className="text-center">$100 - Best Vanilla+ Content</li>
           <li className="text-center">$100 - Best World Generation - Biomes, dimensions, structures and anything generation related.</li>
@@ -48,20 +48,20 @@ const Home: NextPage = () => {
 
         <h2>Frequently Asked Questions</h2>
         <h3>Can I submit multiple mods to this event?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Yes, you may create and submit multiple submissions to this event. If
           you are interested in doing this please take care of yourself and take
           steps to avoid stress and burnout.
         </p>
 
         <h3>Can I join multiple teams?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Yes, you may join and contribute to multiple teams. If you are
           interested in doing this we recommend being transparent with all of
           your team mates about other teams you are contributing to.
         </p>
         <h3>Can I submit the same mod for both Forge and Fabric?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Yes, you may support both Forge and Fabric with your submission. Please be
           advised that supporting both loaders is completely optional. Doing so
           will require additional effort and may be stressful. If you&apos;re
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
         </p>
 
         <h3>I am not a mod author, how can I participate?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Everyone is welcome to participate in WinterJam. One of the easiest
           ways to join in is by giving participants feedback and encouragement
           or play with the mods on the public event Minecraft server. If
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
         </p>
 
         <h3>Can I submit a mod from previous WinterJam events?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Yes, previous year entries that have been updated can be resubmitted.
           These entries will not be eligible for prizes and will not receive the
           same level of promotion that new submissions receive however they may
@@ -88,7 +88,7 @@ const Home: NextPage = () => {
         </p>
 
         <h3>Do Pull Requests count as being a team member?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Creating a Pull Request does not inherently make you a member of that
           team. The team list is ultimately up to that team and the member who
           is submitting their submission. The main time event organizers will
@@ -100,7 +100,7 @@ const Home: NextPage = () => {
           Would accepting a Pull Request from an ineligible person make my
           project ineligible for prizes?
         </h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Accepting minor Pull Requests from an ineligible person is fine. A
           minor Pull Request in this context would be along the lines of fixing
           a typo, resource optimization, or localizing the mod to another
@@ -108,23 +108,23 @@ const Home: NextPage = () => {
         </p>
 
         <h3>Does the mod need to be published on CurseForge?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           We are only accepting mods that have been published to CurseForge.
           Having this requirement allows us to streamline the process of
           publishing the modpack and having players connect to our servers.
         </p>
 
         <h3>Can I submit a mod that I did not create?</h3>
-        <p className="mb-10 text-center">No. Only the authors of a project may submit it to WinterJam.</p>
+        <p className="mb-10">No. Only the authors of a project may submit it to WinterJam.</p>
 
         <h3>How should teams submit their project?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Teams should select one team member to submit their project.
           Submitting the same project multiple times is not needed.
         </p>
 
         <h3>Do I need to submit my project?</h3>
-        <p className="mb-10 text-center">
+        <p className="mb-10">
           Yes you must submit your project before the end of the event. More
           information will follow on how to do so soon.
         </p>
