@@ -20,7 +20,7 @@ function App({ Component, pageProps }: AppProps) {
           site_name: "WinterJam 2021",
           images: [
             {
-              url: "https://winterjam.mcmoddev.com/mmd_winter.png",
+              url: "/mmd_winter.png",
               width: 400,
               height: 400,
               alt: "WinterJam Logo"
