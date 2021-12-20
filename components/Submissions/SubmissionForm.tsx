@@ -1,4 +1,4 @@
-import { FormEventHandler, ReactElement } from "react";
+import { FormEventHandler } from "react";
 
 interface SubmissionFormProps {
     disabled: boolean;
@@ -25,7 +25,7 @@ const SubmissionForm = (props: SubmissionFormProps) => {
     return (
         <div className="text-center bg-secondary bg-opacity-50 rounded-lg w-max mx-auto">
             <div className="h-72 top-4 relative mx-4">
-                <h1 className="underline">Submit your project</h1>
+                <h1 className="underline">Submit Your Project</h1>
                 <form id="submit" onSubmit={registerEntry} className="mx-auto my-4 w-max items-center flex flex-col">
                     <div className="sm:px-44 lg:px-72" />
                     <label htmlFor="cfProject">Link to your CurseForge project:</label>

@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <TimeTable />
       <Rules />
       <div className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl text-center list-inside">
-        <h2>Sponsors and rewards</h2>
+        <h2>Sponsors And Rewards</h2>
         <p className="mb-10">
           This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline />, <NavLink title='YaBoiChips' location='https://twitter.com/yaboichips1' inline /> and <NavLink title='CurseForge' location='https://twitter.com/CurseForge' inline /> who have graciously provided us with our prize pool for this event.
           There will be 10 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
