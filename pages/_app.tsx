@@ -1,14 +1,12 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { DefaultSeo } from "next-seo";
-import Head from "next/head";
 import React from "react";
 
 function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        // TODO: Add more info for SEO
         defaultTitle="WinterJam 2021"
         description="An annual event hosted by MMD in celebration of the chilly winter season!"
         canonical="https://winterjam.mcmoddev.com"
@@ -19,6 +17,7 @@ function App({ Component, pageProps }: AppProps) {
           site_name: "WinterJam 2021",
           images: [
             {
+              // TODO: Fix missing image in embeds.
               url: "/mmd_winter.png",
               width: 400,
               height: 400,

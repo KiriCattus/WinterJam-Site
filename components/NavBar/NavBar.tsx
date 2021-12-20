@@ -53,16 +53,14 @@ export function NavBar({ onSnowToggle, className = "" }: Props) {
           <p className="inline font-normal"> ❄️ </p><p className="underline inline text-accent hover:text-important">Toggle snow!</p>
           </div>
           <NavLink classNames="my-auto" title="Home" location="/" />
-          <NavLink
-            classNames="my-auto"
-            title="Submissions"
-            location="/submissions"
-          />
+          <NavLink classNames="my-auto" title="Rules" location="/rules" />
+          <NavLink classNames="my-auto" title="FAQ" location="/faq" />
         </div>
         <div className="flex items-center justify-center">
           <Title />
         </div>
         <div className="flex ml-auto px-4 gap-x-6 text-xl font-bold">
+          <NavLink classNames="my-auto" title="Submissions" location="/submissions" />
           <NavLink
             classNames="my-auto"
             title="GitHub"
