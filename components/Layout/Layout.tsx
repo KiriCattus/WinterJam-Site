@@ -20,7 +20,7 @@ export function Layout({
   image,
   url,
 }: Props) {
-  const [isSnowing, setIsSnowing] = useState(false);
+  const [isSnowing, setIsSnowing] = useState(true);
 
   return (
     <>

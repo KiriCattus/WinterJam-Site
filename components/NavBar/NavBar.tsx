@@ -50,7 +50,7 @@ export function NavBar({ onSnowToggle, className = "" }: Props) {
       <div className="hidden lg:grid sm:grid-cols-3 w-full px-16 py-4">
         <div className="flex px-4 gap-x-6 text-xl font-bold items-center">
           <div className="cursor-pointer" onClick={onSnowToggle}>
-            ️️❄️ Make it snow!
+          <p className="inline font-normal"> ❄️ </p><p className="underline inline text-accent hover:text-important">Toggle snow!</p>
           </div>
           <NavLink classNames="my-auto" title="Home" location="/" />
           <NavLink
@@ -108,8 +108,8 @@ export function NavBar({ onSnowToggle, className = "" }: Props) {
               title="GitHub"
               location="https://github.com/MinecraftModDevelopmentMods"
             />
-            <div className="cursor-pointer py-2" onClick={onSnowToggle}>
-              ❄️ Make it snow!
+            <div className="cursor-pointer" onClick={onSnowToggle}>
+            <p className="inline font-normal"> ❄️ </p><p className="underline inline text-accent hover:text-important">Toggle snow!</p>
             </div>
           </div>
         )}
