@@ -65,7 +65,7 @@ const SubmissionsPage: NextPage<StaticProps> = (props) => {
         </SubmissionBox>
         {Object.keys(projectIds).filter(it => it !== currentYear).sort().reverse().map((year) => {
           const projects = props[year];
-          return (projects?.length > 0) ? (<SubmissionBox name={year} entries={projects} />) : undefined;
+          return (projects?.length > 0) ? (<SubmissionBox name={year} entries={projects} key={"submissions-" + year} />) : undefined;
         })
         }
         <SubmissionForm disabled={submissionsClosed} />

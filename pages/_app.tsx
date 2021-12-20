@@ -3,7 +3,6 @@ import type { AppProps } from "next/app";
 import { DefaultSeo } from "next-seo";
 import Head from "next/head";
 import React from "react";
-import { title } from "process";
 
 function App({ Component, pageProps }: AppProps) {
   return (
