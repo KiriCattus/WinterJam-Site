@@ -2,54 +2,18 @@ import React from "react";
 import type { NextPage, GetStaticPropsResult } from "next";
 import Link from "next/link";
 import axios from 'axios';
+import fs from 'fs';
 import { Layout } from "../components/";
 import { ModProps } from "../components/Submissions/CurseMod";
 import SubmissionBox from "../components/Submissions/SubmissionBox";
 import SubmissionForm from "../components/Submissions/SubmissionForm";
 
-const projectIds: { [key: string]: number[] } = {
-
-  '2021': [],
-  '2020': [
-    410698,
-    421252,
-    424431,
-    420409,
-    420919,
-    426031,
-    425745,
-    426387,
-    426690,
-    420458,
-    420856,
-    430836
-  ],
-  '2019': [
-    353942,
-    355369,
-    354046,
-    353158,
-    354985,
-    355405,
-    355419,
-    356599
-  ],
-  '2018': [
-    308081,
-    308265,
-    308663,
-    309675,
-    309710,
-    309786,
-    309838,
-    310088
-  ],
-}
+import { getModIDs } from "../lib/modIdParser";
 
 const SubmissionsPage: NextPage<StaticProps> = (props) => {
 
   const currentYear = "2021";
-  const submissionsClosed = true;
+  const submissionsClosed = false;
 
   return (
     <Layout title="Submissions" url="/submissions">
@@ -63,7 +27,7 @@ const SubmissionsPage: NextPage<StaticProps> = (props) => {
             You can submit your project <div className="underline hover:text-important inline"><Link href="#submit" shallow replace>using the form below</Link></div>.</>}
           </p>
         </SubmissionBox>
-        {Object.keys(projectIds).filter(it => it !== currentYear).sort().reverse().map((year) => {
+        {Object.keys(props).filter(it => it !== currentYear).sort().reverse().map((year) => {
           const projects = props[year];
           return (projects?.length > 0) ? (<SubmissionBox name={year} entries={projects} key={"submissions-" + year} />) : undefined;
         })
@@ -123,14 +87,16 @@ interface StaticProps {
 
 export async function getStaticProps(): Promise<GetStaticPropsResult<StaticProps>> {
 
-  let props: StaticProps = {};
+  const props: StaticProps = {};
 
-  for (const key in projectIds) {
-    const mods = [];
-    for (const curseId of projectIds[key] as number[]) {
-      mods.push(await fetchModData(curseId));
-    }
-    props[key] = mods;
+  if(fs.existsSync('./submissions')) {
+    await Promise.all(fs.readdirSync('./submissions').map(async file => {
+      const year = file.split('.')[0];
+
+      const curseIds = await getModIDs(year);
+      const mods = await Promise.all(curseIds.flatMap(id => fetchModData(id)));
+      props[year] = mods;
+    }));
   }
 
   return {
