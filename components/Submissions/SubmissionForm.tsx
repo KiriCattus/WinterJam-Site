@@ -33,7 +33,7 @@ const SubmissionForm = (props: SubmissionFormProps) => {
                     <label htmlFor="dependencies">List your depdendencies, if any:</label>
                     <input type="text" id="dependencies" name="dependencies" className="text-secondary mb-4 w-full max-w-full rounded-full px-3" placeholder="List your dependencies here"/>
 
-                    <button type="submit" className="bg-accent rounded-full p-3 font-bold text-secondary my-2 self-center hover:bg-important hover:text-primary">Submit your Entry</button>
+                    <button type="submit" className="bg-accent rounded-full py-3 px-6 font-bold text-secondary my-2 self-center hover:bg-important hover:text-primary">Submit your Entry</button>
                 </form>
             </div>
         </div>
