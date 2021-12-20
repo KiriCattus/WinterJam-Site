@@ -13,7 +13,7 @@ import { getModIDs } from "../lib/modIdParser";
 const SubmissionsPage: NextPage<StaticProps> = (props) => {
 
   const currentYear = "2021";
-  const submissionsClosed = false;
+  const submissionsClosed = true;
 
   return (
     <Layout title="Submissions" url="/submissions">
