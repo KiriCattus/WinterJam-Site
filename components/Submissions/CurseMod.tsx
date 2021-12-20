@@ -11,6 +11,7 @@ export interface ModProps {
     downloads: string;
     summary: string;
     modLoaders: string[];
+    id: number;
 }
 
 export default function ModCard({modData} : {modData:ModProps}): ReactElement {

@@ -97,7 +97,8 @@ async function fetchModData(curseId: number): Promise<ModProps> {
       logo: res.data.attachments.filter(a => a.isDefault)[0].url,
       downloads: res.data.downloadCount,
       summary: res.data.summary,
-      modLoaders: res.data.modLoaders ?? new Array<string>()
+      modLoaders: res.data.modLoaders ?? new Array<string>(),
+      id: curseId,
     };
   }).catch(err => {
     console.log(err);
@@ -108,7 +109,8 @@ async function fetchModData(curseId: number): Promise<ModProps> {
       logo: 'https://media.forgecdn.net/avatars/84/193/636193647832736518.gif',
       downloads: '-1',
       summary: `Could not get data for modId ${curseId}.`,
-      modLoaders: new Array<string>()
+      modLoaders: new Array<string>(),
+      id: -1,
     }
   });
 
