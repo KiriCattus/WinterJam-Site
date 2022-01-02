@@ -42,7 +42,7 @@ const FaqPage: NextPage = () => {
                 <h3>Can I submit a mod from previous WinterJam events?</h3>
                 <p className="mb-10">
                     Yes, previous year entries that have been updated can be resubmitted.
-                    These entries will not be eligible for prizes and will not receive the
+                    These entries will not receive the
                     same level of promotion that new submissions receive however they may
                     be included on our Modpack and public server.
                 </p>

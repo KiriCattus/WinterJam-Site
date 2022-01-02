@@ -8,7 +8,7 @@ const SubmissionForm = (props: SubmissionFormProps) => {
 
     if (props.disabled) {
         return (
-            <h1>Submission form coming soon!</h1>
+            <h1>Submission form currently in Discord under the winterjam-2021 channel!</h1>
         )
     }
 
