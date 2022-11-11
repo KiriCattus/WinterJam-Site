@@ -1,20 +1,20 @@
-import "../styles/globals.css";
-import type { AppProps } from "next/app";
 import { DefaultSeo } from "next-seo";
+import type { AppProps } from "next/app";
 import React from "react";
+import "../styles/globals.css";
 
 function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        defaultTitle="WinterJam 2021"
+        defaultTitle="WinterJam 2022"
         description="An annual event hosted by MMD in celebration of the chilly winter season!"
-        canonical="https://winterjam.mcmoddev.com"
+        canonical="https://winterjam.tophatcat.dev"
         openGraph={{
-          url: "https://winterjam.mcmoddev.com",
+          url: "https://winterjam.tophatcat.dev",
           title: "WinterJam",
-          description: "An annual event hosted by MMD in celebration of the chilly winter season!",
-          site_name: "WinterJam 2021",
+          description: "An annual event hosted by KiriCattus and MMD in celebration of the chilly winter season!",
+          site_name: "WinterJam 2022",
           images: [
             {
               // TODO: Fix missing image in embeds.
@@ -26,7 +26,7 @@ function App({ Component, pageProps }: AppProps) {
           ]
         }}
         twitter={{
-          handle: "@McModDev",
+          handle: "@KiriCattus",
           cardType: 'summary_large_image',
         }}
         additionalMetaTags={[

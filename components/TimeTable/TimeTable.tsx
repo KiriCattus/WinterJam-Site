@@ -38,31 +38,28 @@ export function TimeTable() {
     <div className="md:grid md:grid-cols-2">
       <TimeEntry
         title="WinterJam 2021 begins!"
-        time={Date.UTC(2021, 11, 1, 0, 0, 0)}
+        time={Date.UTC(2022, 10, 12, 0, 0, 0)}
         description="Participants can start working on their projects and finished projects can be submitted."
       />
       <TimeEntry
-        time={Date.UTC(2021, 11, 21, 0, 0, 0)}
+        time={Date.UTC(2022, 11, 14, 0, 0, 0)}
+        title="Soft modpack deadline"
+        description="We encourage you to submit beta world gen builds before this to test and pregenerate the world."
+      />
+      <TimeEntry
+        time={Date.UTC(2022, 11, 17, 0, 0, 0)}
         title="ModPack and Public server go live"
-        description="Participants are
-            encouraged to submit alpha builds before this date"
+        description="The servers will open up and users can join in the fun! (You're required to be a member of the MMD Discord server and whitelisted to join!)"
       />
       <TimeEntry
-        time={Date.UTC(2021, 11, 30, 0, 0, 0)}
-        title="New Years event soft deadline"
-        description="Last call to get your mods in for the live countdown celebration"
-      />
-      <TimeEntry
-        time={Date.UTC(2022, 0, 14, 0, 0, 0)}
+        time={Date.UTC(2022, 11, 31, 0, 0, 0)}
         title="Submission window will be closed"
-        description="New submissions will not be
-            accepted"
+        description="New submissions will not be accepted from this point on, however you can still provide minor updates and bug fixes!"
       />
       <TimeEntry
-        time={Date.UTC(2022, 0, 21, 0, 0, 0)}
+        time={Date.UTC(2023, 0, 25, 0, 0, 0)}
         title="Public server goes offline"
-        description="Backup of the save file will be
-        made available for download"
+        description="Backup of the save file will be made available for download."
         className="col-span-2"
       />
     </div>

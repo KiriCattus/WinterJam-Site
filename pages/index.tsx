@@ -8,20 +8,19 @@ const Home: NextPage = () => {
     <Layout title="Home" url="/">
       <h1>Welcome to WinterJam!</h1>
       <p className="text-primary text-xl md:text-2xl text-justify mb-10">
-        This is MMD&apos;s annual winter celebration for the modded Minecraft
-        community. During the winter we host a mod jam where members of the
-        community are encouraged to create new mods that fit the seasonal vibe.
+        This annual winter celebration for the modded Minecraft
+        community. During winter we host a mod jam where members of the
+        community are encouraged to create new mods that fit the seasonal theme.
         Participants are encouraged to collaborate, explore new skills, and
-        challenge themselves. During WinterJam we also host a public Minecraft
-        server where anyone can join and check out the valid mod jam
-        submissions.
+        challenge themselves. During WinterJam we also host Minecraft
+        servers where anyone can join and check out the mod submissions.
       </p>
       <h2>Important Dates</h2>
       <TimeTable />
       <div className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl text-center list-inside">
         <h2>Sponsors And Rewards</h2>
         <p className="mb-10">
-          This WinterJam is sponsored by <NavLink title='YUNGNICKYOUNG' location='https://twitter.com/yungnickyoung' inline />, <NavLink title='YaBoiChips' location='https://twitter.com/yaboichips1' inline /> and <NavLink title='CurseForge' location='https://twitter.com/CurseForge' inline /> who have graciously provided us with our prize pool for this event.
+          This WinterJam is sponsored by <NavLink title='Curle' location='https://twitter.com/bolbmas' inline /> for providing her servers to run the modpacks, and <NavLink title='KiriCattus' location='https://twitter.com/KiriCattus' inline />, who has graciously provided us with our prize pool for this event.
           There will be 13 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
         </p>
 
@@ -47,11 +46,8 @@ const Home: NextPage = () => {
       <div id='sponsors'>
         <h2>Sponsors</h2>
         <div className='grid sm:grid-cols-3 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
-          <Sponsor name='MMD' logo='mmd.png' link='https://discord.mcmoddev.com/' description='Minecraft Mod Development is a safe community for mod authors to learn, improve their skills, and share their work.' />
-          <Sponsor name='YUNGNICKYOUNG' logo='nick.png' link='https://twitter.com/yungnickyoung' description='Content creator and Minecraft modder on a journey to improve every part of Minecraft with extensive Vanilla+ style mods.'/>
-          <Sponsor name='YaBoyChips' logo='yaboychips.png' link='https://twitter.com/yaboichips1' description='Minecraft enthusiast and mod developer. Creator and dev of the mod Charms.'/>
-          <Sponsor name='KiriCattus' logo='kiricattus.png' link='https://twitter.com/kiricattus' description='I made a thing. It broke... I made another thing. Why is it working!?!?'/>
-          <Sponsor name='CurseForge' logo='curseforge.png' link='https://www.curseforge.com/?winterjam2021' description='CurseForge provides hosting for mods, addons, and user content for many popular games such as Minecraft, World of Warcraft, and Among Us.' />
+          <Sponsor name='KiriCattus' logo='kiricattus.png' link='https://twitter.com/kiricattus' description='I made a thing. It broke... I made another thing. Why is it working!?!? I help run the MMD community and modding events.'/>
+          <Sponsor name='Curle' logo='bolbmas.png' link='https://twitter.com/bolbmas' description=''/>
         </div>
       </div>
     </Layout>

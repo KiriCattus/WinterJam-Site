@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import Link from "next/link";
+import React, { useState } from "react";
 import { Title } from "..";
 
 function NavLink({
@@ -38,34 +38,25 @@ function NavLink({
   );
 }
 
-interface Props {
-  onSnowToggle?: () => void;
-  className?: string;
-}
-
-export function NavBar({ onSnowToggle, className = "" }: Props) {
+export function NavBar({ className = "" }) {
   const [expanded, setExpanded] = useState(false);
   return (
     <nav className={"text-primary w-full " + className}>
       <div className="hidden lg:grid sm:grid-cols-3 w-full px-16 py-4">
         <div className="flex px-4 gap-x-6 text-xl font-bold items-center">
-          <div className="cursor-pointer" onClick={onSnowToggle}>
-          <p className="inline font-normal"> ❄️ </p><p className="underline inline text-accent hover:text-important">Toggle snow!</p>
-          </div>
           <NavLink classNames="my-auto" title="Home" location="/" />
           <NavLink classNames="my-auto" title="Rules" location="/rules" />
           <NavLink classNames="my-auto" title="FAQ" location="/faq" />
+          <NavLink
+            classNames="my-auto"
+            title="Discord"
+            location="https://discord.tophatcat.dev/"
+          />
         </div>
         <div className="flex items-center justify-center">
           <Title />
         </div>
         <div className="flex ml-auto px-4 gap-x-6 text-xl font-bold">
-          <NavLink classNames="my-auto" title="Submissions" location="/submissions" />
-          <NavLink
-            classNames="my-auto"
-            title="GitHub"
-            location="https://github.com/MinecraftModDevelopmentMods"
-          />
           <NavLink
             classNames="my-auto"
             title="Twitter"
@@ -73,8 +64,13 @@ export function NavBar({ onSnowToggle, className = "" }: Props) {
           />
           <NavLink
             classNames="my-auto"
-            title="Discord"
-            location="https://discord.mcmoddev.com/"
+            title="Submissions Form"
+            location="https://tophatcat.dev/"
+          />
+          <NavLink
+            classNames="my-auto"
+            title="Whitelist Form"
+            location="https://tophatcat.dev/"
           />
         </div>
       </div>
@@ -99,16 +95,8 @@ export function NavBar({ onSnowToggle, className = "" }: Props) {
         {expanded && (
           <div className={`py-1 font-bold text-center bg-secondary`}>
             <NavLink title="Home" location="/" />
-            <NavLink title="Submissions" location="/submissions" />
-            <NavLink title="Discord" location="https://discord.mcmoddev.com/" />
+            <NavLink title="Discord" location="https://discord.tophatcat.dev/" />
             <NavLink title="Twitter" location="https://twitter.com/mcmoddev" />
-            <NavLink
-              title="GitHub"
-              location="https://github.com/MinecraftModDevelopmentMods"
-            />
-            <div className="cursor-pointer" onClick={onSnowToggle}>
-            <p className="inline font-normal"> ❄️ </p><p className="underline inline text-accent hover:text-important">Toggle snow!</p>
-            </div>
           </div>
         )}
       </div>
