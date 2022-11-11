@@ -50,7 +50,6 @@ export function Layout({
           className="min-h-plus inset-0 z-0 md:block fixed"
         />
         <NavBar
-          onSnowToggle={() => {
           className="z-10 my-2"
         />
         <main
