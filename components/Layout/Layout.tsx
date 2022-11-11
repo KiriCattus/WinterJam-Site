@@ -30,11 +30,11 @@ export function Layout({
         openGraph={{
           type: "website",
           title: title,
-          url: `https://winterjam.mcmoddev.com${url || "/"}`,
+          url: `https://winterjam.tophatcat.dev${url || "/"}`,
           description: description,
           images: [
             {
-              url: image || "https://winterjam.mcmoddev.com/logo/badge.png",
+              url: image || "https://winterjam.tophatcat.dev/logo/badge.png",
               alt: title + " logo",
             },
           ],
@@ -51,8 +51,6 @@ export function Layout({
         />
         <NavBar
           onSnowToggle={() => {
-            setIsSnowing((prev) => !prev);
-          }}
           className="z-10 my-2"
         />
         <main

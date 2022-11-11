@@ -8,7 +8,7 @@ export function Title({ icicles = true }: Props) {
   return (
     <div className="inline-block">
       <div className="font-blocky md:text-4xl sm:text-3xl text-xl text-center">
-        MMD WinterJam
+        WinterJam
       </div>
       {icicles && (
         <svg
