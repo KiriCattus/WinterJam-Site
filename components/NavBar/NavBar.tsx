@@ -95,8 +95,12 @@ export function NavBar({ className = "" }) {
         {expanded && (
           <div className={`py-1 font-bold text-center bg-secondary`}>
             <NavLink title="Home" location="/" />
+            <NavLink title="Rules" location="/rules" />
+            <NavLink title="FAQ" location="/faq" />
+            <NavLink title="Submission Form" location="https://forms.gle/QDSqajHDHSaa8TxK7" />
+            <NavLink title="Whitelist Form" location="https://forms.gle/BZG2GTEg3YNE9JPWA" />
             <NavLink title="Discord" location="https://discord.tophatcat.dev/" />
-            <NavLink title="Twitter" location="https://twitter.com/mcmoddev" />
+            <NavLink title="Twitter" location="https://twitter.com/kiricattus" />
           </div>
         )}
       </div>
