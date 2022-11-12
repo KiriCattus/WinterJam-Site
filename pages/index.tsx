@@ -20,27 +20,13 @@ const Home: NextPage = () => {
       <div className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl text-center list-inside">
         <h2>Sponsors And Rewards</h2>
         <p className="mb-10">
-          This WinterJam is sponsored by <NavLink title='Curle' location='https://twitter.com/bolbmas' inline /> for providing her servers to run the modpacks, and <NavLink title='KiriCattus' location='https://twitter.com/KiriCattus' inline />, who has graciously provided us with our prize pool for this event.
+          This WinterJam is sponsored by <NavLink title='Curle' location='https://twitter.com/bolbmas' inline /> for providing her servers to run the
+          WinterJam modpacks and <NavLink title='Terrarium' location='https://twitter.com/TerrariumEarth' inline /> for graciously providing us with our prize pool for this event!
           There will be 13 cash prizes awarded to eligible submissions of this event, participating mods will be judged by members of MMD&apos;s team and event sponsors. 
         </p>
 
-        <h3>Top Three Submissions</h3>
-        <p className="mb-10">The top three Forge and Fabric submissions will be awarded the following prizes. Submissions that are compatible with both loaders will be considered for both categories however they may only win one category. (Please note: The top three prizes are the only prizes that can be won on both loaders by different projects or teams)</p>
+        <h3>Prizes are coming soon!</h3>
         <ol className="list-disc list-inside">
-          <li className="text-center">1st Place - $200 USD</li>
-          <li className="text-center">2nd Place - $150 USD</li>
-          <li className="text-center">3rd Place - $125 USD</li>
-        </ol>
-
-        <h3>Prizes</h3>
-        <ol className="list-disc list-inside">
-          <li className="text-center">$100 - Project Presentation - Best CurseForge project presentation and wiki.</li>
-          <li className="text-center">$100 - Best Vanilla+ Content</li>
-          <li className="text-center">$100 - Best World Generation - Biomes, dimensions, structures and anything generation related.</li>
-          <li className="text-center">$100 - Best Mob - Visuals, AI, Behavior, loot, etc.</li>
-          <li className="text-center">$100 - Most Holiday Cheer - Any holiday between December 1st and Jan 21st.</li>
-          <li className="text-center">$100 - Most Useful - Provides utility to the player without being overpowered.</li>
-          <li className="text-center">$100 - Best Player Progression - Adds a new form of progression to the game, or builds on vanilla&apos;s. Must include a tangible goal such as a boss mob or higher tier of gear.</li>
         </ol>
         </div>
       <div id='sponsors'>

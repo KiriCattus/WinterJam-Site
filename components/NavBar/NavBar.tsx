@@ -60,17 +60,17 @@ export function NavBar({ className = "" }) {
           <NavLink
             classNames="my-auto"
             title="Twitter"
-            location="https://twitter.com/mcmoddev"
+            location="https://twitter.com/KiriCattus"
           />
           <NavLink
             classNames="my-auto"
             title="Submissions Form"
-            location="https://tophatcat.dev/"
+            location="https://forms.gle/QDSqajHDHSaa8TxK7"
           />
           <NavLink
             classNames="my-auto"
             title="Whitelist Form"
-            location="https://tophatcat.dev/"
+            location="https://forms.gle/BZG2GTEg3YNE9JPWA"
           />
         </div>
       </div>
