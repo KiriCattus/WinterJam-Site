@@ -1,8 +1,8 @@
-import React from "react";
-import type { NextPage, GetStaticPropsResult } from "next";
-import Link from "next/link";
 import axios from 'axios';
 import fs from 'fs';
+import type { GetStaticPropsResult, NextPage } from "next";
+import Link from "next/link";
+import React from "react";
 import { Layout } from "../components/";
 import { ModProps } from "../components/Submissions/CurseMod";
 import SubmissionBox from "../components/Submissions/SubmissionBox";
@@ -12,8 +12,8 @@ import { getModIDs } from "../lib/modIdParser";
 
 const SubmissionsPage: NextPage<StaticProps> = (props) => {
 
-  const currentYear = "2021";
-  const submissionsClosed = true;
+  const currentYear = "2022";
+  const submissionsClosed = false;
 
   return (
     <Layout title="Submissions" url="/submissions">
@@ -21,10 +21,10 @@ const SubmissionsPage: NextPage<StaticProps> = (props) => {
 
         <SubmissionBox name={currentYear} entries={props[currentYear]}>
           <p className='text-base sm:text-2xl'>
-            Submissions for our 2021 event will be open from December 1st, 2021 until January 14th, 2022.<br />
+            Submissions for our 2022 event will be open from November 12th, 2022 until December 31st 2022.<br />
             
             {!submissionsClosed && <><br />
-            You can submit your project <div className="underline hover:text-important inline"><Link href="#submit" shallow replace>using the form below</Link></div>.</>}
+            You can submit your project <div className="underline hover:text-important inline"><Link href="https://forms.gle/QDSqajHDHSaa8TxK7" shallow replace>using this form</Link></div>.</>}
           </p>
         </SubmissionBox>
         {Object.keys(props).filter(it => it !== currentYear).sort().reverse().map((year) => {
