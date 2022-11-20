@@ -12,20 +12,21 @@ const RulesPage: NextPage = () => {
                         <br/>
                         You may come up with ideas and plan your project in advance, but all code, assets,
                         textures, sounds, models, animations and/or datapacks must be made during the specified time.
-                        (MCreator and other generation tools are not allowed to be submitted)
+                        (MCreator and other generation tools are not permitted)
                     </li>
                     <li>
                         <b>Work on world generation first!</b>
                         <br/>
-                        We strongly recommend that if your submission is intended to include world generation,
-                        work on that first (or as soon as possible) so that it can be generated when we set up
-                        the server and pack. The remainder of content can be added later on if needed.
+                        For mods that intend on including world generation, we STRONGLY recommend you 
+                        work on that first (or as soon as possible) so that it can be tested and generated when we set up
+                        the servers and packs. The remainder of content can be added later on if needed.
                     </li>
                     <li>
                         <b>Submissions should fit with the broader themes of WinterJam.</b>
                         <br/>
                         These themes include anything that is related to Winter and the holidays
-                        (Xmas, New Year or the Chinese New year are all during the event period, you can use any of those holidays too)
+                        (Xmas, New Year or the Chinese New year are all during the event period,
+                        you can use any of those holidays too)
                     </li>
                     <li>
                         <b>Submissions must load on clients and dedicated servers without crashing the game.</b>
@@ -35,7 +36,7 @@ const RulesPage: NextPage = () => {
                         to be unplayable.
                     </li>
                     <li>
-                        <b>Submissions must be compatible with Minecraft 1.19 and either Forge or Quilt.</b>
+                        <b>Submissions must be compatible with Minecraft 1.19.2 and either Forge or Quilt.</b>
                         <br/>
                         While Forge and Quilt are the loaders of choice for this event, should you want to use Fabric,
                         you can, as long as you test your mod on a Quilt so it doesn&apos;t cause issues in the server/pack.  
@@ -49,10 +50,9 @@ const RulesPage: NextPage = () => {
                     <li>
                         <b>Teams are allowed.</b>
                         <br/>
-                        There are no limits to the size of a team, and participants may
-                        contribute to multiple teams. If a team submission wins a prize, the
-                        team is responsible for deciding how that prize will be shared amongst
-                        its members. However we suggest maximum teams of roughly 4 or 5.
+                        There are no limits to the size of a team, and participants may contribute to multiple teams.
+                        If a team submission wins a prize, the team is responsible for deciding how that
+                        prize will be shared amongst its members. However we suggest maximum teams of roughly 4 or 5.
                     </li>
                     <li>
                         <b>Submissions from MMD team members or those who are employed by event
@@ -60,6 +60,9 @@ const RulesPage: NextPage = () => {
                         <br/>
                         Submissions from teams that they are a part of will also not be
                         eligible for winning prizes.
+                        <br/>
+                        However should sponsors and their team members abdicate their right to vote entirely
+                        and not take part in the voting process they may join other teams and participate for rewards.
                     </li>
                     <li>
                         <b>Submissions must not contain malicious code or act in bad faith.</b>

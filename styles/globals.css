@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 .bg-winterjam {
-  background: #2980b9; /* fallback for old browsers */
+  background: #6fafcc; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #2980b9,
-    #2f4a64
+    #b1e5ec
+    #6fafcc,
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #2980b9,
-    #2f4a64
+    #b1e5ec
+    #6fafcc,
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -34,9 +34,13 @@ h3 {
 }
 
 ol {
-  @apply pl-5;
+  @apply pl-5 text-primary;
 }
 
 li {
-  @apply mb-4 text-justify leading-6;
+  @apply mb-4 text-justify leading-6 text-primary;
+}
+
+a, p, div {
+  @apply text-primary
 }
