@@ -41,9 +41,8 @@ const FaqPage: NextPage = () => {
                 <h3>Can I submit a mod from previous WinterJam events?</h3>
                 <p className="mb-10">
                     Yes, previous year entries that have been updated can be resubmitted.
-                    These entries will not receive the
-                    same level of promotion that new submissions receive nor will they be able to win prizes,
-                    however they may be included on our modpacks and servers.
+                    These entries will not receive the same level of promotion that new
+                    submissions receive, however they may be included on our modpacks and servers.
                 </p>
 
                 <h3>Do Pull Requests count as being a team member?</h3>
@@ -74,7 +73,9 @@ const FaqPage: NextPage = () => {
                 </p>
 
                 <h3>Can I submit a mod that I did not create?</h3>
-                <p className="mb-10">No. Only the authors of a project may submit it to WinterJam.</p>
+                <p className="mb-10">
+                    No. Only the authors of a project may submit it to WinterJam.
+                    </p>
 
                 <h3>How should teams submit their project?</h3>
                 <p className="mb-10">

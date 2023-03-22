@@ -8,12 +8,12 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <DefaultSeo
         defaultTitle="WinterJam 2022"
-        description="An annual event hosted by MMD in celebration of the chilly winter season!"
+        description="An annual event in celebration of the chilly winter season!"
         canonical="https://winterjam.tophatcat.dev"
         openGraph={{
           url: "https://winterjam.tophatcat.dev",
           title: "WinterJam",
-          description: "An annual event hosted by KiriCattus and MMD in celebration of the chilly winter season!",
+          description: "An annual event in celebration of the chilly winter season!",
           site_name: "WinterJam 2022",
           images: [
             {
@@ -24,10 +24,6 @@ function App({ Component, pageProps }: AppProps) {
               alt: "WinterJam Logo"
             }
           ]
-        }}
-        twitter={{
-          handle: "@KiriCattus",
-          cardType: 'summary_large_image',
         }}
         additionalMetaTags={[
           {

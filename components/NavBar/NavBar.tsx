@@ -57,21 +57,6 @@ export function NavBar({ className = "" }) {
           <Title />
         </div>
         <div className="flex ml-auto px-4 gap-x-6 text-xl font-bold">
-          <NavLink
-            classNames="my-auto"
-            title="Twitter"
-            location="https://twitter.com/KiriCattus"
-          />
-          <NavLink
-            classNames="my-auto"
-            title="Submissions Form"
-            location="https://forms.gle/QDSqajHDHSaa8TxK7"
-          />
-          <NavLink
-            classNames="my-auto"
-            title="Whitelist Form"
-            location="https://forms.gle/BZG2GTEg3YNE9JPWA"
-          />
         </div>
       </div>
       <div className="lg:hidden">
@@ -97,10 +82,7 @@ export function NavBar({ className = "" }) {
             <NavLink title="Home" location="/" />
             <NavLink title="Rules" location="/rules" />
             <NavLink title="FAQ" location="/faq" />
-            <NavLink title="Submission Form" location="https://forms.gle/QDSqajHDHSaa8TxK7" />
-            <NavLink title="Whitelist Form" location="https://forms.gle/BZG2GTEg3YNE9JPWA" />
             <NavLink title="Discord" location="https://discord.tophatcat.dev/" />
-            <NavLink title="Twitter" location="https://twitter.com/kiricattus" />
           </div>
         )}
       </div>

@@ -78,11 +78,19 @@ const RulesPage: NextPage = () => {
                     </li>
                     <li>
                         <b>Mods should be open source (or at least visible)</b>
-                        <br /> Mods should be open or visible source to allow for tracking
+                        <br/>
+                        Mods should be open or visible source to allow for tracking
                         of work done (And to show you have actually done the work during the event and not cheated)
                         and to make it easier for others on the team or outside to contribute to your project.
                         Licenses and such can always be decided between team members at a later date if needed but
                         it&apos;s suggested to do so when creating the project.
+                    </li>
+                    <li>
+                        <b>Past submissions that have completely transformed their code and assets could be eligible for rewards.</b>
+                        <br/>
+                        Should you chose to rewrite your mod from scratch during the event, including assets and code,
+                        you may have a chance at winning an award, so long as we can see no code or assets have been
+                        reused via GitHub and your mod has not won a past year&apos;s event.
                     </li>
                 </ol>
             </div>
