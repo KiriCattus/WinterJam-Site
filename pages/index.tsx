@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
         WinterJam 2022 is now over! Thank you all for participating and thank you to the sponsors
         for so graciously giving out the prizes this year! It&aposs been wonderful to see the
-        wild and cool creations you've all created and submitted for WinterJam 2022 :D
+        wild and cool creations you&aposve all created and submitted for WinterJam 2022 :D
       </p>
       <div className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl text-center list-inside">
         <h2>Sponsors</h2>
