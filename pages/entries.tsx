@@ -7,9 +7,9 @@ const Entries: NextPage = () => {
         <Layout title="Entries" url="/entries">
             <h1>Welcome to WinterJam!</h1>
             <p className="text-xl md:text-2xl text-centered mb-10">
-                These are the entries from all WinterJam&apos;s past, if you have submitted an
+                These are the entries from WinterJam&apos;s past, if you have submitted an
                 entry previously and would like me to update the information on this page,
-                please contact KiriCattus via Discord to have it resolved.
+                please contact KiriCattus
             </p>
             <h2>WinterJam 2022</h2>
             <div id='sponsors'>
