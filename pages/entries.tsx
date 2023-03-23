@@ -14,12 +14,12 @@ const Entries: NextPage = () => {
             <h2>WinterJam 2022 Entries</h2>
             <div id='sponsors'>
                 <div className='grid sm:grid-cols-2 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
-                <Entry name='Stay Warm Together' logo='stay-warm-together.png' link='https://www.curseforge.com/minecraft/mc-mods/stay-warm-together' description='undefined'/>
-                <Entry name='Hibernal Herbs [Fabric/Forge]' logo='hibernal-herbs.png' link='https://www.curseforge.com/minecraft/mc-mods/hibernal-herbs' description='undefined'/>
-                <Entry name='Sharing is Caring' logo='sharing-is-caring.png' link='https://www.curseforge.com/minecraft/mc-mods/sharing-is-caring' description='undefined'/>
-                <Entry name='Tis The Season' logo='tis-the-season.png' link='https://www.curseforge.com/minecraft/mc-mods/tis-the-season' description='undefined'/>
-                <Entry name='Naughty List' logo='naughty-list.png' link='https://www.curseforge.com/minecraft/mc-mods/naughty-list' description='undefined'/>
-                <Entry name='Snowballing' logo='snowballing.png' link='https://www.curseforge.com/minecraft/mc-mods/snowballing' description='undefined'/>
+                    <Entry name='Stay Warm Together' logo='https://media.forgecdn.net/avatars/646/367/638047508578142178.png' link='https://www.curseforge.com/minecraft/mc-mods/stay-warm-together' description='Adds cute winter-themed critters for MMD Winterjam 2022 '/>
+                    <Entry name='Hibernal Herbs [Fabric/Forge]' logo='https://media.forgecdn.net/avatars/636/422/638039001664737637.png' link='https://www.curseforge.com/minecraft/mc-mods/hibernal-herbs' description='Hibernal Herbs celebrates the holidays with a little bit of mystic arts! Collect herbs and other ingredients to make the perfect holiday feast!'/>
+                    <Entry name='Sharing is Caring' logo='https://media.forgecdn.net/avatars/664/330/638061304389679538.png' link='https://www.curseforge.com/minecraft/mc-mods/sharing-is-caring' description='Share gifts between you and your friends on a server!'/>
+                    <Entry name='Tis The Season' logo='https://media.forgecdn.net/avatars/698/189/638070918846088872.png' link='https://www.curseforge.com/minecraft/mc-mods/tis-the-season' description='Santa is coming and bringing gifts to those who were nice this year.'/>
+                    <Entry name='Naughty List' logo='https://media.forgecdn.net/avatars/719/224/638074683885855365.png' link='https://www.curseforge.com/minecraft/mc-mods/naughty-list' description='Have you been naughty or nice?'/>
+                    <Entry name='Snowballing' logo='https://media.forgecdn.net/avatars/682/150/638068985639208137.png' link='https://www.curseforge.com/minecraft/mc-mods/snowballing' description='Make snowball piles & have snowball fights. Just don&apos;t get frozen.'/>
                 </div>
             </div>
             <h2>WinterJam 2021 Entries</h2>
