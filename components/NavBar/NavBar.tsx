@@ -57,6 +57,7 @@ export function NavBar({ className = "" }) {
           <Title />
         </div>
         <div className="flex ml-auto px-4 gap-x-6 text-xl font-bold">
+          <NavLink classNames="my-auto" title="Entries" location="/entries" />
         </div>
       </div>
       <div className="lg:hidden">
@@ -83,6 +84,7 @@ export function NavBar({ className = "" }) {
             <NavLink title="Rules" location="/rules" />
             <NavLink title="FAQ" location="/faq" />
             <NavLink title="Discord" location="https://discord.tophatcat.dev/" />
+            <NavLink title="Entries" location="/entries" />
           </div>
         )}
       </div>
