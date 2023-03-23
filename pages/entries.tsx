@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { Layout } from "../components/";
-import Sponsor from "../components/Sponsor";
+import Entry from "../components/Entry";
 
 const Entries: NextPage = () => {
     return (
@@ -14,12 +14,12 @@ const Entries: NextPage = () => {
             <h2>WinterJam 2022 Entries</h2>
             <div id='sponsors'>
                 <div className='grid sm:grid-cols-2 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
-                <Sponsor name='Stay Warm Together' logo='stay-warm-together.png' link='https://www.curseforge.com/minecraft/mc-mods/stay-warm-together' description='undefined'/>
-                <Sponsor name='Hibernal Herbs [Fabric/Forge]' logo='hibernal-herbs.png' link='https://www.curseforge.com/minecraft/mc-mods/hibernal-herbs' description='undefined'/>
-                <Sponsor name='Sharing is Caring' logo='sharing-is-caring.png' link='https://www.curseforge.com/minecraft/mc-mods/sharing-is-caring' description='undefined'/>
-                <Sponsor name='Tis The Season' logo='tis-the-season.png' link='https://www.curseforge.com/minecraft/mc-mods/tis-the-season' description='undefined'/>
-                <Sponsor name='Naughty List' logo='naughty-list.png' link='https://www.curseforge.com/minecraft/mc-mods/naughty-list' description='undefined'/>
-                <Sponsor name='Snowballing' logo='snowballing.png' link='https://www.curseforge.com/minecraft/mc-mods/snowballing' description='undefined'/>
+                <Entry name='Stay Warm Together' logo='stay-warm-together.png' link='https://www.curseforge.com/minecraft/mc-mods/stay-warm-together' description='undefined'/>
+                <Entry name='Hibernal Herbs [Fabric/Forge]' logo='hibernal-herbs.png' link='https://www.curseforge.com/minecraft/mc-mods/hibernal-herbs' description='undefined'/>
+                <Entry name='Sharing is Caring' logo='sharing-is-caring.png' link='https://www.curseforge.com/minecraft/mc-mods/sharing-is-caring' description='undefined'/>
+                <Entry name='Tis The Season' logo='tis-the-season.png' link='https://www.curseforge.com/minecraft/mc-mods/tis-the-season' description='undefined'/>
+                <Entry name='Naughty List' logo='naughty-list.png' link='https://www.curseforge.com/minecraft/mc-mods/naughty-list' description='undefined'/>
+                <Entry name='Snowballing' logo='snowballing.png' link='https://www.curseforge.com/minecraft/mc-mods/snowballing' description='undefined'/>
                 </div>
             </div>
             <h2>WinterJam 2021 Entries</h2>
