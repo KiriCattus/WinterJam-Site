@@ -15,7 +15,7 @@ export default function Entry({name, logo, link, description} : EntryProps): Rea
     return (
         <div className="text-center text-primary m-2 p-2 md:mb-5 md:p-5 border border-primary rounded-lg bg-secondary bg-opacity-40 shadow-lg">
 
-            <Image src={`/entries/${logo}`} className="w-48 h-48 m-auto glowyimg" width="192px" height="192px" alt={name}/>
+            <Image src={logo} className="w-48 h-48 m-auto glowyimg" width="192px" height="192px" alt={name}/>
 
             <div className="text-center">
                 <h3><NavLink title={name} location={link} inline={true}/></h3>
