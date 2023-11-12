@@ -23,7 +23,7 @@ export default function ModCard({modData} : {modData:ModProps}): ReactElement {
 
     function Author({author, index}: {author: Author, index: number}): ReactElement {
         return <>
-            <a href={author.url} className="hover:text-important font-bold text-base sm:text-xl">{author.name}</a>
+            <a href={author.url} className="text-base font-bold hover:text-important sm:text-xl">{author.name}</a>
             {index != modData.author.length - 1 ? ', ' : ''}
         </>
     }
@@ -36,7 +36,7 @@ export default function ModCard({modData} : {modData:ModProps}): ReactElement {
             </div>
 
             <div className="flex-grow">
-                <a className="text-xl sm:text-2xl lg:text-3xl hover:text-important font-medium" href={modData.homepage} target={"_blank"} rel="noreferrer">{truncate(modData.name, 25)}</a>
+                <a className="text-xl font-medium sm:text-2xl lg:text-3xl hover:text-important" href={modData.homepage} target={"_blank"} rel="noreferrer">{truncate(modData.name, 25)}</a>
                 <p className="text-lg lg:text-xl">By <div className="inline text-accent2">{modData.author.map((val: Author, index) => <Author author={val} index={index} key={val.name}/>)}</div></p>
                 <p className="text-sm sm:text-base lg:text-lg">{truncate(modData.summary)}</p>
             </div>

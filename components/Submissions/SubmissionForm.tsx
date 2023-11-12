@@ -23,17 +23,17 @@ const SubmissionForm = (props: SubmissionFormProps) => {
     }
 
     return (
-        <div className="text-center bg-secondary bg-opacity-50 rounded-lg w-max mx-auto">
-            <div className="h-72 top-4 relative mx-4">
+        <div className="mx-auto text-center bg-opacity-50 rounded-lg bg-secondary w-max">
+            <div className="relative mx-4 h-72 top-4">
                 <h1 className="underline">Submit Your Project</h1>
-                <form id="submit" onSubmit={registerEntry} className="mx-auto my-4 w-max items-center flex flex-col">
+                <form id="submit" onSubmit={registerEntry} className="flex flex-col items-center mx-auto my-4 w-max">
                     <div className="sm:px-44 lg:px-72" />
                     <label htmlFor="cfProject">Link to your CurseForge project:</label>
-                    <input type="url" id="cfProject" name="cfProject" className="text-secondary mb-4 w-full max-w-full rounded-full px-3" placeholder="https://www.curseforge.com/minecraft/mc-mods/YOUR_MOD" required />
+                    <input type="url" id="cfProject" name="cfProject" className="w-full max-w-full px-3 mb-4 rounded-full text-secondary" placeholder="https://www.curseforge.com/minecraft/mc-mods/YOUR_MOD" required />
                     <label htmlFor="dependencies">List your depdendencies, if any:</label>
-                    <input type="text" id="dependencies" name="dependencies" className="text-secondary mb-4 w-full max-w-full rounded-full px-3" placeholder="List your dependencies here"/>
+                    <input type="text" id="dependencies" name="dependencies" className="w-full max-w-full px-3 mb-4 rounded-full text-secondary" placeholder="List your dependencies here"/>
 
-                    <button type="submit" className="bg-accent rounded-full py-3 px-6 font-bold text-secondary my-2 self-center hover:bg-important hover:text-primary">Submit your Entry</button>
+                    <button type="submit" className="self-center px-6 py-3 my-2 font-bold rounded-full bg-accent text-secondary hover:bg-important hover:text-primary">Submit your Entry</button>
                 </form>
             </div>
         </div>

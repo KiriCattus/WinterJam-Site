@@ -72,13 +72,13 @@ function TimeRow({
 }: PropsWithChildren<{ time: number }>): ReactElement {
   return (
     <tr className={`odd:bg-secondary`}>
-      <td className="border px-1 sm:px-3 py-3 text-center">
+      <td className="px-1 py-3 text-center border sm:px-3">
         <DateRendererLoader time={time} />
       </td>
-      <td className="hidden sm:table-cell border p-3 text-center">
+      <td className="hidden p-3 text-center border sm:table-cell">
         <CountdownRendererLoader time={time} />
       </td>
-      <td className="border px-1 sm:px-3 py-3">{children}</td>
+      <td className="px-1 py-3 border sm:px-3">{children}</td>
     </tr>
   );
 }

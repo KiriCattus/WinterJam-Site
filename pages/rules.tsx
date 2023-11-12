@@ -4,7 +4,7 @@ import { Layout } from "../components/";
 const RulesPage: NextPage = () => {
     return (
         <Layout title="Rules" url="/rules">
-            <div className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl text-center list-inside">
+            <div className="mx-auto text-xl text-center list-inside lg:w-3/4 md:w-5/6 text-primary">
                 <h2>Rules</h2>
                 <ol className="list-decimal">
                     <li>

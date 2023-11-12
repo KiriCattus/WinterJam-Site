@@ -17,14 +17,14 @@ const SubmissionsPage: NextPage<StaticProps> = (props) => {
 
   return (
     <Layout title="Submissions" url="/submissions">
-      <div className="text-center text-primary m-2 p-2 md:mb-5 md:p-5 border border-primary rounded-lg bg-secondary bg-opacity-40 shadow-lg ">
+      <div className="p-2 m-2 text-center border rounded-lg shadow-lg text-primary md:mb-5 md:p-5 border-primary bg-secondary bg-opacity-40 ">
 
         <SubmissionBox name={currentYear} entries={props[currentYear]}>
           <p className='text-base sm:text-2xl'>
             Submissions for our 2022 event will be open from November 12th, 2022 until December 31st 2022.<br />
             
             {!submissionsClosed && <><br />
-            You can submit your project <div className="underline hover:text-important inline"><Link href="https://forms.gle/QDSqajHDHSaa8TxK7" shallow replace>using this form</Link></div>.</>}
+            You can submit your project <div className="inline underline hover:text-important"><Link href="https://forms.gle/QDSqajHDHSaa8TxK7" shallow replace>using this form</Link></div>.</>}
           </p>
         </SubmissionBox>
         {Object.keys(props).filter(it => it !== currentYear).sort().reverse().map((year) => {

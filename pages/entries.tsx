@@ -6,14 +6,14 @@ const Entries: NextPage = () => {
     return (
         <Layout title="Entries" url="/entries">
             <h1>Welcome to WinterJam!</h1>
-            <p className="text-xl md:text-2xl text-centered mb-10">
+            <p className="mb-10 text-xl md:text-2xl text-centered">
                 These are the entries from WinterJam&apos;s past, if you have submitted an
                 entry previously and would like me to update the information on this page,
                 please contact KiriCattus
             </p>
             <h2>WinterJam 2022</h2>
             <div id='sponsors'>
-                <div className='grid sm:grid-cols-2 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
+                <div className='grid p-4 mt-6 text-lg sm:grid-cols-2 gap-y-5 sm:gap-x-6'>
                     <Entry name='Stay Warm Together' logo='https://media.forgecdn.net/avatars/thumbnails/646/367/256/256/638047508578142178.png' link='https://www.curseforge.com/minecraft/mc-mods/stay-warm-together' description='Adds cute winter-themed critters for MMD Winterjam 2022 '/>
                     <Entry name='Hibernal Herbs [Fabric/Forge]' logo='https://media.forgecdn.net/avatars/thumbnails/636/422/256/256/638039001664737637.png' link='https://www.curseforge.com/minecraft/mc-mods/hibernal-herbs' description='Hibernal Herbs celebrates the holidays with a little bit of mystic arts! Collect herbs and other ingredients to make the perfect holiday feast!'/>
                     <Entry name='Sharing is Caring' logo='https://media.forgecdn.net/avatars/thumbnails/664/330/256/256/638061304389679538.png' link='https://www.curseforge.com/minecraft/mc-mods/sharing-is-caring' description='Share gifts between you and your friends on a server!'/>
@@ -24,7 +24,7 @@ const Entries: NextPage = () => {
             </div>
             <h2>WinterJam 2021</h2>
             <div id='sponsors'>
-                <div className='grid sm:grid-cols-2 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
+                <div className='grid p-4 mt-6 text-lg sm:grid-cols-2 gap-y-5 sm:gap-x-6'>
                     <Entry name='Snowballs Deluxe' logo='https://media.forgecdn.net/avatars/thumbnails/462/579/256/256/637741815778966261.png' link='https://www.curseforge.com/minecraft/mc-mods/snowballs-deluxe' description='Adds a freezing effect to thrown snowballs'/>
                     <Entry name='From The North' logo='https://media.forgecdn.net/avatars/thumbnails/468/446/256/256/637752034779076070.png' link='https://www.curseforge.com/minecraft/mc-mods/from-the-north' description='Food And Holiday Decorations!'/>
                     <Entry name='Attack On Christmas' logo='https://media.forgecdn.net/avatars/thumbnails/469/737/256/256/637755511027513420.png' link='https://www.curseforge.com/minecraft/mc-mods/attack-on-christmas' description='Evil Elves have invaded the world!'/>
@@ -40,7 +40,7 @@ const Entries: NextPage = () => {
             </div>
             <h2>WinterJam 2020</h2>
             <div id='sponsors'>
-                <div className='grid sm:grid-cols-2 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
+                <div className='grid p-4 mt-6 text-lg sm:grid-cols-2 gap-y-5 sm:gap-x-6'>
                     <Entry name='Decorative Winter' logo='https://media.forgecdn.net/avatars/thumbnails/325/734/256/256/637443910985529999.png' link='https://www.curseforge.com/minecraft/mc-mods/decorative-winter' description='Winter & Christmas themed decorative blocks'/>
                     <Entry name='Yellow Snow' logo='https://media.forgecdn.net/avatars/thumbnails/325/10/256/256/637441793558546162.png' link='https://www.curseforge.com/minecraft/mc-mods/yellow-snow' description='A mod which adds yellow snow to Minecraft. Made for WinterJam.'/>
                     <Entry name='Fancy Snowy Weather' logo='https://media.forgecdn.net/avatars/thumbnails/314/254/256/256/637411596527123312.png' link='https://www.curseforge.com/minecraft/mc-mods/fancy-snowy-weather' description='MMD Winterjam 2020 Mod'/>
@@ -57,7 +57,7 @@ const Entries: NextPage = () => {
             </div>
             <h2>WinterJam 2019</h2>
             <div id='sponsors'>
-                <div className='grid sm:grid-cols-2 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
+                <div className='grid p-4 mt-6 text-lg sm:grid-cols-2 gap-y-5 sm:gap-x-6'>
                     <Entry name='Fimbulwinter' logo='https://media.forgecdn.net/avatars/thumbnails/243/83/256/256/637137671332623172.png' link='https://www.curseforge.com/minecraft/mc-mods/fimbulwinter' description='A mod which brings  a new winter-themed dimension, boss and mob-variants to the game'/>
                     <Entry name='Ice Sculptures' logo='https://media.forgecdn.net/avatars/thumbnails/242/327/256/256/637133580307415005.png' link='https://www.curseforge.com/minecraft/mc-mods/ice-sculptures' description='Decroative mod about ice and snow'/>
                     <Entry name='Polarizing Biomes' logo='https://media.forgecdn.net/avatars/thumbnails/240/910/256/256/637124381305039854.png' link='https://www.curseforge.com/minecraft/mc-mods/polarizing-biomes' description='Adds winter-themed biomes.'/>
@@ -70,7 +70,7 @@ const Entries: NextPage = () => {
             </div>
             <h2>WinterJam 2018</h2>
             <div id='sponsors'>
-                <div className='grid sm:grid-cols-2 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
+                <div className='grid p-4 mt-6 text-lg sm:grid-cols-2 gap-y-5 sm:gap-x-6'>
                     <Entry name='Presents' logo='https://media.forgecdn.net/avatars/thumbnails/180/647/256/256/636794455271866489.png' link='https://www.curseforge.com/minecraft/mc-mods/presents' description='Give customizable presents to your friends (and enemies)'/>
                     <Entry name='Snow! Real Magic! ⛄ (Forge)' logo='https://media.forgecdn.net/avatars/thumbnails/181/338/256/256/636799740021478717.png' link='https://www.curseforge.com/minecraft/mc-mods/snow-real-magic' description='Not a magic mod. | Snow Gravity & Accumulation | Snow-covered blocks | Tweak snow behaviors'/>
                     <Entry name='Snow Variants' logo='https://media.forgecdn.net/avatars/thumbnails/191/627/256/256/636860588163362985.png' link='https://www.curseforge.com/minecraft/mc-mods/snow-variants' description='Allows Snow Layer Placement On Stairs And Slabs'/>

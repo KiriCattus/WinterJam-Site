@@ -42,8 +42,8 @@ export function NavBar({ className = "" }) {
   const [expanded, setExpanded] = useState(false);
   return (
     <nav className={"text-primary w-full " + className}>
-      <div className="hidden lg:grid sm:grid-cols-3 w-full px-16 py-4">
-        <div className="flex px-4 gap-x-6 text-xl font-bold items-center">
+      <div className="hidden w-full px-16 py-4 lg:grid sm:grid-cols-3">
+        <div className="flex items-center px-4 text-xl font-bold gap-x-6">
           <NavLink classNames="my-auto" title="Home" location="/" />
           <NavLink classNames="my-auto" title="Rules" location="/rules" />
           <NavLink classNames="my-auto" title="FAQ" location="/faq" />
@@ -56,15 +56,15 @@ export function NavBar({ className = "" }) {
         <div className="flex items-center justify-center">
           <Title />
         </div>
-        <div className="flex ml-auto px-4 gap-x-6 text-xl font-bold">
+        <div className="flex px-4 ml-auto text-xl font-bold gap-x-6">
           <NavLink classNames="my-auto" title="Entries" location="/entries" />
         </div>
       </div>
       <div className="lg:hidden">
-        <div className="flex justify-between items-center p-3 px-4">
+        <div className="flex items-center justify-between p-3 px-4">
           <Title icicles={false} />
           <svg
-            className="w-9 h-9 text-primary border-2 rounded-lg border-primary"
+            className="border-2 rounded-lg w-9 h-9 text-primary border-primary"
             stroke="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"

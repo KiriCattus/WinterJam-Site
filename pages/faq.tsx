@@ -5,7 +5,7 @@ import NavLink from "../components/NavLink";
 const FaqPage: NextPage = () => {
     return (
         <Layout title="FAQ" url="/faq">
-            <div className="lg:w-3/4 md:w-5/6 mx-auto text-primary text-xl text-center list-inside">
+            <div className="mx-auto text-xl text-center list-inside lg:w-3/4 md:w-5/6 text-primary">
                 <h2>Frequently Asked Questions</h2>
                 <h3>Can I submit multiple mods to this event?</h3>
                 <p className="mb-10">
