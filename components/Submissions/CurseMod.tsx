@@ -1,4 +1,5 @@
 import React, {ReactElement} from "react";
+import Image from "next/image";
 
 interface Author  { name: string, url: string }
 
@@ -32,7 +33,7 @@ export default function ModCard({modData} : {modData:ModProps}): ReactElement {
         <div className={'rounded-lg flex gap-x-4 p-2 border-2 bg-accent bg-opacity-20 shadow-lg ' + modData.modLoaders.join(' ').toLowerCase()}>
 
             <div className={`flex-none w-32 h-32 my-auto`}>
-                <img src={modData.logo} width={128} height={128} className="bg-[#1F1F1F] border border-accent" alt={`${modData.name} logo`}/>
+                <Image src={modData.logo} width={128} height={128} className="bg-[#1F1F1F] border border-accent" alt={`${modData.name} logo`}/>
             </div>
 
             <div className="flex-grow">
