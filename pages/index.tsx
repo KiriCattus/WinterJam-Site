@@ -31,7 +31,7 @@ const Home: NextPage = () => {
       <div id='sponsors'>
         <div className='grid sm:grid-cols-2 gap-y-5 sm:gap-x-6 mt-6 p-4 text-lg'>
           <Sponsor name='Terrarium' logo='terrarium.png' link='https://twitter.com/TerrariumEarth' description='We are a team of devs and artists making mods such as Chipped, Tempad and Spirit. We love making immersive new Minecraft mods for the latest and greatest versions of Minecraft on Fabric and Forge.'/>
-          <Sponsor name='ShinhaNox' logo='bunny.png' link='https://shinhanox.uwu.ai/' description='Fabulous kawaii artist Bunny girl who makes amazing kawaii banners and other digital art for coin! Please spare some time to check them out and be nice!!! (Banner commission by ShinhaNox)'/>
+          <Sponsor name='ShinhaNox' logo='bunny.png' link='https://shinhanox.art/' description='Fabulous kawaii artist Bunny girl who makes amazing kawaii banners and other digital art for coin! Please spare some time to check them out and be nice!!! (Banner commission by ShinhaNox)'/>
           <Sponsor name='KiriCattus' logo='kiricattus.png' link='https://tophatcat.dev/' description='I made a thing. It broke... I made another thing. Why is it working!?!? I help run the MMD community and modding events.'/>
           <Sponsor name='Curle' logo='bolbmas.png' link='https://twitter.com/bolbmas' description='Minecraft Forge&apos;s Community and Repositories manager. Did somebody say &apos;New Project&apos; ?'/>
         </div>
