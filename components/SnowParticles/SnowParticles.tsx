@@ -1,14 +1,26 @@
-import React from "react";
+import classNames from "classnames";
+import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 interface Props {
   animate: boolean;
   className?: string;
 }
 
 export function SnowParticles({ animate, className }: Props) {
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+  }, []);
+
+
   return (
     <Particles
-      className={"particles bg-winterjam z-0" + className}
+      className={classNames("particles bg-winterjam z-0", className)}
+      init={particlesInit}
       options={{
         fullScreen: {
           enable: false,

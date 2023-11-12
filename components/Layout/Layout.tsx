@@ -1,4 +1,3 @@
-// import NavBar from "./NavBar";
 import { NextSeo } from "next-seo";
 import React, { useState } from "react";
 import { NavBar, SnowParticles } from "..";
@@ -20,7 +19,7 @@ export function Layout({
   image,
   url,
 }: Props) {
-  const [isSnowing, setIsSnowing] = useState(true);
+  const [isSnowing, setIsSnowing] = useState<boolean>(true);
 
   return (
     <>
@@ -44,10 +43,10 @@ export function Layout({
           cardType: "summary_large_image",
         }}
       />
-      <div className="min-h-screen h-full">
+      <div className="h-full min-h-screen">
         <SnowParticles
           animate={isSnowing}
-          className="min-h-plus inset-0 z-0 md:block fixed"
+          className="fixed inset-0 z-0 min-h-plus md:block"
         />
         <NavBar
           className="z-10 my-2"
