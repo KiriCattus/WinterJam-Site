@@ -12,7 +12,5 @@ export default function NavLink({title, location, classNames = "", target = "_bl
         );
     }
 
-    return (
-        <Link href={location}><a className={classes}>{title}</a></Link>
-    );
+    return <Link href={location} className={classes}>{title}</Link>;
 }

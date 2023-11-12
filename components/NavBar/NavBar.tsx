@@ -32,8 +32,8 @@ function NavLink({
   }
 
   return (
-    <Link href={location}>
-      <a className={classes}>{title}</a>
+    <Link href={location} className={classes}>
+      {title}
     </Link>
   );
 }
