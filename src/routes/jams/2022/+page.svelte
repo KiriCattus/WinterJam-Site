@@ -59,9 +59,13 @@
 
 <section id="entries">
 	<h2>Entries</h2>
-	{#each data.mods as mod}
-		<ModEntry data={mod} />
-	{/each}
+	<ul class="m-auto mt-8 w-full flex flex-col items-center justify-center">
+		{#each data.mods as mod, i}
+			<li class="min-h-max">
+				<ModEntry data={mod} />
+			</li>
+		{/each}
+	</ul>
 	<p class="text-center">-- WIP --</p>
 </section>
 
