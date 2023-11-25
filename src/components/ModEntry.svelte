@@ -24,8 +24,6 @@
 		alt={`${mod.name} logo`}
 		class="p-1 ring-2 ring-gray-300 dark:ring-gray-500 w-32 h-32 bg-gray-100 dark:bg-gray-600 text-gray-600 dark:text-gray-300 rounded-full m-auto"
 		loading="lazy"
-        width={mod.logoSize}
-        height={mod.logoSize}
 	/>
 	<div class="max-w-sm flex items-center flex-col leading-tight">
 		<h2 class="tracking-wide">{mod.name}</h2>
