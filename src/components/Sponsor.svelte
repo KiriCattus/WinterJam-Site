@@ -5,10 +5,12 @@ import { Card } from 'flowbite-svelte';
 	export let name: string;
 	export let logo: string | undefined = undefined;
 	export let href: string | undefined = undefined;
+	export let target: string | undefined = '_blank';
+	export let rel: string | undefined = 'noopener noreferrer';
     export let reverse: boolean = true;
 </script>
 
-<Card {href} horizontal>
+<Card {href} {target} {rel} title={name} horizontal>
 	<div class={classNames("flex gap-4 min-w-max", reverse ? 'flex-row-reverse' : 'flex-row')}>
 		<enhanced:img
 			src={logo}
@@ -22,3 +24,4 @@ import { Card } from 'flowbite-svelte';
 		</div>
 	</div>
 </Card>
+
