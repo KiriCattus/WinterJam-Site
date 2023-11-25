@@ -12,6 +12,7 @@ declare global {
 			env?: {
 				DB: D1Database,
 				CURSEFORGE_API_KEY: string,
+				USER_AGENT: string,
 			}
 		}
 	}
