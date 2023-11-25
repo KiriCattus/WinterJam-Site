@@ -44,7 +44,7 @@
 </script>
 
 <section id="intro">
-	<p class="mb-10 text-xl text-justify md:text-2xl">
+	<p>
 		This annual winter celebration for the modded Minecraft community. During winter we host a mod
 		jam where members of the community are encouraged to create new mods that fit the seasonal
 		theme. Participants are encouraged to collaborate, explore new skills, and challenge themselves.
@@ -55,12 +55,13 @@
 	</p>
 </section>
 
-<section id="entries mb-12">
+<section id="entries">
+	<h2>Entries</h2>
 	<!-- TODO winterjam 2022 entries -->
-	<p>A</p>
+	<p class="text-center">-- WIP --</p>
 </section>
 
-<section id="sponsors" class="m-auto w-full lg:w-3/4 md:w-5/6 text-xl text-center mb-12">
+<section id="sponsors" class="text-center">
 	<h2>Sponsors</h2>
 	<p class="block">
 		WinterJam 2022 is sponsored by
@@ -81,9 +82,9 @@
 		</ExternalLink>
 		for doing some last minute banner art for our event!
 	</p>
-	<ul class="m-auto mt-8 w-full flex flex-col items-center">
+	<ul class="m-auto mt-8 w-full flex flex-col items-center justify-center">
 		{#each sponsors as sponsor, i}
-			<li>
+			<li class="min-h-max">
 				<Sponsor {...sponsor} reverse={i % 2 !== 0}>
 					{sponsor.description}
 				</Sponsor>
