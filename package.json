@@ -46,6 +46,7 @@
 		"flowbite": "^2.2.0",
 		"flowbite-svelte": "^0.44.19",
 		"flowbite-svelte-icons": "^0.4.5",
+		"human-format": "^1.2.0",
 		"svelte-particles": "^2.12.0",
 		"tsparticles-slim": "^2.12.0"
 	}

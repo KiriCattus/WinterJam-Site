@@ -1,10 +1,15 @@
 <script lang="ts">
 	import type { ModData } from "$lib/mods";
 	import type { ModSubmission } from "$lib/submissions";
-	import Sponsor from "./Sponsor.svelte";
+    import humanFormat from "human-format";
 
     export let data: ModSubmission;
     const mod: ModData = data.mod!;
+
+    const formattedDownloads = humanFormat(mod.downloads, {
+        maxDecimals: 1,
+        separator: '',
+    });
 </script>
 
 <a
@@ -24,6 +29,8 @@
 		<h2 class="tracking-wide">{mod.name}</h2>
 		<span class="inline-block text-center tracking-tight">
 			{mod.summary}
+            <br>
+            ({formattedDownloads} Downloads)
 		</span>
 	</div>
 </a>
