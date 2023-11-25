@@ -1,5 +1,4 @@
-<script>
-	import { Gallery } from 'flowbite-svelte';
+<script lang="ts">
 	import ExternalLink from '$components/ExternalLink.svelte';
 	import Sponsor from '$components/Sponsor.svelte';
 
@@ -8,6 +7,8 @@
 	import logoTerrariumEarth from '$assets/sponsors/terrarium-earth/bottle.png?enhanced';
 	import logoCurle from '$assets/sponsors/curle/bolbmas.png?enhanced';
 	import logoKiriCattus from '$assets/sponsors/kiricattus/cat.png?enhanced';
+	import type { PageData } from './$types';
+	import ModEntry from '$components/ModEntry.svelte';
 
 	const sponsors = [
 		{
@@ -41,6 +42,7 @@
 			description: 'I made a thing. It broke... I made another thing. Why is it working!?!? I help run the MMD community and modding events.',
 		},
 	];
+	export let data: PageData;
 </script>
 
 <section id="intro">
@@ -57,7 +59,9 @@
 
 <section id="entries">
 	<h2>Entries</h2>
-	<!-- TODO winterjam 2022 entries -->
+	{#each data.mods as mod}
+		<ModEntry data={mod} />
+	{/each}
 	<p class="text-center">-- WIP --</p>
 </section>
 
