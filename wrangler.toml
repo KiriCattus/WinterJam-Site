@@ -6,3 +6,4 @@ minify = true
 binding = "DB"
 database_name = "winterjam_site"
 database_id = "546ea5ef-2933-4594-9ed6-70ba38e7f22e"
+migrations_dir = "migrations"
