@@ -1,0 +1,8 @@
+name = "winterjam-site"
+compatibility_date = "2023-11-17"
+minify = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "winterjam_site"
+database_id = "546ea5ef-2933-4594-9ed6-70ba38e7f22e"
