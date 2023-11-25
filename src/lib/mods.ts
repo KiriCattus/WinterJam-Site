@@ -6,6 +6,7 @@ export interface ModData {
     summary?: string;
 
     logoUrl: string;
+    logoSize: number;
     url: string;
 
     authors: ModAuthor[];

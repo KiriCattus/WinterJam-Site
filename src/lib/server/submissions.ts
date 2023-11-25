@@ -25,6 +25,7 @@ async function getSubmissions(platform: App.Platform | undefined, year: number):
 async function hydrateSubmissions(submissions: ModSubmission[]): Promise<void> {
     await curseforge.getMods(submissions.map(s => s.modId)).then(mods => {
         mods.forEach(mod => {
+            mod.logoSize = 400; //hardcoded for curseforge CDN
             const submission = submissions.find(s => s.modId === mod.modId);
             if (submission) {
                 submission.mod = mod;
