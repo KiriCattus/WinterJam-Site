@@ -89,7 +89,7 @@
 				class="underline">Minecraft Mod Development discord server</ExternalLink
 			> where the event is hosted)<br />
 			<span class="underline font-bold"
-				>The submission form will be made available later during december. Keep regularly checking
+				>The submission form will be made available later during December. Keep regularly checking
 				back on the main page for news!</span
 			>
 		</span>
