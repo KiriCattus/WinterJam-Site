@@ -71,7 +71,6 @@
 			</li>
 		{/each}
 	</ul>
-	<p class="text-center">-- WIP --</p>
 </section>
 
 <section id="sponsors" class="text-center">

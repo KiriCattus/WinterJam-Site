@@ -1,11 +1,9 @@
 <script>
-	import ExternalLink from '$components/ExternalLink.svelte';
 	import Meta from '$components/Meta.svelte';
 	import Countdown from '$components/Countdown.svelte';
 
 	const jamStartDate = new Date('2023-12-01T00:00:00Z');
 
-	//TODO get actual date
 	const jamEndDate = new Date('2024-01-01T00:00:00Z');
 
 	const now = new Date();
@@ -26,7 +24,7 @@
 
 <section
 	id="timers"
-	class="w-full md:w-10/12 lg:w-3/4 m-auto flex flex-col rounded-xl bg-opacity-25 bg-black items-center align-middle gap-4 p-5 mb-8"
+	class="w-full md:w-10/12 lg:w-3/4 m-auto flex flex-col rounded-xl bg-opacity-30 bg-black items-center align-middle gap-4 p-5 mb-8"
 >
 	<!-- TODO make this work reactively -->
 	{#if diff > 0}
