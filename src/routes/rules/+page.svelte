@@ -40,8 +40,8 @@
             4. Third party dependencies such as libraries, frameworks, API's and other mods are allowed.
         </h4>
         <span>
-            However you are responsible for any issues that may occur and should fix them or report them to the dependencies developers.<br>
-            You are also required to disclose all required dependencies while submitting your project including built in dependencies.<br>
+            However you are responsible for any issues that may occur and should fix them or report them to the respective developers.<br>
+            You are also required to disclose all required dependencies while submitting your project including those that are built in.<br>
             (Your own libraries, API's etc. do not have to be made during the event)
         </span>
     </li>
