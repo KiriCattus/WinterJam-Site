@@ -85,7 +85,7 @@
 		<span>
 			Yes you must submit your project before the event deadline via the submissions form.<br />
 			(Your submission will only be counted if you are a member of the <ExternalLink
-				href="https://discord.tophatcat.dev"
+				href="/discord"
 				class="underline">Minecraft Mod Development discord server</ExternalLink
 			> where the event is hosted)<br />
 			<span class="underline font-bold"

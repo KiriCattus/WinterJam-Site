@@ -34,7 +34,7 @@
 					</DropdownItem>
 				{/each}
 			</Dropdown>
-			<ExternalLink class="text-xl" href="https://discord.tophatcat.dev">Discord</ExternalLink>
+			<ExternalLink class="text-xl" href="/discord">Discord</ExternalLink>
 		</Navbar>
 		<main class="w-11/12 mx-auto lg:w-3/4">
 			<slot />
