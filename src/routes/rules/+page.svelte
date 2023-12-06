@@ -1,5 +1,6 @@
 <script>
-
+    import { Alert } from "flowbite-svelte";
+    import { InfoCircleOutline, InfoCircleSolid } from "flowbite-svelte-icons";
 	import ExternalLink from "$components/ExternalLink.svelte";
 
 </script>
@@ -15,6 +16,15 @@
         <span>
             You may think about and plan your project ahead of time but all code, datapacks and resources (including textures, sounds, models and animations) must be made during the specified time window.
         </span>
+        <div class="md:w-4/5 m-auto mt-2">
+            <Alert color="blue">
+                <span class="font-medium">
+                    <InfoCircleSolid class="w-6 h-6 inline mr-1 mb-1" />
+                    Adding new features to existing projects is allowed, but you must be able to prove that the new features were made during the event.
+                    Also, the existing content must not overshadow other submissions that were made during the event.
+                </span>
+            </Alert>
+        </div>
     </li>
     <li>
         <h4>
