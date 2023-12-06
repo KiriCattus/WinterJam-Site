@@ -65,7 +65,9 @@
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-06 &ast; Rule Update</h3>
 			<p class="text-xl text-justify">
-				We have updated the <ExternalLink href="/rules" class="underline" target="_self">rules</ExternalLink> to allow submissions that have been created before the event, so long as they have new features added that fit overall event themes. Also, the existing content must not overshadow other submissions that were made during the event.
+				We have updated the <ExternalLink href="/rules" class="underline" target="_self">rules</ExternalLink> to allow submissions that have been created before the event,
+				so long as they have new features added that fit the overall event themes.
+				Also, the existing content must not overshadow other submissions that were made during the event.
 		</article>
 		<!-- <article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-06 &ast; Rule Update</h3>
