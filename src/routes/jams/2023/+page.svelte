@@ -1,5 +1,7 @@
 <script>
+	import { onMount } from "svelte";
 	import { InfoCircleSolid } from "flowbite-svelte-icons";
+	import { Tooltip } from 'flowbite-svelte';
 	import Countdown from '$components/Countdown.svelte';
 
 	const jamStartDate = new Date('2023-12-01T00:00:00Z');
@@ -13,6 +15,14 @@
 
 	const endDiff = jamEndDate.getTime() - now.getTime();
 	const endDays = Math.floor(endDiff / (1000 * 60 * 60 * 24));
+
+	$: jamStartDateLocal = "";
+	$: jamEndDateLocal = "";
+
+	onMount(() => {
+		jamStartDateLocal = jamStartDate.toLocaleString();
+		jamEndDateLocal = jamEndDate.toLocaleString();
+	});
 </script>
 
 <h1>Work in Progress!</h1>
@@ -37,6 +47,7 @@
 		</p>
 	{/if}
 </section>
+<Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip>
 
 <section id="info" class="mt-12">
 	<div class="p-5 bg-black bg-opacity-30 rounded-xl">
@@ -56,11 +67,17 @@
 			Click here for the rules
 		</a>
 	</div>
-	<hr class="w-9/12 h-px my-8 bg-gray-200 border-0 dark:bg-gray-70" />
 	<div>
 		<h2>FAQ</h2>
 		<a href="/faq" class="underline hover:text-important focus:text-important">
 			Click here for the FAQ
+		</a>
+	</div>
+	<hr class="w-9/12 h-px my-8 bg-gray-200 border-0 dark:bg-gray-70" />
+	<div class="m-5">
+		<h2>Submit an Entry</h2>
+		<a href="/jams/2023/submit" class="underline hover:text-important focus:text-important">
+			Click here to open the submission form
 		</a>
 	</div>
 </section>

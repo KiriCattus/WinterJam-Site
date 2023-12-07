@@ -1,6 +1,7 @@
-import type { ModSubmission } from "$lib/submissions";
+import type { ModSubmission, SubmissionRequest } from "$lib/submissions";
 import cloudflare from "./cloudflare"
 import curseforge from "./curseforge";
+import discord from '$lib/server/discordWebhook';
 
 async function getSubmissions(platform: App.Platform | undefined, year: number): Promise<ModSubmission[]> {
     const db = cloudflare.getDatabase(platform);
@@ -33,6 +34,11 @@ async function hydrateSubmissions(submissions: ModSubmission[]): Promise<void> {
     });
 }
 
+async function putSubmission(submission: SubmissionRequest, origin: string): Promise<void> {
+    await discord.sendSubmission(submission, new URL('/images/util/webhook-logo.png', origin));
+}
+
 export default {
     getSubmissions,
+    putSubmission,
 }

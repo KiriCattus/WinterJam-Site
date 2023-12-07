@@ -13,6 +13,7 @@ declare global {
 				DB: D1Database,
 				CURSEFORGE_API_KEY: string,
 				USER_AGENT: string,
+				DISCORD_WEBHOOK_URL: string,
 			}
 		}
 	}

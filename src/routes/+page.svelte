@@ -1,4 +1,6 @@
 <script>
+	import { onMount } from 'svelte';
+	import { Tooltip } from 'flowbite-svelte';
 	import Meta from '$components/Meta.svelte';
 	import Countdown from '$components/Countdown.svelte';
 	import ExternalLink from '$components/ExternalLink.svelte';
@@ -14,6 +16,15 @@
 
 	const endDiff = jamEndDate.getTime() - now.getTime();
 	const endDays = Math.floor(endDiff / (1000 * 60 * 60 * 24));
+
+	$: jamStartDateLocal = "";
+	$: jamEndDateLocal = "";
+
+	onMount(() => {
+		jamStartDateLocal = jamStartDate.toLocaleString();
+		jamEndDateLocal = jamEndDate.toLocaleString();
+	});
+
 </script>
 
 <Meta title="Home" />
@@ -42,6 +53,7 @@
 		</p>
 	{/if}
 </section>
+<Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip>
 
 <section id="temp-23-link" class="flex items-center my-16">
 	<a href="/jams/2023" class="m-auto group" tabindex="0">
@@ -63,16 +75,18 @@
 	<h2 class="text-5xl text-left font-blocky">News</h2>
 	<div class="flex flex-col gap-4">
 		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-07 &ast; Submissions Form</h3>
+			<p class="text-xl text-justify">
+				The submissions form for WinterJam 2023 is now live!
+				<ExternalLink href="/jams/2023/submit" class="underline">Click here</ExternalLink> to submit your project.<br>
+				Submissions will be open until <span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2024-01-01 00:00 UTC</span><Tooltip>{jamEndDateLocal}</Tooltip>.
+		</article>
+		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-06 &ast; Rule Update</h3>
 			<p class="text-xl text-justify">
 				We have updated the <ExternalLink href="/rules" class="underline" target="_self">rules</ExternalLink> to allow submissions that have been created before the event,
 				so long as they have new features added that fit the overall event themes.
 				Also, the existing content must not overshadow other submissions that were made during the event.
 		</article>
-		<!-- <article>
-			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-06 &ast; Rule Update</h3>
-			<p class="text-xl text-justify">
-				We have updated the <ExternalLink href="/rules" class="underline">rules</ExternalLink> to allow submissions that have been created before the event, so long as they have new features added that fit overall event themes. Also, the existing content must not overshadow other submissions that were made during the event.
-		</article> -->
 	</div>
 </section>
