@@ -62,8 +62,9 @@
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-07 &ast; Submissions Form</h3>
 			<p class="text-xl text-justify">
 				The submissions form for WinterJam 2023 is now live!
-				<ExternalLink href="/jams/2023/submit" class="underline">Click here</ExternalLink> to submit your project.<br>
+				<ExternalLink href="/jams/2023/submit" class="underline" target="_self">Click here</ExternalLink> to submit your project.<br>
 				Submissions will be open until <span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2024-01-01 00:00 UTC</span><Tooltip>{jamEndDateLocal}</Tooltip>.
+			</p>
 		</article>
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-06 &ast; Rule Update</h3>
@@ -71,12 +72,13 @@
 				We have updated the <ExternalLink href="/rules" class="underline" target="_self">rules</ExternalLink> to allow submissions that have been created before the event,
 				so long as they have new features added that fit the overall event themes.
 				Also, the existing content must not overshadow other submissions that were made during the event.
+			</p>
 		</article>
 	</div>
 </section>
 
 <section id="info" class="p-5 bg-black bg-opacity-10 rounded-xl">
-	<p class="text-3xl text-justify">
+	<p class="text-2xl text-justify">
 		This is the annual winter celebration for the modded Minecraft community. During winter we host
 		a mod jam where members of the community are encouraged to create new mods that fit the seasonal
 		theme. Participants are encouraged to collaborate, explore new skills, and challenge themselves.
