@@ -55,24 +55,8 @@
 </section>
 <Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip>
 
-<section id="temp-23-link" class="flex items-center my-16">
-	<a href="/jams/2023" class="m-auto group" tabindex="0">
-		<p class="m-0 text-2xl font-blocky text-sky-950 hover:text-important group-focus:text-important">&gt;&gt; CLICK HERE FOR MORE DETAILS! &lt;&lt;</p>
-	</a>
-</section>
-
-<section id="info" class="p-5 bg-black bg-opacity-10 rounded-xl">
-	<p class="text-3xl text-justify">
-		This is the annual winter celebration for the modded Minecraft community. During winter we host
-		a mod jam where members of the community are encouraged to create new mods that fit the seasonal
-		theme. Participants are encouraged to collaborate, explore new skills, and challenge themselves.
-		During WinterJam we also host Minecraft servers where anyone can join and check out the mod
-		submissions.
-	</p>
-</section>
-
 <section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
-	<h2 class="text-5xl text-left font-blocky">News</h2>
+	<h2 class="pb-5 mb-4 text-6xl text-left underline font-blocky">News</h2>
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-07 &ast; Submissions Form</h3>
@@ -89,4 +73,20 @@
 				Also, the existing content must not overshadow other submissions that were made during the event.
 		</article>
 	</div>
+</section>
+
+<section id="info" class="p-5 bg-black bg-opacity-10 rounded-xl">
+	<p class="text-3xl text-justify">
+		This is the annual winter celebration for the modded Minecraft community. During winter we host
+		a mod jam where members of the community are encouraged to create new mods that fit the seasonal
+		theme. Participants are encouraged to collaborate, explore new skills, and challenge themselves.
+		During WinterJam we also host Minecraft servers where anyone can join and check out the mod
+		submissions.
+	</p>
+</section>
+
+<section id="temp-23-link" class="flex items-center">
+	<a href="/jams/2023" class="m-auto group" tabindex="0">
+		<p class="m-0 text-2xl font-blocky text-sky-950 hover:text-important group-focus:text-important">&gt;&gt; CLICK HERE FOR MORE DETAILS! &lt;&lt;</p>
+	</a>
 </section>
