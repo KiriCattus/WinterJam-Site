@@ -1,9 +1,10 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import { Tooltip } from 'flowbite-svelte';
 	import Meta from '$components/Meta.svelte';
 	import Countdown from '$components/Countdown.svelte';
 	import ExternalLink from '$components/ExternalLink.svelte';
+	import type { PageData } from './$types';
 
 	const jamStartDate = new Date('2023-12-01T00:00:00Z');
 
@@ -25,6 +26,7 @@
 		jamEndDateLocal = jamEndDate.toLocaleString();
 	});
 
+	export let data: PageData;
 </script>
 
 <Meta title="Home" />
@@ -58,6 +60,15 @@
 <section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
 	<h2 class="pb-5 mb-4 text-6xl text-left underline font-blocky">News</h2>
 	<div class="flex flex-col gap-4">
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-16 &ast; First submissions</h3>
+			<p class="text-xl text-justify">
+				This post is a bit late, seeing as the first submission was added right after we opened the submissions form.<br>
+				But as of writing this, we have our first three submissions for WinterJam 2023!
+				Check the <ExternalLink href="/jams/2023#entries" class="underline" target="_self">Jam Page</ExternalLink> to see them.<br>
+				<span class="text-important">Big shoutout to <ExternalLink href={data.workshopsOfDoom.url} class="underline">{data.workshopsOfDoom.name}</ExternalLink> for participating in WinterJam for the <strong>THIRD TIME</strong> total!</span>
+			</p>
+		</article>
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-07 &ast; Submissions Form</h3>
 			<p class="text-xl text-justify">
