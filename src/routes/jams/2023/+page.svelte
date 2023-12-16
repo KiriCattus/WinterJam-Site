@@ -1,8 +1,10 @@
-<script>
+<script lang="ts">
 	import { onMount } from "svelte";
 	import { InfoCircleSolid } from "flowbite-svelte-icons";
 	import { Tooltip } from 'flowbite-svelte';
 	import Countdown from '$components/Countdown.svelte';
+	import ModEntry from '$components/ModEntry.svelte';
+	import type { PageData } from './$types';
 
 	const jamStartDate = new Date('2023-12-01T00:00:00Z');
 
@@ -23,6 +25,8 @@
 		jamStartDateLocal = jamStartDate.toLocaleString();
 		jamEndDateLocal = jamEndDate.toLocaleString();
 	});
+
+	export let data: PageData;
 </script>
 
 <h1>Work in Progress!</h1>
@@ -80,4 +84,15 @@
 			Click here to open the submission form
 		</a>
 	</div>
+</section>
+
+<section id="entries">
+	<h2>Entries</h2>
+	<ul class="m-auto mt-8 w-full flex flex-col items-center justify-center">
+		{#each data.mods as mod, i}
+			<li class="min-h-max">
+				<ModEntry data={mod} />
+			</li>
+		{/each}
+	</ul>
 </section>
