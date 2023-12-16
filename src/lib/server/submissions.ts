@@ -15,6 +15,9 @@ async function getSubmissions(platform: App.Platform | undefined, year: number):
             resubmission: row.resubmission,
         }
     }).sort((a, b) => {
+        if (a.resubmission && !b.resubmission) return 1;
+        if (!a.resubmission && b.resubmission) return -1;
+
         const first = a.mod?.name || 'null';
         const second = b.mod?.name || 'null';
         return first.localeCompare(second);
