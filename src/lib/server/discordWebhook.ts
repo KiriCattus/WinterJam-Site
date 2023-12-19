@@ -20,7 +20,7 @@ async function sendSubmission(submission: SubmissionRequest, iconUrl: URL | unde
         },
         {
             name: 'Contact',
-            value: `$\`{submission.contact}\``,
+            value: `\`${submission.contact}\``,
         },
         submission.teamMembers ? {
             name: 'Team Members',
