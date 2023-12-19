@@ -29,9 +29,6 @@
 	export let data: PageData;
 </script>
 
-<h1>Work in Progress!</h1>
-<h2>Check back later!</h2>
-
 <section
 	id="timers"
 	class="flex flex-col items-center w-full gap-4 p-5 m-auto mb-8 align-middle bg-black md:w-10/12 lg:w-3/4 rounded-xl bg-opacity-30"
