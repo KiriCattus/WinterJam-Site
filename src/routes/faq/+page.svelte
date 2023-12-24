@@ -1,7 +1,9 @@
 <script>
 	import ExternalLink from '$components/ExternalLink.svelte';
+	import Meta from '$components/Meta.svelte';
 </script>
 
+<Meta title="FAQ" />
 <h1>WinterJam 2023 FAQ</h1>
 
 <ol

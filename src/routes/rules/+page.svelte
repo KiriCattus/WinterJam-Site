@@ -2,10 +2,11 @@
     import { Alert } from "flowbite-svelte";
     import { InfoCircleSolid } from "flowbite-svelte-icons";
 	import ExternalLink from "$components/ExternalLink.svelte";
+	import Meta from "$components/Meta.svelte";
 
 </script>
 
-
+<Meta title="Rules" />
 <h1>WinterJam 2023 Rules</h1>
 
 <ol class="text-justify md:child:text-xl child:text-lg child:rounded-lg child:bg-slate-950 child:bg-opacity-30 child:p-4">
