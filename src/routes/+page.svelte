@@ -61,6 +61,14 @@
 	<h2 class="pb-5 mb-4 text-6xl text-left underline font-blocky">News</h2>
 	<div class="flex flex-col gap-4">
 		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-24 &ast; Minecraft Server and Modpack</h3>
+			<p class="text-xl text-justify">
+				Just in time for Christmas Eve, it is finally time to release the submissions for 2023 into the wild!<br>
+    			The WinterJam 2023 modpack and server are now live, you can <ExternalLink href="https://curseforge.com/minecraft/modpacks/winterjam-2023" class="underline">find the modpack on CurseForge</ExternalLink><br>
+    			<span class="text-important">If you want to join the WinterJam 2023 Minecraft server, you must be a part of our <ExternalLink href="/discord" class="underline">Discord Community</ExternalLink> to gain access.</span>
+			</p>
+		</article>
+		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-16 &ast; First submissions</h3>
 			<p class="text-xl text-justify">
 				This post is a bit late, seeing as the first submission was added right after we opened the submissions form.<br>
