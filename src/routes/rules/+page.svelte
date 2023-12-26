@@ -99,7 +99,7 @@
             9. Submissions should be compatible with Minecraft 1.20.1 and the Forge Mod Loader.
         </h4>
         <span>
-            This is not a hard requirement. Other versions and/or loaders are accepted, but to be included in the pack and server, your mod must be compatible with Minecraft 1.20.1 and Forge.<br>
+            This is not a hard requirement. Other versions and/or loaders are accepted, but to be included in the pack and server, your mod must be compatible with Minecraft 1.20.1 and Forge 47.1.3.<br>
             We will attempt to load Fabric submissions using <ExternalLink href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector" class="underline">Sinytra Connector</ExternalLink> but we cannot guarantee that it will work.<br>
             ⚠ <span class="underline">Fabric devs please test your mod with Sinytra Connector!</span>
         </span>
