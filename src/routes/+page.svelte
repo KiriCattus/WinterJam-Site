@@ -64,7 +64,7 @@
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">2023-12-24 &ast; Minecraft Server and Modpack</h3>
 			<p class="text-xl text-justify">
 				Just in time for Christmas Eve, it is finally time to release the submissions for 2023 into the wild!<br>
-    			The WinterJam 2023 modpack and server are now live, you can <ExternalLink href="https://curseforge.com/minecraft/modpacks/winterjam-2023" class="underline">find the modpack on CurseForge</ExternalLink><br>
+    			The WinterJam 2023 modpack and server are now live, you can <ExternalLink href={data.winterjamPack.url} class="underline">find the modpack on CurseForge</ExternalLink><br>
     			<span class="text-important">If you want to join the WinterJam 2023 Minecraft server, you must be a part of our <ExternalLink href="/discord" class="underline">Discord Community</ExternalLink> to gain access.</span>
 			</p>
 		</article>
