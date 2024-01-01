@@ -1,5 +1,5 @@
-import { error } from '@sveltejs/kit';
-import type { Actions } from './$types';
+import { error, redirect } from '@sveltejs/kit';
+import type { Actions, PageServerLoad } from './$types';
 import type { SubmissionRequest } from '$lib/submissions';
 import submissions from '$lib/server/submissions';
 
@@ -52,3 +52,12 @@ export const actions = {
 		}
 	},
 } satisfies Actions;
+
+export const load: PageServerLoad = async () => {
+	const now = Date.now();
+	const jamEndDate = new Date('2024-01-01T00:00:00Z').getTime();
+
+	if (now > jamEndDate) {
+		throw redirect(303, '/');
+	}
+};

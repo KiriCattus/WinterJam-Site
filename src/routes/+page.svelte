@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Tooltip } from 'flowbite-svelte';
 	import Meta from '$components/Meta.svelte';
-	import Countdown from '$components/Countdown.svelte';
 	import ExternalLink from '$components/ExternalLink.svelte';
 	import type { PageData } from './$types';
 
