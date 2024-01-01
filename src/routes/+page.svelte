@@ -95,7 +95,7 @@
 				Submissions will be open until
 				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky"
 					>2024-01-01 00:00 UTC</span
-				><Tooltip>{jamEndDateLocal}</Tooltip>.
+				><Tooltip>{new Date("2024-01-01T00:00Z").toLocaleString()}</Tooltip>.
 			</p>
 		</article>
 		<article>
