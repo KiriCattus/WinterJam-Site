@@ -3,10 +3,6 @@ import type { Actions } from './$types';
 import type { SubmissionRequest } from '$lib/submissions';
 import submissions from '$lib/server/submissions';
 
-function err(propertyName: string): string {
-	throw error(400, `Missing ${propertyName}`);
-}
-
 function getField(data: FormData, name: string, required = true, maxLength = 256): string | undefined {
 	const value = data.get(name);
 	if (required && !value) {
