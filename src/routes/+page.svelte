@@ -27,13 +27,28 @@
 			class="underline">Click here check them out!</ExternalLink
 		><br />
 		<br />
-		Reminder that the Minecraft server is still open, so have fun playing!
+		You can find the world download on the <ExternalLink
+			href="/jams/2023"
+			target="_self"
+			class="underline">WinterJam 2023 page</ExternalLink>
 	</p>
 </section>
 
 <section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
 	<h2 class="pb-5 mb-4 text-6xl text-left underline font-blocky">News</h2>
 	<div class="flex flex-col gap-4">
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2024-01-27 &ast; Server Closed and World Download
+			</h3>
+			<p class="text-xl text-justify">
+				We've had a lot of fun playing with all the submissions on the server, but all good things must come to an end.<br>
+				The server has now been closed, and the world download is now available on the <ExternalLink
+					href="/jams/2023"
+					target="_self"
+					class="underline">WinterJam 2023 page.</ExternalLink>
+			</p>
+		</article>
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
 				2024-01-01 &ast; WinterJam 2023 has ended
