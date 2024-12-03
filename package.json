@@ -42,7 +42,7 @@
 		"@fontsource/press-start-2p": "^5.0.17",
 		"classnames": "^2.3.2",
 		"flowbite": "^2.2.0",
-		"flowbite-svelte": "^0.46.0",
+		"flowbite-svelte": "^0.47.0",
 		"flowbite-svelte-icons": "^1.0.0",
 		"human-format": "^1.2.0",
 		"svelte-particles": "^2.12.0",
