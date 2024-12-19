@@ -7,15 +7,16 @@
 </script>
 
 <Meta title="Rules" />
-<h1>WinterJam 2023 Rules</h1>
+<h1>WinterJam 2024 Rules</h1>
 
 <ol class="text-justify md:child:text-xl child:text-lg child:rounded-lg child:bg-slate-950 child:bg-opacity-30 child:p-4">
     <li>
         <h4>
-            1. Submissions must only be created/updated from December 1st to January 1st UTC.
+            1. Submissions must only be created from December 20th to Febuary 25th UTC.
         </h4>
         <span>
-            You may think about and plan your project ahead of time but all code, datapacks and resources (including textures, sounds, models and animations) must be made during the specified time window.
+            You may think about and plan your project ahead of time but all code, datapacks and resources (including textures, sounds, models and animations) must be made during the specified time window.<br>
+            While the submissions window is between the 20th of December until the 25th of Febuary, the event will run until March the 20th at the end of winter so submissions can still be updated after that.
         </span>
         <div class="m-auto mt-2 md:w-4/5">
             <Alert color="blue">
@@ -32,9 +33,9 @@
             2. Submissions should fit with the broader themes of the jam.
         </h4>
         <span>
-            These themes include anything that is related to winter and the holidays in December.<br>
+            These themes include anything that is related to winter and the holidays Between the start and end date.<br>
             Christmas, New Year and The Solstice events for the Northern or Southern hemisphear are all during this period.<br>
-            Other holidays that are not mentioned here are also permitted.
+            Other holidays that are not mentioned here are also permitted but if you are unsure feel free to check with us.
         </span>
     </li>
     <li>
@@ -71,7 +72,7 @@
         <span>
             This allow for tracking of work done so we know you have not cheated and started before the permitted time
             or used tools such as MCreator, this also makes it easier for others in your team or otherwise to contribute to your project.<br>
-            Licenses can always be decided on for code and assets at a later date.
+            Licenses can always be decided on for code and assets at a later date if needed.
         </span>
     </li>
     <li>
@@ -96,12 +97,11 @@
     </li>
     <li>
         <h4>
-            9. Submissions should be compatible with Minecraft 1.20.1 and the Forge Mod Loader.
+            9. Submissions should be compatible with Minecraft 1.21.4 and the NeoForge mod loader.
         </h4>
         <span>
-            This is not a hard requirement. Other versions and/or loaders are accepted, but to be included in the pack and server, your mod must be compatible with Minecraft 1.20.1 and Forge 47.1.3.<br>
-            We will attempt to load Fabric submissions using <ExternalLink href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector" class="underline">Sinytra Connector</ExternalLink> but we cannot guarantee that it will work.<br>
-            ⚠ <span class="underline">Fabric devs please test your mod with Sinytra Connector!</span>
+            This is not a hard requirement. Other versions and/or loaders are accepted, but to be included in the pack and server, your mod must be compatible with Minecraft 1.21.4 and NeoForge 21.4.30>.<br>
+            If you develop mods on another loader, we suggest you use <ExternalLink href="https://github.com/jaredlll08/MultiLoader-Template" class="underline" target="_self">MultiLoader-Template</ExternalLink> to be able to submit your project to be used in the modpack.
         </span>
     </li>
 </ol>

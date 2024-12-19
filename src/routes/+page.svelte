@@ -6,7 +6,7 @@
 	import type { PageData } from './$types';
 	import { onMount } from 'svelte';
 
-	const jamStartDate = new Date('2024-12-21T00:00:00Z');
+	const jamStartDate = new Date('2024-12-20T00:00:00Z');
 	const jamEndDate = new Date('2025-03-20T00:00:00Z');
 	const now = new Date();
 
@@ -75,7 +75,7 @@
 			<p class="text-xl text-justify">
 				WinterJam 2024 is (I was in work and forgot sorry!) just around the corner!<br>
 				This year WinterJam will run from <Tooltip>{new Date("2024-12-20T00:00Z").toLocaleString()}</Tooltip> until
-				<Tooltip>{new Date("2025-02-15T00:00Z").toLocaleString()}</Tooltip>.
+				<Tooltip>{new Date("2025-03-20T00:00Z").toLocaleString()}</Tooltip>.
 				While the rules are mostly the same as last year we are bumping the
 				<span class="text-important">Minecraft version to 1.21.4 and NeoForge is the loader of choice this time.</span>
 				While the rest of the rules have mostly stayed the same we ask that you give yourself a refresher so you're up to date.
