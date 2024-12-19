@@ -4,7 +4,7 @@
 </script>
 
 <Meta title="FAQ" />
-<h1>WinterJam 2023 FAQ</h1>
+<h1>WinterJam 2024 FAQ</h1>
 
 <ol
 	class="text-justify md:child:text-xl child:text-lg child:rounded-lg child:bg-slate-950 child:bg-opacity-30 child:p-4"
@@ -33,19 +33,12 @@
 	<li>
 		<h4>Can I submit the same mod on multiple modloaders?</h4>
 		<span>
-			While Forge is the primary modloader for this event, others are allowed. However, only mods
-			compatible with Forge or <ExternalLink
-				href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector"
-				class="underline">Sinytra Connector</ExternalLink
-			> will be added to the pack.<br />
+			While NeoForge is the primary modloader for this event, others are allowed. However, only mods
+			compatible with NeoForge will be added to the pack.<br />
 			Be advised that supporting multiple loaders is completely optional. Doing so will require additional
 			effort and may be stressful.<br />
-			If you're still interested in doing so, you can use <ExternalLink
-				href="https://github.com/architectury/architectury-templates"
-				class="underline">Architectury</ExternalLink
-			> or <ExternalLink href="https://github.com/jaredlll08/MultiLoader-Template" class="underline"
-				>Jared's MultiLoader Template</ExternalLink
-			> to help with this.
+			If you're still interested in doing so, you can use <ExternalLink href="https://github.com/architectury/architectury-templates" class="underline">Architectury</ExternalLink>
+			or <ExternalLink href="https://github.com/jaredlll08/MultiLoader-Template" class="underline">Jared's MultiLoader Template</ExternalLink> to help with this.
 		</span>
 	</li>
 	<li>
@@ -86,11 +79,9 @@
 		<h4>Do I need to submit my project?</h4>
 		<span>
 			Yes you must submit your project before the event deadline via the submissions form.<br />
-			(Your submission will only be counted if you are a member of the <ExternalLink
-				href="/discord"
-				class="underline">Minecraft Mod Development discord server</ExternalLink
-			> where the event is hosted)<br />
-			<a class="font-bold underline hover:text-important focus:text-important" href="/jams/2023/submit">Click here to submit your project!</a>
+			(Your submission will only be counted if you are a member of the <ExternalLink href="/discord" class="underline">Discord community</ExternalLink>
+			where the event is hosted)<br />
+			<a class="font-bold underline hover:text-important focus:text-important" href="/jams/2024/submit">Click here to submit your project!</a>
 		</span>
 	</li>
 	<li>

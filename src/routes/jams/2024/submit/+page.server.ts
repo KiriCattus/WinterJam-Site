@@ -21,16 +21,16 @@ export const actions = {
 	default: async (event) => {
 		const now = new Date();
 
-		const jamEndDate = new Date('2024-01-01T00:00:00Z');
+		const jamEndDate = new Date('2025-02-25T00:00:00Z');
 
 		if (now > jamEndDate) {
-			throw error(401, 'Jam has ended');
+			throw error(401, 'The submissions window has passed.');
 		}
 
 		const data = await event.request.formData();
 
 		const submission: SubmissionRequest = {
-			year: 2023,
+			year: 2024,
 			name: getField(data, 'name')!,
 			url: getField(data, 'url')!,
 			source: getField(data, 'source')!,
@@ -55,7 +55,7 @@ export const actions = {
 
 export const load: PageServerLoad = async () => {
 	const now = Date.now();
-	const jamEndDate = new Date('2024-01-01T00:00:00Z').getTime();
+	const jamEndDate = new Date('2025-02-25T00:00:00Z').getTime();
 
 	if (now > jamEndDate) {
 		throw redirect(303, '/');
