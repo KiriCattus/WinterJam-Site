@@ -38,7 +38,7 @@ async function hydrateSubmissions(submissions: ModSubmission[]): Promise<void> {
 }
 
 async function putSubmission(submission: SubmissionRequest, origin: string): Promise<void> {
-    await discord.sendSubmission(submission, new URL('/images/util/webhook-logo.png', origin));
+    await discord.sendSubmission(submission, new URL('/images/snowman.png', origin));
 }
 
 export default {

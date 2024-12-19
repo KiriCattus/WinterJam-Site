@@ -10,7 +10,7 @@
 
 	$: activeUrl = $page.url.pathname;
 
-	const years = ['2023', '2022', '2021', '2020', '2019', '2018'];
+	const years = ['2024', '2023', '2022', '2021', '2020', '2019', '2018'];
 </script>
 
 <div class="h-full min-h-screen from-sky-500 bg-gradient-to-t to-sky-300 -z-10 pb-24">

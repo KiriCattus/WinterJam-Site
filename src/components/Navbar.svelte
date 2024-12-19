@@ -11,8 +11,8 @@
 <Navbar color="none">
 	<NavBrand href="/">
 		<enhanced:img
-			src="$assets/sponsors/mmd/logo-winter.png"
-			alt="MMD Winter Logo"
+			src="$assets/images/snowman.png"
+			alt="WinterJam Snowman Logo"
 			class="w-12 h-12"
 		/>
 	</NavBrand>
