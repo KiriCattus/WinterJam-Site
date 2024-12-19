@@ -1,7 +1,5 @@
 <script lang="ts">
-	import { InfoCircleOutline, DownloadOutline } from "flowbite-svelte-icons";
 	import ModEntry from '$components/ModEntry.svelte';
-	import ExternalLink from '$components/ExternalLink.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;

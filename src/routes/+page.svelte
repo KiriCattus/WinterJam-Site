@@ -74,7 +74,11 @@
 			</h3>
 			<p class="text-xl text-justify">
 				WinterJam 2024 is (I was in work and forgot sorry!) just around the corner!<br>
-				This year WinterJam will run from <Tooltip>{new Date("2024-12-20T00:00Z").toLocaleString()}</Tooltip> until
+				This year WinterJam will run from
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2024-12-20 00:00 UTC</span>
+				<Tooltip>{new Date("2024-12-20T00:00Z").toLocaleString()}</Tooltip>
+				until
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2025-03-20 00:00 UTC</span>
 				<Tooltip>{new Date("2025-03-20T00:00Z").toLocaleString()}</Tooltip>.
 				While the rules are mostly the same as last year we are bumping the
 				<span class="text-important">Minecraft version to 1.21.4 and NeoForge is the loader of choice this time.</span>

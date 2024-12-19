@@ -1,4 +1,3 @@
-import curseforge from "$lib/server/curseforge";
 import submissions from "$lib/server/submissions";
 import type { PageServerLoad } from "./$types";
 
