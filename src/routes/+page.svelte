@@ -70,6 +70,24 @@
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2024-12-20 &ast; WinterJam 2024 has started!
+			</h3>
+			<p class="text-xl text-justify">
+				WinterJam 2024 has officially begun!<br>
+				The submissions form for WinterJam 2024 is now open,
+				<ExternalLink href="/jams/2024/submit" class="underline" target="_self"
+					>Click here</ExternalLink> to submit your project.<br>
+				Submissions will be open until
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2025-02-25 00:00 UTC</span>
+				<Tooltip>{new Date("2025-02-25T00:00Z").toLocaleString()}</Tooltip>.
+				<span class="text-important">
+					If you want to join WinterJam 2024, you must be a part of our <ExternalLink
+					href="/discord" class="underline">Discord Community</ExternalLink>.
+				</span>
+			</p>
+		</article>
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
 				2024-12-19 &ast; WinterJam 2024 is coming!
 			</h3>
 			<p class="text-xl text-justify">
