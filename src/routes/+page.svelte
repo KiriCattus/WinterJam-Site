@@ -73,6 +73,15 @@
 				2024-12-20 &ast; WinterJam 2024 has started!
 			</h3>
 			<p class="text-xl text-justify">
+				Alert! Alert! After some community feedback and a vote, we have decided to go from 1.21.4 down to 1.21.1 for WinterJam 2024.<br>
+				This will hopefully let more users participate and give us a wider choice of mods for the upcoming pack in the next month or so, we hope we've made this change early enough to not greatly impact anyones work in progress submission, there shouldn't be any other major changes after this for now.
+			</p>
+		</article>
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2024-12-20 &ast; WinterJam 2024 has started!
+			</h3>
+			<p class="text-xl text-justify">
 				WinterJam 2024 has officially begun!<br>
 				The submissions form for WinterJam 2024 is now open,
 				<ExternalLink href="/jams/2024/submit" class="underline" target="_self"
