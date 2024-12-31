@@ -70,7 +70,7 @@
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
-				2024-12-20 &ast; WinterJam 2024 has started!
+				2024-12-30 &ast; Minecraft version change!!!
 			</h3>
 			<p class="text-xl text-justify">
 				Alert! Alert! After some community feedback and a vote, we have decided to go from 1.21.4 down to 1.21.1 for WinterJam 2024.<br>
@@ -108,7 +108,7 @@
 				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2025-03-20 00:00 UTC</span>
 				<Tooltip>{new Date("2025-03-20T00:00Z").toLocaleString()}</Tooltip>.
 				While the rules are mostly the same as last year we are bumping the
-				<span class="text-important">Minecraft version to 1.21.4 and NeoForge is the loader of choice this time.</span>
+				<span class="text-important">Minecraft version to 1.21.1 and NeoForge is the loader of choice this time.</span>
 				While the rest of the rules have mostly stayed the same we ask that you give yourself a refresher so you're up to date.
 			</p>
 		</article>

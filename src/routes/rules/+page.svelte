@@ -97,10 +97,10 @@
     </li>
     <li>
         <h4>
-            9. Submissions should be compatible with Minecraft 1.21.4 and the NeoForge mod loader.
+            9. Submissions should be compatible with Minecraft 1.21.1 and the NeoForge mod loader.
         </h4>
         <span>
-            This is not a hard requirement. Other versions and/or loaders are accepted, but to be included in the pack and server, your mod must be compatible with Minecraft 1.21.4 and NeoForge 21.4.30>.<br>
+            This is not a hard requirement. Other versions and/or loaders are accepted, but to be included in the pack and server, your mod must be compatible with Minecraft 1.21.1 and NeoForge 21.1.92>.<br>
             If you develop mods on another loader, we suggest you use <ExternalLink href="https://github.com/jaredlll08/MultiLoader-Template" class="underline" target="_self">MultiLoader-Template</ExternalLink> to be able to submit your project to be used in the modpack.
         </span>
     </li>
