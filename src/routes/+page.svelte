@@ -199,8 +199,8 @@
 	</div>
 </section>
 
-<section id="temp-23-link" class="flex items-center">
-	<a href="/jams/2023" class="m-auto group" tabindex="0">
+<section id="temp-24-link" class="flex items-center">
+	<a href="/jams/2024" class="m-auto group" tabindex="0">
 		<p
 			class="m-0 text-2xl font-blocky text-sky-950 hover:text-important group-focus:text-important"
 		>
