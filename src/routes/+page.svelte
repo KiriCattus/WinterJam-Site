@@ -73,7 +73,7 @@
 				2024-12-30 &ast; Minecraft version change!!!
 			</h3>
 			<p class="text-xl text-justify">
-				Alert! Alert! After some community feedback and a vote, we have decided to go from 1.21.4 down to 1.21.1 for WinterJam 2024.<br>
+				Alert! Alert! After some community feedback and a vote, <span class="text-important font-bold">we have decided to revert to Minecraft 1.21.1</span> for WinterJam 2024.<br>
 				This will hopefully let more users participate and give us a wider choice of mods for the upcoming pack in the next month or so, we hope we've made this change early enough to not greatly impact anyones work in progress submission, there shouldn't be any other major changes after this for now.
 			</p>
 		</article>
@@ -89,7 +89,8 @@
 				Submissions will be open until
 				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2025-02-25 00:00 UTC</span>
 				<Tooltip>{new Date("2025-02-25T00:00Z").toLocaleString()}</Tooltip>.
-				<span class="text-important">
+				<br>
+				<span class="text-important font-bold">
 					If you want to join WinterJam 2024, you must be a part of our <ExternalLink
 					href="/discord" class="underline">Discord Community</ExternalLink>.
 				</span>
