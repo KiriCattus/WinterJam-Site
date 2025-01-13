@@ -24,7 +24,7 @@
 		"cf-bindings-proxy": "^0.7.1",
 		"concurrently": "^9.0.0",
 		"eslint": "^9.0.0",
-		"eslint-config-prettier": "^9.0.0",
+		"eslint-config-prettier": "^10.0.0",
 		"eslint-plugin-svelte": "^2.30.0",
 		"postcss": "^8.4.24",
 		"prettier": "^3.0.0",
