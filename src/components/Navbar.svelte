@@ -11,7 +11,7 @@
 <Navbar color="none">
 	<NavBrand href="/">
 		<enhanced:img
-			src="$assets/images/snowman_head.png"
+			src="$assets/images/winterjam_snowman_head.png"
 			alt="WinterJam Snowman Head Logo"
 			class="w-12 h-12"
 		/>
