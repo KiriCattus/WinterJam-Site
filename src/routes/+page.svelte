@@ -70,6 +70,17 @@
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2024-01-22 &ast; Surprise sponsorship announcement!!!
+			</h3>
+			<p class="text-xl text-justify">
+				We have some amazing news! CurseForge have VERY kindly reached out to sponsor WinterJam 2024! Please go and give them a HUGE thank you and check out <ExternalLink
+					href="https://blog.curseforge.com"
+					target="_self"
+					class="underline">CurseForge.com</ExternalLink> and see all the amazing work they do for the community!
+			</p>
+		</article>
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
 				2024-12-30 &ast; Minecraft version change!!!
 			</h3>
 			<p class="text-xl text-justify">

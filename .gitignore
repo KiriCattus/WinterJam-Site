@@ -12,3 +12,6 @@ vite.config.ts.timestamp-*
 # Cloudflare
 .*.vars
 .wrangler/
+
+# editor
+.idea

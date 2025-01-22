@@ -1,6 +1,6 @@
 <script>
 	import { NavLi, Dropdown, DropdownItem } from 'flowbite-svelte';
-	import { ChevronDownOutline, DiscordSolid } from 'flowbite-svelte-icons';
+	import { ChevronDownOutline } from 'flowbite-svelte-icons';
 	import '@fontsource/press-start-2p';
 	import '../app.postcss';
 	import { page } from '$app/stores';
@@ -35,8 +35,7 @@
 					</DropdownItem>
 				{/each}
 			</Dropdown>
-			
-			<ExternalLink class="text-xl" href="/discord" noIcon><DiscordSolid class="w-8 h-8 ml-1" tabindex="-1" />Discord</ExternalLink>
+			<ExternalLink class="text-xl" href="/discord">Discord</ExternalLink>
 		</Navbar>
 		<main class="w-11/12 mx-auto lg:w-3/4">
 			<slot />
