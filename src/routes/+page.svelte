@@ -51,7 +51,7 @@
 				? 'today'
 				: `in ${endDays} ${endDays === 1 ? 'day' : 'days'}`}!
 		</p>
-		<p class="m-0 text-1xl font-blocky">
+		<p class="text-2xl text-justify">
 			(The submissions window closes on the 25th of February, please submit before this date)
 		</p>
 	{/if}
