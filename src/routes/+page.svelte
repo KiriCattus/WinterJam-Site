@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { Tooltip } from 'flowbite-svelte';
-	import Meta from '$components/Meta.svelte';
 	import Countdown from '$components/Countdown.svelte';
 	import ExternalLink from '$components/ExternalLink.svelte';
-	import type { PageData } from './$types';
+	import Meta from '$components/Meta.svelte';
+	import { Tooltip } from 'flowbite-svelte';
 	import { onMount } from 'svelte';
+	import type { PageData } from './$types';
 
 	const jamStartDate = new Date('2024-12-20T00:00:00Z');
 	const jamEndDate = new Date('2025-03-20T00:00:00Z');
@@ -50,6 +50,9 @@
 			WinterJam 2024 ends {endDays === 0
 				? 'today'
 				: `in ${endDays} ${endDays === 1 ? 'day' : 'days'}`}!
+		</p>
+		<p class="m-0 text-2xl font-blocky">
+			(The submissions window closes on the 25th of February, please submit before this date)
 		</p>
 	{/if}
 </section>
