@@ -49,7 +49,7 @@
     </li>
     <li>
         <h4>
-            4. Third party dependencies such as libraries, frameworks, API's and other mods are allowed.
+            4. Third party dependencies such as libraries, frameworks, API's and other mods are allowed. (This does not include MCreator)
         </h4>
         <span>
             However you are responsible for any issues that may occur and should fix them or report them to the respective developers.<br>
