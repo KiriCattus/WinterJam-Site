@@ -52,7 +52,7 @@
 				: `in ${endDays} ${endDays === 1 ? 'day' : 'days'}`}!
 		</p>
 		<p class="text-2xl text-justify">
-			(The submissions window closes on the 25th of February, please submit projects before this date)
+			(The submissions window closes on the 20th of March, please submit projects before this date)
 		</p>
 	{/if}
 </section>
