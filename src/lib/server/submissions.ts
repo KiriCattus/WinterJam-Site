@@ -14,7 +14,9 @@ async function getSubmissions(platform: App.Platform | undefined, year: number):
             year: year,
             resubmission: row.resubmission,
         }
-    }).sort((a, b) => {
+    })
+    .filter(mod => mod.platform === 'curseforge') // TODO remove when we support modrinth properly
+    .sort((a, b) => {
         if (a.resubmission && !b.resubmission) return 1;
         if (!a.resubmission && b.resubmission) return -1;
 
