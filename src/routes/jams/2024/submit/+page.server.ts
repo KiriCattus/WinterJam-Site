@@ -1,7 +1,7 @@
+import submissions from '$lib/server/submissions';
+import type { SubmissionRequest } from '$lib/submissions';
 import { error, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
-import type { SubmissionRequest } from '$lib/submissions';
-import submissions from '$lib/server/submissions';
 
 function getField(data: FormData, name: string, required = true, maxLength = 256): string | undefined {
 	const value = data.get(name);
@@ -21,7 +21,7 @@ export const actions = {
 	default: async (event) => {
 		const now = new Date();
 
-		const jamEndDate = new Date('2025-02-25T00:00:00Z');
+		const jamEndDate = new Date('2025-03-20T00:00:00Z');
 
 		if (now > jamEndDate) {
 			throw error(401, 'The submissions window has passed.');
@@ -55,7 +55,7 @@ export const actions = {
 
 export const load: PageServerLoad = async () => {
 	const now = Date.now();
-	const jamEndDate = new Date('2025-02-25T00:00:00Z').getTime();
+	const jamEndDate = new Date('2025-03-20T00:00:00Z').getTime();
 
 	if (now > jamEndDate) {
 		throw redirect(303, '/');
