@@ -54,6 +54,8 @@
 		<p class="text-2xl text-justify">
 			(The submissions window closes on the 20th of March, please submit projects before this date)
 		</p>
+	{:else}
+		<h1>WinterJam 2024 is now over!</h1>
 	{/if}
 </section>
 <Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip>
