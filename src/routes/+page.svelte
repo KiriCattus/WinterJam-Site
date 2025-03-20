@@ -147,7 +147,7 @@
 			</h3>
 			<p class="text-xl text-justify">
 				WinterJam 2023 is now officially over! Thank you to all the participants, we hope you had fun!<br>
-				There have been a total of <span class="text-important font-bold">{data.wj2023Entrties.length} entries</span> this year, which is amazing!<br>
+				There have been a total of <span class="text-important font-bold">{data.wj2023Entries.length} entries</span> this year, which is amazing!<br>
 				We will be keeping the Minecraft server open for a while longer, so you can keep playing on there.
 			</p>
 		</article>
