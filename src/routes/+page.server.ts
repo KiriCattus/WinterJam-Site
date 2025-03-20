@@ -7,9 +7,11 @@ export const load: PageServerLoad = async ({ platform }) => {
     const winterjamPack = await curseforge.getMod('952466');
 
     const entries23 = await submissions.getSubmissions(platform, 2023);
+    const entries24 = await submissions.getSubmissions(platform, 2024);
 
     return {
         wj2023Entries: entries23,
+        wj2024Entries: entries24,
         workshopsOfDoom: {
             name: workshopsOfDoom?.name ?? 'Workshops of Doom',
             url: workshopsOfDoom?.url ?? 'https://www.curseforge.com/projects/426387',
