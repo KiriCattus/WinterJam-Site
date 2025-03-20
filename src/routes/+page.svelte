@@ -5,6 +5,7 @@
 	import { Tooltip } from 'flowbite-svelte';
 	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
+	import { HeartSolid } from 'flowbite-svelte-icons';
 
 	const jamStartDate = new Date('2024-12-20T00:00:00Z');
 	const jamEndDate = new Date('2025-03-20T00:00:00Z');
@@ -75,7 +76,17 @@
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
-				2025-01-22 &ast; Surprise sponsorship announcement!!!
+				2025-03-20 &ast; WinterJam 2024 has ended
+			</h3>
+			<p class="text-xl text-justify">
+				The submission period for WinterJam 2024 is now over, and we will be setting up the modpack and server soon.<br>
+				Check back here in the coming days to claim your prizes as well!<br>
+				We have had {data.wj2024Entries.length} projects submitted this year, which is quite a number for our small modjam! Thank you everyone! &lt;3
+			</p>
+		</article>
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2025-01-22 &ast; Surprise sponsorship announcement
 			</h3>
 			<p class="text-xl text-justify">
 				We have some amazing news! CurseForge have VERY kindly reached out to sponsor WinterJam 2024! Please go and give them a HUGE thank you and check out <ExternalLink
