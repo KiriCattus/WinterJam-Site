@@ -4,12 +4,12 @@
     import { Tooltip } from 'flowbite-svelte';
 </script>
 
+<Meta title="News - WinterJam 2024" />
+
 <header class="w-full pb-12 m-auto md:w-10/12 lg:w-3/4">
     <enhanced:img src="$assets/images/banner_large.png" alt="WinterJam Banner" class="md:pb-12" />
+    <h1 class="block w-full">WinterJam 2024 News</h1>
 </header>
-
-<Meta title="News - WinterJam 2024" />
-<h1>WinterJam 2024 News</h1>
 
 <section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
     <h2 class="pb-5 mb-4 text-6xl text-left underline font-blocky">WinterJam 2024 News</h2>
@@ -31,7 +31,7 @@
 			<p class="text-xl text-justify">
 				The submission period for WinterJam 2024 is now over, and we will be setting up the modpack and server soon.<br>
 				Check back here in the coming days to claim your prizes as well!<br>
-				We have had {data.wj2024Entries.length} projects submitted this year, which is quite a number for our small modjam! Thank you everyone! &lt;3
+				We have had 19 projects submitted this year, which is quite a number for our small modjam! Thank you everyone! &lt;3
 			</p>
 		</article>
 		<article>
