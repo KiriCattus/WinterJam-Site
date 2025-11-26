@@ -1,10 +1,7 @@
-<script lang="ts">
+<script>
     import ExternalLink from '$components/ExternalLink.svelte';
     import Meta from '$components/Meta.svelte';
     import { Tooltip } from 'flowbite-svelte';
-	import type { PageData } from '../$types';
-
-	export let data: PageData;
 </script>
 
 <Meta title="2024 News" />
@@ -33,7 +30,7 @@
 			<p class="text-xl text-justify">
 				The submission period for WinterJam 2024 is now over, and we will be setting up the modpack and server soon.<br>
 				Check back here in the coming days to claim your prizes as well!<br>
-				We have had {data.wj2024Entries.length} projects submitted this year, which is quite a number for our small modjam! Thank you everyone! &lt;3
+				We have had 19 projects submitted this year, which is quite a number for our small modjam! Thank you everyone! &lt;3
 			</p>
 		</article>
 		<article>
