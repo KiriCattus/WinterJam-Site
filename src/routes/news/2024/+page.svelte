@@ -1,7 +1,7 @@
 <script>
     import ExternalLink from '$components/ExternalLink.svelte';
     import Meta from '$components/Meta.svelte';
-    import Tooltip from '$flowbite-svelte';
+    import { Tooltip } from 'flowbite-svelte';
 </script>
 
 <header class="w-full pb-12 m-auto md:w-10/12 lg:w-3/4">
