@@ -65,7 +65,7 @@
 					target="_self">Jam Page</ExternalLink
 				> to see them.<br />
 				<span class="text-important"
-					>Big shoutout to <ExternalLink href=https://www.curseforge.com/projects/426387 class="underline"
+					>Big shoutout to <ExternalLink href="https://www.curseforge.com/projects/426387" class="underline"
 						>Workshops of Doom</ExternalLink
 					> for participating in WinterJam for the <strong>THIRD TIME</strong> total!</span
 				>
