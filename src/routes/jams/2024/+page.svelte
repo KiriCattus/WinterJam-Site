@@ -58,7 +58,7 @@
 
 <section id="entries">
 	<h2>Entries</h2>
-	<ul class="flex flex-col bg-opacity-30 items-center justify-center w-full m-auto mt-8">
+	<ul class="flex flex-col items-center justify-center w-full m-auto mt-8">
 		{#each data.mods as mod}
 			<li class="min-h-max">
 				<ModEntry data={mod} />
