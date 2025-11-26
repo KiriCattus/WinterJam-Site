@@ -1,10 +1,7 @@
-<script lang="ts">
+<script>
     import ExternalLink from '$components/ExternalLink.svelte';
     import Meta from '$components/Meta.svelte';
     import { Tooltip } from 'flowbite-svelte';
-    import type { PageData } from '../$types';
-
-    export let data: PageData;
 </script>
 
 <Meta title="2023 News" />
@@ -34,7 +31,7 @@
 			</h3>
 			<p class="text-xl text-justify">
 				WinterJam 2023 is now officially over! Thank you to all the participants, we hope you had fun!<br>
-				There have been a total of <span class="text-important font-bold">{data.wj2023Entries.length} entries</span> this year, which is amazing!<br>
+				There have been a total of <span class="text-important font-bold">23 entries</span> this year, which is amazing!<br>
 				We will be keeping the Minecraft server open for a while longer, so you can keep playing on there.
 			</p>
 		</article>
@@ -46,7 +43,7 @@
 				Just in time for Christmas Eve, it is finally time to release the submissions for 2023 into
 				the wild!<br />
 				The WinterJam 2023 modpack and server are now live, you can <ExternalLink
-					href={data.winterjamPack.url}
+					href=https://www.curseforge.com/minecraft/modpacks/winterjam-2023
 					class="underline">find the modpack on CurseForge</ExternalLink
 				><br />
 				<span class="text-important">
@@ -68,8 +65,8 @@
 					target="_self">Jam Page</ExternalLink
 				> to see them.<br />
 				<span class="text-important"
-					>Big shoutout to <ExternalLink href={data.workshopsOfDoom.url} class="underline"
-						>{data.workshopsOfDoom.name}</ExternalLink
+					>Big shoutout to <ExternalLink href=https://www.curseforge.com/projects/426387 class="underline"
+						>Workshops of Doom</ExternalLink
 					> for participating in WinterJam for the <strong>THIRD TIME</strong> total!</span
 				>
 			</p>
