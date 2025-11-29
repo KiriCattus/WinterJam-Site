@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
 	import { NavLi, Dropdown, DropdownItem } from 'flowbite-svelte';
 	import { ChevronDownOutline } from 'flowbite-svelte-icons';
 	import '@fontsource/press-start-2p';
-	import '../app.postcss';
+	import '../app.css';
 	import { page } from '$app/stores';
 	import SnowParticles from '$components/fx/SnowParticles.svelte';
 	import Navbar from '$components/Navbar.svelte';
@@ -14,7 +14,7 @@
 	const newsYears = ['2024', '2023'];
 </script>
 
-<div class="h-full min-h-screen from-sky-500 bg-gradient-to-t to-sky-300 -z-10 pb-24">
+<div class="h-full min-h-screen from-sky-500 bg-linear-to-t to-sky-300 -z-10 pb-24">
 	<SnowParticles class="fixed md:block" />
 	<div class="container relative mx-auto">
 		<Navbar {activeUrl}>

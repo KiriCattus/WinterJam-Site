@@ -37,7 +37,7 @@
 </script>
 
 <section id="info" class="mt-12 w-5/6">
-	<div class="p-5 bg-black bg-opacity-30 rounded-xl flex place-items-center flex-col">
+	<div class="p-5 bg-black/30 rounded-xl flex place-items-center flex-col">
 		<!-- <h2>Submissions</h2>
 		<a href="submit" class="underline hover:text-important focus:text-important">
 			Click here to submit your project!

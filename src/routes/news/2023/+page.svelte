@@ -11,7 +11,7 @@
     <h2 class="block w-full">WinterJam 2023 News</h2>
 </header>
 
-<section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
+<section id="news" class="p-5 bg-black/10 rounded-xl">
 	<div class="flex flex-col gap-4">
         <article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
@@ -79,7 +79,7 @@
 				The submissions form for WinterJam 2023 is now live!
 				<ExternalLink href="/jams/2023/submit" class="underline" target="_self">Click here</ExternalLink> to submit your project.<br />
 				Submissions will be open until
-				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">
+				<span class="p-2 text-xs underline bg-black/30 rounded-lg font-blocky">
                     2024-01-01 00:00 UTC
                 </span>
                 <Tooltip>{new Date("2024-01-01T00:00Z").toLocaleString()}</Tooltip>.

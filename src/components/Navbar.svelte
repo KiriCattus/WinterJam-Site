@@ -19,8 +19,10 @@
 	<NavHamburger />
 	<NavUl
 		bind:activeUrl
-		activeClass={classNames(textClasses, 'underline')}
-		nonActiveClass={textClasses}
+		classes={{
+			nonActive: textClasses,
+			active: classNames(textClasses, 'underline')
+		}}
 	>
 		<slot />
 	</NavUl>

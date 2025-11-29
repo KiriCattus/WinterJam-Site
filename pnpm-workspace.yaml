@@ -1,4 +1,5 @@
 onlyBuiltDependencies:
+  - '@tsparticles/engine'
   - esbuild
   - sharp
   - workerd

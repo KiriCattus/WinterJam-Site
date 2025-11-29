@@ -20,7 +20,7 @@
 {:else}
 	<form
         method="post"
-		class="flex flex-col gap-2 p-5 bg-black text-primary bg-opacity-10 rounded-xl"
+		class="flex flex-col gap-2 p-5 bg-black/10 text-primary rounded-xl"
         use:enhance
 	>
 		<div>

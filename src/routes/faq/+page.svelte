@@ -7,7 +7,7 @@
 <h1>WinterJam 2024 FAQ</h1>
 
 <ol
-	class="text-justify md:child:text-xl child:text-lg child:rounded-lg child:bg-slate-950 child:bg-opacity-30 child:p-4"
+	class="text-justify md:*:text-xl *:text-lg *:rounded-lg *:bg-slate-950/30 *:p-4"
 >
 	<li>
 		<h4>Can I submit multiple mods to this event?</h4>

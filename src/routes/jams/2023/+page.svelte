@@ -17,7 +17,7 @@
 </section>
 
 <section id="info" class="mt-12">
-	<div class="p-5 bg-black bg-opacity-30 rounded-xl flex flex-col gap-4">
+	<div class="p-5 bg-black/30 rounded-xl flex flex-col gap-4">
 		<h4><DownloadOutline class="inline w-8 h-8 mb-1 mr-2" />ModPack and World Downloads</h4>
 		<span>
 			You can find the WinterJam 2023 Modpack on <ExternalLink href={data.winterjamPack.url} class="underline">CurseForge</ExternalLink>

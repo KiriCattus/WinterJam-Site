@@ -11,7 +11,7 @@
     <h2 class="block w-full">WinterJam 2024 News</h2>
 </header>
 
-<section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
+<section id="news" class="p-5 bg-black/10 rounded-xl">
 	<div class="flex flex-col gap-4">
         <article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
@@ -63,7 +63,7 @@
 				<ExternalLink href="/jams/2024/submit" class="underline" target="_self"
 					>Click here</ExternalLink> to submit your project.<br>
 				Submissions will be open until
-				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2025-02-25 00:00 UTC</span>
+				<span class="p-2 text-xs underline bg-black/30 rounded-lg font-blocky">2025-02-25 00:00 UTC</span>
 				<Tooltip>{new Date("2025-02-25T00:00Z").toLocaleString()}</Tooltip>.
 				<br>
 				<span class="text-important font-bold">
@@ -79,10 +79,10 @@
 			<p class="text-xl text-justify">
 				WinterJam 2024 is (I was in work and forgot sorry!) just around the corner!<br>
 				This year WinterJam will run from
-				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2024-12-20 00:00 UTC</span>
+				<span class="p-2 text-xs underline bg-black/30 rounded-lg font-blocky">2024-12-20 00:00 UTC</span>
 				<Tooltip>{new Date("2024-12-20T00:00Z").toLocaleString()}</Tooltip>
 				until
-				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2025-03-20 00:00 UTC</span>
+				<span class="p-2 text-xs underline bg-black/30 rounded-lg font-blocky">2025-03-20 00:00 UTC</span>
 				<Tooltip>{new Date("2025-03-20T00:00Z").toLocaleString()}</Tooltip>.
 				While the rules are mostly the same as last year we are bumping the
 				<span class="text-important">Minecraft version to 1.21.1 and NeoForge is the loader of choice this time.</span>

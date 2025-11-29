@@ -37,7 +37,7 @@
 
 <section
 	id="timers"
-	class="flex flex-col items-center w-full gap-4 p-5 m-auto mb-8 align-middle bg-black md:w-10/12 lg:w-3/4 rounded-xl bg-opacity-30"
+	class="flex flex-col items-center w-full gap-4 p-5 m-auto mb-8 align-middle bg-black/30 md:w-10/12 lg:w-3/4 rounded-xl"
 >
 	<!-- TODO make this work reactively -->
 	{#if diff > 0}
@@ -61,7 +61,7 @@
 </section>
 <Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip>
 
-<section id="info" class="p-5 bg-black bg-opacity-10 rounded-xl">
+<section id="info" class="p-5 bg-black/10 rounded-xl">
 	<p class="text-2xl text-justify">
 		This is the annual winter celebration for the modded Minecraft community. During winter we host
 		a mod jam where members of the community are encouraged to create new mods that fit the seasonal
@@ -71,7 +71,7 @@
 	</p>
 </section>
 
-<section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
+<section id="news" class="p-5 bg-black/10 rounded-xl">
 	<h2 class="pb-5 mb-4 text-6xl text-left underline font-blocky">News</h2>
 	<div class="flex flex-col gap-4">
 		<article>

@@ -89,4 +89,4 @@
 		await loadSlim(engine);
 	};
 </script>
-<Particles class={classNames("inset-0 bg-black bg-opacity-20", className)} options={particlesConfig} {particlesInit} />
+<Particles class={classNames("inset-0 bg-black/20", className)} options={particlesConfig} {particlesInit} />
