@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Checkbox, Label, Input, Helper, Textarea } from 'flowbite-svelte';
-	import { LinkSolid, DiscordSolid, CodeSolid, LabelSolid } from 'flowbite-svelte-icons';
+	import { LinkOutline, DiscordSolid, LabelSolid, CodeBranchOutline } from 'flowbite-svelte-icons';
     import { enhance } from '$app/forms';
 	import type { ActionData } from './$types';
 
@@ -24,22 +24,26 @@
         use:enhance
 	>
 		<div>
-			<Label for="project-name" color={''}>
+			<Label for="project-name" color={undefined}>
 				Project Name&nbsp;<span class="text-xs text-red-500 font-blocky">&ast;</span>
 			</Label>
-			<Input id="project-name" name="name" maxlength="256" required>
-				<LabelSolid class="w-5 h-5 text-xl" slot="left" />
+			<Input id="project-name" name="name" maxlength={256} required class="ps-8">
+				{#snippet left()}
+					<LabelSolid class="w-5 h-5 text-xl" />
+				{/snippet}
 			</Input>
 			<Helper>
 				<span class="text-primary"> What is the name of your project?</span>
 			</Helper>
 		</div>
 		<div>
-			<Label for="project-url" color={''}>
+			<Label for="project-url" color={undefined}>
 				Project URL&nbsp;<span class="text-xs text-red-500 font-blocky">&ast;</span>
 			</Label>
-			<Input id="project-url" name="url" type="url" maxlength="256" required>
-				<LinkSolid class="w-5 h-5 text-xl" slot="left" />
+			<Input id="project-url" name="url" type="url" maxlength={256} required class="ps-8">
+				{#snippet left()}
+					<LinkOutline class="w-5 h-5 text-xl" />
+				{/snippet}
 			</Input>
 			<Helper>
 				<span class="text-primary">
@@ -48,11 +52,13 @@
 			</Helper>
 		</div>
 		<div>
-			<Label for="project-source" color={''}>
+			<Label for="project-source" color={undefined}>
                 SourceCode URL&nbsp;<span class="text-xs text-red-500 font-blocky">&ast;</span>
             </Label>
-			<Input id="project-source" name="source" type="url" maxlength="256" required>
-				<CodeSolid class="w-5 h-5 text-xl" slot="left" />
+			<Input id="project-source" name="source" type="url" maxlength={256} required class="ps-8">
+				{#snippet left()}
+					<CodeBranchOutline class="w-5 h-5 text-xl" />
+				{/snippet}
 			</Input>
 			<Helper>
 				<span class="text-primary">
@@ -61,11 +67,13 @@
 			</Helper>
 		</div>
 		<div>
-			<Label for="project-contact" color={''}>
+			<Label for="project-contact" color={undefined}>
 				Primary Contact&nbsp;<span class="text-xs text-red-500 font-blocky">&ast;</span>
 			</Label>
-			<Input id="project-contact" name="contact" maxlength="256" required>
-				<DiscordSolid class="w-5 h-5 text-xl" slot="left" />
+			<Input id="project-contact" name="contact" maxlength={256} required class="ps-8">
+				{#snippet left()}
+					<DiscordSolid class="w-5 h-5 text-xl" />
+				{/snippet}
 			</Input>
 			<Helper>
 				<span class="text-primary">
@@ -75,9 +83,11 @@
 			</Helper>
 		</div>
 		<div>
-			<Label for="team-members" color={''}>Team Members</Label>
-			<Input id="team-members" name="members" maxlength="256">
-				<DiscordSolid class="w-5 h-5 text-xl" slot="left" />
+			<Label for="team-members" color={undefined}>Team Members</Label>
+			<Input id="team-members" name="members" maxlength={256} class="ps-8">
+				{#snippet left()}
+					<DiscordSolid class="w-5 h-5 text-xl" />
+				{/snippet}
 			</Input>
 			<Helper>
 				<span class="text-primary">
@@ -86,7 +96,7 @@
 			</Helper>
 		</div>
 		<div class="mt-5">
-			<Checkbox id="modpack-permission" color="yellow" name="modpack-permission" required checked>
+			<Checkbox id="modpack-permission" color="yellow" name="modpack-permission" required checked={false}>
 				<span class="font-bold text-primary">
 					Redistribution Permission&nbsp;<span class="text-xs text-red-500 font-blocky">&ast;</span>
 				</span>
@@ -96,9 +106,9 @@
 				of their current and future events.
 			</span>
 		</div>
-		<div class="mt-12">
-			<Label for="feedback" color={''}>Feedback</Label>
-			<Textarea id="feedback" name="feedback" rows="4" maxlength="1024" placeholder="Leave feedback for the event..." />
+		<div class="mt-12 w-full flex flex-col">
+			<Label for="feedback" color={undefined}>Feedback</Label>
+			<Textarea id="feedback" name="feedback" rows={4} maxlength={1024} placeholder="Leave feedback for the event..." class="w-full" />
 			<Helper>
 				<span class="text-primary">(optional, but appreciated!)</span>
 			</Helper>
