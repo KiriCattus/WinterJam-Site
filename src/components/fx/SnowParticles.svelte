@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Particles from 'svelte-particles';
-	import type { Engine, ISourceOptions } from 'tsparticles-engine';
-	import { loadSlim } from 'tsparticles-slim';
+	import Particles from '@tsparticles/svelte';
+	import type { Engine, ISourceOptions } from '@tsparticles/engine';
+	import { loadSlim } from '@tsparticles/slim';
 
 	import classNames from 'classnames';
 
