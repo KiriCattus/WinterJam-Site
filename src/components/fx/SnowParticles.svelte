@@ -1,16 +1,21 @@
 <script lang="ts">
-	import Particles from '@tsparticles/svelte';
 	import type { Engine, ISourceOptions } from '@tsparticles/engine';
 	import { loadSlim } from '@tsparticles/slim';
 
-	import classNames from 'classnames';
+	import TsParticles from '../temp/TsParticles.svelte';
+	import type { SvelteHTMLElements } from 'svelte/elements';
 
-	let className = '';
-	export { className as class };
+	let { animate = true, ...rest }: { animate?: boolean } & SvelteHTMLElements['div'] = $props();
 
-	export let animate = true;
+	let particlesInit = async (engine: Engine) => {
+		// you can use main to customize the tsParticles instance adding presets or custom shapes
+		// this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+		// starting from v2 you can add only the features you need reducing the bundle size
+		//await loadFull(engine);
+		await loadSlim(engine);
+	};
 
-	export let particlesConfig: ISourceOptions = {
+const particlesConfig: ISourceOptions = {
 		fullScreen: {
 			enable: true,
 			zIndex: -5
@@ -81,12 +86,7 @@
 		}
 	};
 
-	let particlesInit = async (engine: Engine) => {
-		// you can use main to customize the tsParticles instance adding presets or custom shapes
-		// this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-		// starting from v2 you can add only the features you need reducing the bundle size
-		//await loadFull(engine);
-		await loadSlim(engine);
-	};
+	console.log(rest.class)
+
 </script>
-<Particles class={classNames("inset-0 bg-black/20", className)} options={particlesConfig} {particlesInit} />
+<TsParticles options={particlesConfig} {particlesInit} {...rest} />

@@ -15,7 +15,7 @@
 </script>
 
 <div class="h-full min-h-screen from-sky-500 bg-linear-to-t to-sky-300 -z-10 pb-24">
-	<SnowParticles class="fixed md:block" />
+	<SnowParticles class="fixed inset-0 bg-black/20" />
 	<div class="container relative mx-auto">
 		<Navbar {activeUrl}>
 			<NavLi href="/">Home</NavLi>
