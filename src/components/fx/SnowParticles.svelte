@@ -85,8 +85,5 @@ const particlesConfig: ISourceOptions = {
 			}
 		}
 	};
-
-	console.log(rest.class)
-
 </script>
 <TsParticles options={particlesConfig} {particlesInit} {...rest} />
