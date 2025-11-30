@@ -11,7 +11,7 @@
     <h2 class="block w-full">WinterJam 2024 News</h2>
 </header>
 
-<section id="news" class="p-5 bg-black/10 rounded-xl">
+<section id="news" class="p-5 mb-24 bg-black/10 rounded-xl">
 	<div class="flex flex-col gap-4">
         <article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">

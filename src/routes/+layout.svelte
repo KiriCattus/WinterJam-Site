@@ -14,7 +14,7 @@
 	const newsYears = ['2024', '2023'];
 </script>
 
-<div class="h-full min-h-screen from-sky-500 bg-linear-to-t to-sky-300 -z-10 pb-24">
+<div class="h-full flex min-h-screen from-sky-500 bg-linear-to-t to-sky-300 -z-10">
 	<SnowParticles class="fixed inset-0 bg-black/20" />
 	<div class="container relative mx-auto">
 		<Navbar {activeUrl}>
