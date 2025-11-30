@@ -28,7 +28,6 @@
 	onMount(() => {
 		tsParticles.init();
 		particlesInit(tsParticles).then(() => {
-			console.log('tsParticles initialized');
 			initialized = true;
 		});
 	});
