@@ -35,11 +35,10 @@
 	<h1 class="block w-full">Welcome to WinterJam!</h1>
 </header>
 
-<section
+<!-- <section
 	id="timers"
 	class="flex flex-col items-center w-full gap-4 p-5 m-auto mb-8 align-middle bg-black/30 md:w-10/12 lg:w-3/4 rounded-xl"
 >
-	<!-- TODO make this work reactively -->
 	{#if diff > 0}
 		<Countdown date={jamStartDate} class="m-auto" />
 		<p class="m-0 text-2xl font-blocky">
@@ -58,8 +57,8 @@
 	{:else}
 		<h1>WinterJam 2024 is now over!</h1>
 	{/if}
-</section>
-<Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip>
+</section> -->
+<!-- <Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip> -->
 
 <section id="info" class="p-5 bg-black/10 rounded-xl">
 	<p class="text-2xl text-justify">
@@ -85,7 +84,7 @@
 	</div>
 </section>
 
-<section id="temp-24-link" class="flex items-center">
+<!-- <section id="temp-24-link" class="flex items-center">
 	<a href="/jams/2024" class="m-auto group" tabindex="0">
 		<p
 			class="m-0 text-2xl font-blocky text-sky-950 hover:text-important group-focus:text-important"
@@ -93,4 +92,4 @@
 			&gt;&gt; CLICK HERE FOR MORE DETAILS! &lt;&lt;
 		</p>
 	</a>
-</section>
+</section> -->
