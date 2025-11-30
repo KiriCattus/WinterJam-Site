@@ -12,7 +12,7 @@ async function getSubmissions(platform: App.Platform | undefined, year: number):
             platform: row.platform,
             modId: row.modId,
             year: year,
-            resubmission: row.resubmission,
+            resubmission: Boolean(row.resubmission),
         }
     })
     .filter(mod => mod.platform === 'curseforge') // TODO remove when we support modrinth properly
