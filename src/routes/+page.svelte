@@ -85,7 +85,7 @@
 				<Tooltip>{new Date("2025-12-10T00:00Z").toLocaleString()}</Tooltip>
 				until 
 				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2026-01-07 00:00 UTC</span>
-				<Tooltip>{new Date("2026-01-07T00:00Z").toLocaleString()}</Tooltip>.
+				<Tooltip>{new Date("2026-01-07T00:00Z").toLocaleString()}</Tooltip>
 				Stay tuned for more details about loader and the targeted Minecraft version!
 			</p>
 		</article>
