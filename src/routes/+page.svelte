@@ -76,6 +76,21 @@
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2025-12-1 &ast; WinterJam 2025 is coming!
+			</h3>
+			<p class="text-xl text-justify">
+				It's almost time for WinterJam 2025! Start brainstorming ideas and get ready for another winter of fun and modding!
+				WinterJam 2025 will run from 
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2025-12-10 00:00 UTC</span>
+				<Tooltip>{new Date("2025-12-10T00:00Z").toLocaleString()}</Tooltip>
+				until 
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">2026-01-07 00:00 UTC</span>
+				<Tooltip>{new Date("2026-01-07T00:00Z").toLocaleString()}</Tooltip>.
+				Stay tuned for more details about loader and the targeted Minecraft version!
+			</p>
+		</article>
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
 				2025-11-25 &ast; Something chilly this way comes!
 			</h3>
 			<p class="text-xl text-justify">
