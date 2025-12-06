@@ -37,8 +37,7 @@
 			compatible with NeoForge will be added to the pack.<br />
 			Be advised that supporting multiple loaders is completely optional. Doing so will require additional
 			effort and may be stressful.<br />
-			If you're still interested in doing so, you can use <ExternalLink href="https://github.com/architectury/architectury-templates" class="underline">Architectury</ExternalLink>
-			or <ExternalLink href="https://github.com/jaredlll08/MultiLoader-Template" class="underline">Jared's MultiLoader Template</ExternalLink> to help with this.
+			If you're still interested in doing so, you can use <ExternalLink href="https://github.com/jaredlll08/MultiLoader-Template" class="underline">Jared's MultiLoader Template</ExternalLink> to help with this.
 		</span>
 	</li>
 	<li>
@@ -81,7 +80,7 @@
 			Yes you must submit your project before the event deadline via the submissions form.<br />
 			(Your submission will only be counted if you are a member of the <ExternalLink href="/discord" class="underline">Discord community</ExternalLink>
 			where the event is hosted)<br />
-			<a class="font-bold underline hover:text-important focus:text-important" href="/jams/2024/submit">Click here to submit your project!</a>
+			<a class="font-bold underline hover:text-important focus:text-important" href="/jams/2025/submit">Click here to submit your project!</a>
 		</span>
 	</li>
 	<li>
@@ -96,7 +95,7 @@
 		<span>
 			You can request the events team add other mods to the pack during or after creation, though
 			they have the final say if it fits and doesn't overshadow/distract from the creations
-			submitted for this jam.
+			submitted for the jam.
 		</span>
 	</li>
 </ol>

@@ -7,8 +7,8 @@
 	import type { PageData } from './$types';
 	import { HeartSolid } from 'flowbite-svelte-icons';
 
-	const jamStartDate = new Date('2024-12-20T00:00:00Z');
-	const jamEndDate = new Date('2025-03-20T00:00:00Z');
+	const jamStartDate = new Date('2025-12-10T00:00:00Z');
+	const jamEndDate = new Date('2026-01-07T00:00:00Z');
 	const now = new Date();
 
 	const diff = jamStartDate.getTime() - now.getTime();
@@ -43,20 +43,20 @@
 	{#if diff > 0}
 		<Countdown date={jamStartDate} class="m-auto" />
 		<p class="m-0 text-2xl font-blocky">
-			WinterJam 2024 starts {days === 0 ? 'today' : `in ${days} ${days === 1 ? 'day' : 'days'}`}!
+			WinterJam 2025 starts {days === 0 ? 'today' : `in ${days} ${days === 1 ? 'day' : 'days'}`}!
 		</p>
 	{:else if endDiff > 0}
 		<Countdown date={jamEndDate} class="m-auto" />
 		<p class="m-0 text-2xl font-blocky">
-			WinterJam 2024 ends {endDays === 0
+			WinterJam 2025 ends {endDays === 0
 				? 'today'
 				: `in ${endDays} ${endDays === 1 ? 'day' : 'days'}`}!
 		</p>
 		<p class="text-2xl text-justify">
-			(The submissions window closes on the 20th of March, please submit projects before this date)
+			(The submissions window opens on December 20th 2025, and will close on January 7th 2026, please make sure to submit your projects before then ready for the pack and server to go live!)
 		</p>
 	{:else}
-		<h1>WinterJam 2024 is now over!</h1>
+		<h1>WinterJam 2025 is now over!</h1>
 	{/if}
 </section>
 <Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip>
@@ -101,7 +101,7 @@
 </section>
 
 <section id="temp-24-link" class="flex items-center">
-	<a href="/jams/2024" class="m-auto group" tabindex="0">
+	<a href="/jams/2025" class="m-auto group" tabindex="0">
 		<p
 			class="m-0 text-2xl font-blocky text-sky-950 hover:text-important group-focus:text-important"
 		>
