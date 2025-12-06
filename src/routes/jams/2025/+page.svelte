@@ -5,7 +5,7 @@
 	import logoRoyalFaery from '$assets/sponsors/royalfaery/carrot.png?enhanced';
 	import logoKiriCattus from '$assets/sponsors/kiricattus/cat.png?enhanced';
 	import logoUp from '$assets/sponsors/up/up.png?enhanced';
-	import logoCurle from '$assets/sponsors/curle/blobmas.png?enhanced';
+	import logoCurle from '$assets/sponsors/curle/bolbmas.png?enhanced';
 	import ModEntry from '$components/ModEntry.svelte';
 	import type { PageData } from './$types';
 	import { InfoCircleOutline } from 'flowbite-svelte-icons';
