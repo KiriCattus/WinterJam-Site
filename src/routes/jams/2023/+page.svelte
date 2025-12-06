@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { InfoCircleOutline, DownloadOutline } from "flowbite-svelte-icons";
 	import ExternalLink from '$components/ExternalLink.svelte';
+	import Sponsor from '$components/Sponsor.svelte';
 
 	import logoRoyalFaery from '$assets/sponsors/royalfaery/carrot.png?enhanced';
 	import logoKiriCattus from '$assets/sponsors/kiricattus/cat.png?enhanced';
