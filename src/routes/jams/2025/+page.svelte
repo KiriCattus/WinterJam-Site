@@ -37,7 +37,7 @@
 			logo: logoCurle,
 			href: 'https://gemwire.uk',
 			description:
-				'Curle is a software developer and retro tech enthusiast who has kindly sponsored WinterJam 2025 by providing a server to run the pack on!'
+				'Curle is a software developer and retro tech enthusiast who has kindly sponsored WinterJam by providing a server to run the pack on!'
 		}
 	];
 

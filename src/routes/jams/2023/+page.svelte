@@ -1,8 +1,44 @@
 <script lang="ts">
 	import { InfoCircleOutline, DownloadOutline } from "flowbite-svelte-icons";
-	import ModEntry from '$components/ModEntry.svelte';
 	import ExternalLink from '$components/ExternalLink.svelte';
+
+	import logoRoyalFaery from '$assets/sponsors/royalfaery/carrot.png?enhanced';
+	import logoKiriCattus from '$assets/sponsors/kiricattus/cat.png?enhanced';
+	import logoUp from '$assets/sponsors/up/up.png?enhanced';
+	import logoCurle from '$assets/sponsors/curle/blobmas.png?enhanced';
+	import ModEntry from '$components/ModEntry.svelte';
 	import type { PageData } from './$types';
+
+	const sponsors = [
+		{
+			name: 'Up',
+			logo: logoUp,
+			href: 'https://upcraft.dev',
+			description:
+				'Freelance software and game developer, Up has helped run WinterJam and has been working on and maintaining the WinterJam website and services throughout the years! Without Up we would not be able to host these jams!'
+		},
+		{
+			name: 'RoyalFaery',
+			logo: logoRoyalFaery,
+			href: 'https://royalfaery.art',
+			description:
+				'RoyalFaery makes amazing banners and other digital art for coin! Please spare some time to check them out and be nice!!! (WinterJam assets made by RoyalFaery)'
+		},
+		{
+			name: 'KiriCattus',
+			logo: logoKiriCattus,
+			href: 'https://tophatcat.dev',
+			description:
+				'I made a thing. It broke... I made another thing. Why is it working!?!? I help run Winterjam, a Discord community and other modding events.'
+		},
+		{
+			name: 'Curle',
+			logo: logoCurle,
+			href: 'https://gemwire.uk',
+			description:
+				'Curle is a software developer and retro tech enthusiast who has kindly sponsored WinterJam by providing a server to run the pack on!'
+		}
+	];
 
 	export let data: PageData;
 </script>
@@ -34,6 +70,19 @@
 		{#each data.mods as mod}
 			<li class="min-h-max">
 				<ModEntry data={mod} />
+			</li>
+		{/each}
+	</ul>
+</section>
+
+<section id="sponsors" class="text-center">
+	<h2>Sponsors</h2>
+	<ul class="m-auto mt-8 w-full flex flex-col items-center justify-center">
+		{#each sponsors as sponsor, i}
+			<li class="min-h-max">
+				<Sponsor {...sponsor} reverse={i % 2 !== 0}>
+					{sponsor.description}
+				</Sponsor>
 			</li>
 		{/each}
 	</ul>

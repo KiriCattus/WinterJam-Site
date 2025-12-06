@@ -3,8 +3,10 @@
 	import Sponsor from '$components/Sponsor.svelte';
 
 	import logoCurseforge from '$assets/sponsors/curseforge/anvil_2024.png?enhanced';
-	import logoShinhaNox from '$assets/sponsors/shinhanox/carrot.png?enhanced';
+	import logoRoyalFaery from '$assets/sponsors/royalfaery/carrot.png?enhanced';
 	import logoKiriCattus from '$assets/sponsors/kiricattus/cat.png?enhanced';
+	import logoUp from '$assets/sponsors/up/up.png?enhanced';
+	import logoCurle from '$assets/sponsors/curle/blobmas.png?enhanced';
 	import ModEntry from '$components/ModEntry.svelte';
 	import type { PageData } from './$types';
 	import { InfoCircleOutline } from 'flowbite-svelte-icons';
@@ -18,18 +20,32 @@
 				'CurseForge provides hosting for mods, addons, and user content for many popular games such as Minecraft, World of Warcraft, Among Us and MANY many more!'
 		},
 		{
-			name: 'ShinhaNox',
-			logo: logoShinhaNox,
-			href: 'https://shinhanox.art',
+			name: 'Up',
+			logo: logoUp,
+			href: 'https://upcraft.dev',
 			description:
-				'Fabulous kawaii artist Bunny girl who makes amazing banners and other digital art for some coin! Please spare some time to check them out and be nice!!! (Banner commission by ShinhaNox)'
+				'Freelance software and game developer, Up has helped run WinterJam and has been working on and maintaining the WinterJam website and services throughout the years! Without Up we would not be able to host these jams!'
+		},
+		{
+			name: 'RoyalFaery',
+			logo: logoRoyalFaery,
+			href: 'https://royalfaery.art',
+			description:
+				'RoyalFaery makes amazing banners and other digital art for coin! Please spare some time to check them out and be nice!!! (WinterJam assets made by RoyalFaery)'
 		},
 		{
 			name: 'KiriCattus',
 			logo: logoKiriCattus,
 			href: 'https://tophatcat.dev',
 			description:
-				'I made a thing. It broke... I made another thing. Why is it working!?!? I help run the MMD community and modding events.'
+				'I made a thing. It broke... I made another thing. Why is it working!?!? I help run Winterjam, a Discord community and other modding events.'
+		},
+		{
+			name: 'Curle',
+			logo: logoCurle,
+			href: 'https://gemwire.uk',
+			description:
+				'Curle is a software developer and retro tech enthusiast who has kindly sponsored WinterJam by providing a server to run the pack on!'
 		}
 	];
 
@@ -74,12 +90,7 @@
 		<ExternalLink class="font-bold text-important" href="https://curseforge.com">
 			CurseForge
 		</ExternalLink>
-		for graciously providing us with prizes for this event,
-		<ExternalLink class="font-bold text-important" href="https://tophatcat.dev">
-			KiriCattus
-		</ExternalLink>
-		for running the event and providing servers to run the WinterJam modpack,
-		and
+		for graciously providing us with prizes for this event, and
 		<ExternalLink class="font-bold text-important" href="https://shinhanox.art">
 			ShinhaNox
 		</ExternalLink>

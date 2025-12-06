@@ -37,7 +37,7 @@
 			logo: logoKiriCattus,
 			href: 'https://tophatcat.dev',
 			description:
-				'I made a thing. It broke... I made another thing. Why is it working!?!? I make mods and help run MMD and modding events.'
+				'I made a thing. It broke... I made another thing. Why is it working!?!? I help run Winterjam, a Discord community and other modding events.'
 		}
 	];
 	export let data: PageData;

@@ -3,10 +3,11 @@
 	import Sponsor from '$components/Sponsor.svelte';
 
 	import logoCurseforge from '$assets/sponsors/curseforge/anvil-square.png?enhanced';
-	import logoShinhaNox from '$assets/sponsors/shinhanox/carrot.png?enhanced';
+	import logoRoyalFaery from '$assets/sponsors/royalfaery/carrot.png?enhanced';
+	import logoKiriCattus from '$assets/sponsors/kiricattus/cat.png?enhanced';
+	import logoUp from '$assets/sponsors/up/up.png?enhanced';
 	import logoTerrariumEarth from '$assets/sponsors/terrarium-earth/bottle.png?enhanced';
 	import logoCurle from '$assets/sponsors/curle/bolbmas.png?enhanced';
-	import logoKiriCattus from '$assets/sponsors/kiricattus/cat.png?enhanced';
 	import type { PageData } from './$types';
 	import ModEntry from '$components/ModEntry.svelte';
 	import { InfoCircleOutline } from 'flowbite-svelte-icons';
@@ -20,11 +21,32 @@
 				'CurseForge provides hosting for mods, addons, and user content for many popular games such as Minecraft, World of Warcraft, and Among Us.'
 		},
 		{
-			name: 'ShinhaNox',
-			logo: logoShinhaNox,
-			href: 'https://shinhanox.art',
+			name: 'RoyalFaery',
+			logo: logoRoyalFaery,
+			href: 'https://royalfaery.art',
 			description:
-				'Fabulous kawaii artist Bunny girl who makes amazing kawaii banners and other digital art for coin! Please spare some time to check them out and be nice!!! (Banner commission by ShinhaNox)'
+				'RoyalFaery makes amazing banners and other digital art for coin! Please spare some time to check them out and be nice!!! (WinterJam assets made by RoyalFaery)'
+		},
+		{
+			name: 'Up',
+			logo: logoUp,
+			href: 'https://upcraft.dev',
+			description:
+				'Freelance software and game developer, Up has helped run WinterJam and has been working on and maintaining the WinterJam website and services throughout the years! Without Up we would not be able to host these jams!'
+		},
+		{
+			name: 'KiriCattus',
+			logo: logoKiriCattus,
+			href: 'https://tophatcat.dev',
+			description:
+				'I made a thing. It broke... I made another thing. Why is it working!?!? I help run Winterjam, a Discord community and other modding events.'
+		},
+		{
+			name: 'Curle',
+			logo: logoCurle,
+			href: 'https://gemwire.uk',
+			description:
+				'Curle is a software developer and retro tech enthusiast who has kindly sponsored WinterJam by providing a server to run the pack on!'
 		},
 		{
 			name: 'Terrarium',
@@ -32,20 +54,6 @@
 			href: 'https://twitter.com/TerrariumEarth',
 			description:
 				'We are a team of devs and artists making mods such as Chipped, Tempad and Spirit. We love making immersive new Minecraft mods for the latest and greatest versions of Minecraft on Fabric and Forge.'
-		},
-		{
-			name: 'Curle',
-			logo: logoCurle,
-			href: 'https://twitter.com/bolbmas',
-			description:
-				"Former MinecraftForge Community and Repositories manager. Did somebody say 'New Project' ?"
-		},
-		{
-			name: 'KiriCattus',
-			logo: logoKiriCattus,
-			href: 'https://tophatcat.dev',
-			description:
-				'I made a thing. It broke... I made another thing. Why is it working!?!? I help run the MMD community and modding events.'
 		}
 	];
 	export let data: PageData;
