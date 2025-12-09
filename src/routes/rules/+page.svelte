@@ -12,7 +12,7 @@
 <ol class="text-justify md:child:text-xl child:text-lg child:rounded-lg child:bg-slate-950 child:bg-opacity-30 child:p-4">
     <li>
         <h4>
-            1. Submissions must only be created between December 10th until January 1st UTC.
+            1. Submissions must only be created between December 10th until January 7st UTC.
         </h4>
         <span>
             You may think about and plan your project ahead of time but all code, datapacks and resources (including textures, sounds, models and animations) must be made during the specified time window.<br>
@@ -99,7 +99,6 @@
             </Alert>
         </span>
     </li>
-    <!--
     <li>
         <h4>
             9. Submissions should be compatible with Minecraft 1.21.10 and the NeoForge mod loader.
@@ -109,5 +108,4 @@
             If you develop mods on another loader, we suggest you use <ExternalLink href="https://github.com/jaredlll08/MultiLoader-Template" class="underline" target="_self">MultiLoader-Template</ExternalLink> to be able to submit your project to be used in the modpack.
         </span>
     </li>
-    -->
 </ol>

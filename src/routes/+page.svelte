@@ -76,6 +76,18 @@
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2025-12-9 &ast; Minecraft version annoucement!
+			</h3>
+			<p class="text-xl text-justify">
+				This time around after a small vote in the community, we have decided we will be targeting Minecraft version 
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">1.21.10</span>
+				using NeoForge version 
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">21.10.64</span>
+				for WinterJam 2025! Get ready to start working on your submissions! 
+				There was also a minor correction to the submission deadline on the rules page, please make sure to check when you can!
+		</article>
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
 				2025-12-1 &ast; WinterJam 2025 is coming!
 			</h3>
 			<p class="text-xl text-justify">
