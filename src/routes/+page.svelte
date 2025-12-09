@@ -80,9 +80,9 @@
 			</h3>
 			<p class="text-xl text-justify">
 				This time around after a small vote in the community, we have decided we will be targeting Minecraft version 
-				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">1.21.10</span>
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">1.21.11</span>
 				using NeoForge version 
-				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">21.10.64</span>
+				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">21.11.0-beta</span>
 				for WinterJam 2025! Get ready to start working on your submissions! 
 				There was also a minor correction to the submission deadline on the rules page, please make sure to check when you can!
 		</article>
