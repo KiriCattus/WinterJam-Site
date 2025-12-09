@@ -76,7 +76,7 @@
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
-				2025-12-9 &ast; Minecraft version annoucement!
+				2025-12-9 &ast; Minecraft version announcement!
 			</h3>
 			<p class="text-xl text-justify">
 				This time around after a small vote in the community, we have decided we will be targeting Minecraft version 
