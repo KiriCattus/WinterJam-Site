@@ -67,11 +67,11 @@
     </li>
     <li>
         <h4>
-            6. Submissions must have their sources visible on a public repository. (GitHub, GitLab, etc.)
+            6. Submissions must have their source code visible on a public repository. (GitHub, GitLab, etc.)
         </h4>
         <span>
             This allow for tracking of work done so we know you have not cheated and started before the permitted time
-            or used forbidden tools such as MCreator, this also makes it easier for others in your team or otherwise to contribute to your project.<br>
+            or used forbidden tools such as MCreator or AI tools, this also makes it easier for others in your team or otherwise to contribute to your project.<br>
             Licenses can always be decided on for code and assets at a later date if needed.
         </span>
     </li>
