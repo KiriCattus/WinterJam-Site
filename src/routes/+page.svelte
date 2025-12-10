@@ -121,15 +121,3 @@
 		</p>
 	</a>
 </section>
-<footer class="w-full mt-12 pt-6 pb-6 bg-black bg-opacity-10 rounded-xl">
-	<div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
-		<p class="m-0 text-lg">
-			&copy; 2018 - 2025 WinterJam. Made with
-			<HeartSolid class="inline-block w-5 h-5 text-red-600 mb-1" /> by the WinterJam team.
-		</p>
-		<nav class="mt-4 md:mt-0">
-			<ExternalLink href="/">Home</ExternalLink>
-			<ExternalLink href="/about">About</ExternalLink>
-		</nav>
-	</div>
-</footer>
