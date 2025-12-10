@@ -5,7 +5,6 @@
 	import { Tooltip } from 'flowbite-svelte';
 	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
-	import { HeartSolid } from 'flowbite-svelte-icons';
 
 	const jamStartDate = new Date('2025-12-10T00:00:00Z');
 	const jamEndDate = new Date('2026-01-07T00:00:00Z');
@@ -61,7 +60,7 @@
 </section>
 <Tooltip>{diff > 0 ? jamStartDateLocal : jamEndDateLocal}</Tooltip>
 
-<section id="info" class="p-5 bg-black bg-opacity-10 rounded-xl">
+<section id="info" class="p-5 bg-black bg-opacity-30 rounded-xl">
 	<p class="text-2xl text-justify">
 		This is the annual winter celebration for the modded Minecraft community. During winter we host
 		a mod jam where members of the community are encouraged to create new mods that fit the seasonal
@@ -71,7 +70,7 @@
 	</p>
 </section>
 
-<section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
+<section id="news" class="p-5 bg-black bg-opacity-30 rounded-xl">
 	<h2 class="pb-5 mb-4 text-6xl text-left underline font-blocky">News</h2>
 	<div class="flex flex-col gap-4">
 		<article>

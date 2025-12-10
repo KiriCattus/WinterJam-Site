@@ -1,6 +1,6 @@
 <script>
-	import { NavLi, Dropdown, DropdownItem } from 'flowbite-svelte';
-	import { ChevronDownOutline } from 'flowbite-svelte-icons';
+	import { Footer, FooterIcon, NavLi, Dropdown, DropdownItem } from 'flowbite-svelte';
+	import { ChevronDownOutline, HeartSolid, GithubSolid, DiscordSolid, MoonSolid } from 'flowbite-svelte-icons';
 	import '@fontsource/press-start-2p';
 	import '../app.postcss';
 	import { page } from '$app/stores';
@@ -12,6 +12,7 @@
 
 	const years = ['2024', '2023', '2022', '2021', '2020', '2019', '2018'];
 	const newsYears = ['2024', '2023'];
+	const currentYear = new Date().getFullYear();
 </script>
 
 <div class="h-full min-h-screen from-sky-500 bg-gradient-to-t to-sky-300 -z-10 pb-24">
@@ -55,5 +56,26 @@
 		<main class="w-11/12 mx-auto lg:w-3/4">
 			<slot />
 		</main>
+		<Footer class="p-5 bg-black bg-opacity-30 rounded-xl">
+			<div class="sm:flex sm:items-center sm:justify-between">
+				<p class="mb-2 text-lg">
+					Made with <HeartSolid class="inline-block w-5 h-5 text-green-600 mb-1" /> by the WinterJam Team.
+				</p>
+				<p class="mb-2 text-lg">
+					&copy; 2018 - {currentYear} WinterJam - All rights reserved
+				</p>
+			</div>
+			<div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center rtl:space-x-reverse">
+				<FooterIcon href="https://discord.tophatcat.dev">
+					<DiscordSolid class="h-6 w-6 text-white hover:text-gray-700" />
+				</FooterIcon>
+				<FooterIcon href="https://bsky.app/profile/tophatcat.dev">
+					<MoonSolid class="h-6 w-6 text-white hover:text-gray-700" />
+				</FooterIcon>
+				<FooterIcon href="https://github.com/kiricattus/winterjam-site">
+					<GithubSolid class="h-6 w-6 text-white hover:text-gray-700" />
+				</FooterIcon>
+			</div>
+		</Footer>
 	</div>
 </div>

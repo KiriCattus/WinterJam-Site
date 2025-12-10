@@ -4,7 +4,7 @@
 </script>
 
 <Meta title="FAQ" />
-<h1>WinterJam 2024 FAQ</h1>
+<h1>WinterJam 2025 FAQ</h1>
 
 <ol
 	class="text-justify md:child:text-xl child:text-lg child:rounded-lg child:bg-slate-950 child:bg-opacity-30 child:p-4"

@@ -11,11 +11,11 @@
     <h2 class="block w-full">WinterJam 2024 News</h2>
 </header>
 
-<section id="news" class="p-5 bg-black bg-opacity-10 rounded-xl">
+<section id="news" class="p-5 bg-black bg-opacity-30 rounded-xl">
 	<div class="flex flex-col gap-4">
         <article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
-				2025-04-20&ast; The WinterJam 2024 server is now closed!
+				2025-04-20 &ast; The WinterJam 2024 server is now closed!
 			</h3>
 			<p class="text-xl text-justify">
 				After a fantastic few months of fun, the WinterJam 2024 public server has now been closed.<br>
