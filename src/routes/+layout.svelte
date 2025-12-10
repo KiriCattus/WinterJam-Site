@@ -50,8 +50,8 @@
 					</DropdownItem>
 				{/each}
 			</Dropdown>
-			<ExternalLink class="text-xl" href="/discord">Discord</ExternalLink>
-			<ExternalLink class="text-xl" href="https://bsky.app/profile/tophatcat.dev">Bluesky</ExternalLink>
+			<ExternalLink class="text-xl" href="/discord" noIcon>Discord</ExternalLink>
+			<ExternalLink class="text-xl" href="https://bsky.app/profile/tophatcat.dev" noIcon>Bluesky</ExternalLink>
 		</Navbar>
 		<main class="w-11/12 mx-auto lg:w-3/4">
 			<slot />
