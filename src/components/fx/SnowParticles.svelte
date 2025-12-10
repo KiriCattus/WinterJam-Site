@@ -48,7 +48,7 @@
 				density: {
 					enable: true
 				},
-				value: 400
+				value: 450
 			},
 			opacity: {
 				random: {
