@@ -13,7 +13,7 @@
 	const currentPageUrl: string = new URL($page.url.pathname, canonicalUrl).toString();
 	description = description || 'An annual event in celebration of the chilly winter season!';
 
-	const imageUrl = new URL("/images/logo.webp", baseUrl);
+	const imageUrl = new URL("/images/snowman.png", baseUrl);
 	const imageAlt = "WinterJam Logo";
 	const imageSize = { width: 512, height: 512 };
 
