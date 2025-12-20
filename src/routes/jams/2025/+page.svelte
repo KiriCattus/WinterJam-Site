@@ -32,7 +32,7 @@
 			href: 'https://curseforge.com',
 			description:
 				'CurseForge is a platform for modders to host and distribute their mods. They have kindly sponsored WinterJam by providing us with exclusive CurseForge x WinterJam shirts!'
-		}
+		},
 		{
 			name: 'KiriCattus',
 			logo: logoKiriCattus,
