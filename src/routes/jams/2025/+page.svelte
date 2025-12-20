@@ -6,6 +6,7 @@
 	import logoKiriCattus from '$assets/sponsors/kiricattus/cat.png?enhanced';
 	import logoUp from '$assets/sponsors/up/up.png?enhanced';
 	import logoCurle from '$assets/sponsors/curle/bolbmas.png?enhanced';
+	import logoCurseForge from '$assets/sponsors/curseforge/anvil_2024.png?enhanced';
 	import ModEntry from '$components/ModEntry.svelte';
 	import type { PageData } from './$types';
 	import { InfoCircleOutline } from 'flowbite-svelte-icons';
@@ -25,6 +26,13 @@
 			description:
 				'RoyalFaery makes amazing banners and other digital art for coin! Please spare some time to check them out and be nice!!! (WinterJam assets made by RoyalFaery)'
 		},
+		{
+			name: 'CurseForge',
+			logo: logoCurseForge,
+			href: 'https://curseforge.com',
+			description:
+				'CurseForge is a platform for modders to host and distribute their mods. They have kindly sponsored WinterJam by providing us with exclusive CurseForge x WinterJam shirts!'
+		}
 		{
 			name: 'KiriCattus',
 			logo: logoKiriCattus,
@@ -47,8 +55,8 @@
 <section id="info" class="mt-12 w-5/6">
 	<div class="p-5 bg-black bg-opacity-30 rounded-xl flex place-items-center flex-col">
 		<h2>Submissions</h2>
-		<h4>The submissions window opens on the 20th of December! Please check back then!</h4>
-		<!--
+		<!-- h4>The submissions window opens on the 20th of December! Please check back then!</h4> -->
+		
 		<a href="submit" class="underline hover:text-important focus:text-important">
 			Click here to submit your project!
 		</a>
@@ -61,7 +69,7 @@
 				server and pack. The remainder of content can be added later on if required.
 			</span>
 		</div>
-		-->
+		
 		<!-- <h2>WinterJam 2025 has ended.</h2>
 		<p>There were a total of {data.mods.length} projects submitted this time!</p>
 		<p>The server will remain online for 2 months after the jam ends so you can keep playing!</p> -->
