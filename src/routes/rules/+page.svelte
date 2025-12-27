@@ -80,7 +80,7 @@
             7. Past submissions are permitted.
         </h4>
         <span>
-            You are allowed to resubmit past projects that have been updated; however, while they are permitted, they won't recieve the same promotion or showcasing as new submissions.
+            You are allowed to resubmit past projects that have been updated; however, while they are permitted, they won't receive the same promotion or showcasing as new submissions.
         </span>
     </li>
     <li>
@@ -97,6 +97,7 @@
                     Uploading to Modrinth is fine but please be aware we require CurseForge uploads for the pack as not all older submissions are on Modrinth.
                 </span>
             </Alert>
+            </div>
         </span>
     </li>
     <li>
@@ -104,7 +105,7 @@
             9. Submissions should be compatible with Minecraft 1.21.11 and the NeoForge mod loader.
         </h4>
         <span>
-            This is not a hard requirement. Other versions and/or loaders are accepted, but to be included in the pack and server, your mod must be compatible with Minecraft 1.21.11 and NeoForge 21.11.0-beta&lt; / &gt;.<br>
+            This is not a hard requirement. Other versions and/or loaders are accepted, but to be included in the pack and server, your mod must be compatible with Minecraft 1.21.11 and NeoForge 21.11.0-beta-&gt;.<br>
             If you develop mods on another loader, we suggest you use <ExternalLink href="https://github.com/jaredlll08/MultiLoader-Template" class="underline" target="_self">MultiLoader-Template</ExternalLink> to be able to submit your project to be used in the modpack.
         </span>
     </li>
