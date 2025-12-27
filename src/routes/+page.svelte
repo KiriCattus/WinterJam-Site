@@ -75,6 +75,17 @@
 	<div class="flex flex-col gap-4">
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2025-12-25 &ast; New Sponsor Announcement!
+			</h3>
+			<p class="text-xl text-justify">
+				We are excited to announce that <ExternalLink href="https://curseforge.com" class="underline">CurseForge</ExternalLink>
+				have graciously offered to sponsor WinterJam 2025! All valid submissions will receive an exclusive
+				WinterJam x CurseForge 2025 shirt! (Where the sipping company permits &ast;)
+				Details for how to apply for the reward will be announced at a later date,
+				but for now please enjoy the rest of the jam and remember to thank CurseForge for sponsoring the prize pool this year!
+		</article>
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
 				2025-12-9 &ast; Minecraft version announcement!
 			</h3>
 			<p class="text-xl text-justify">
