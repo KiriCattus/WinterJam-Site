@@ -22,7 +22,7 @@
 	<enhanced:img
 		src={logo}
 		alt={name}
-		class="p-1 ring-2 ring-gray-300 dark:ring-gray-500 w-32 h-32 bg-gray-100 dark:bg-gray-600 text-gray-600 dark:text-gray-300 rounded-full m-auto bg-opacity-30"
+		class="p-1 ring-2 ring-gray-300 dark:ring-gray-500 w-32 h-32 bg-gray-100 dark:bg-gray-600 text-gray-600 dark:text-gray-300 rounded-full m-auto"
 		loading="lazy"
 	/>
 	<div class="max-w-sm flex items-center flex-col leading-tight">

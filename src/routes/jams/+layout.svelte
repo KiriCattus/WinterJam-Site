@@ -3,7 +3,7 @@
 	import Meta from '$components/Meta.svelte';
 
     $: path = $page.url.pathname;
-    $: year = path.match(/\/jams\/(\d+)/)?.[1] ?? '2023';
+    $: year = path.match(/\/jams\/(\d+)/)?.[1] ?? '2025';
 </script>
 
 <Meta title={`WinterJam ${year}`} />
