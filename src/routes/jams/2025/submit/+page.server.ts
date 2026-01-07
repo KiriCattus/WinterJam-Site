@@ -55,7 +55,7 @@ export const actions = {
 
 export const load: PageServerLoad = async () => {
 	const now = Date.now();
-	const jamEndDate = new Date('2026-01-07T00:00:00Z').getTime();
+	const jamEndDate = new Date('2026-01-07T02:00:00Z').getTime();
 
 	if (now > jamEndDate) {
 		throw redirect(303, '/');
