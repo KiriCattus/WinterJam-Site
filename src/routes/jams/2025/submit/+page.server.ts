@@ -21,7 +21,7 @@ export const actions = {
 	default: async (event) => {
 		const now = new Date();
 
-		const jamEndDate = new Date('2026-01-07T00:00:00Z');
+		const jamEndDate = new Date('2026-01-07T02:00:00Z');
 
 		if (now > jamEndDate) {
 			throw error(401, 'The submissions window has passed.');
