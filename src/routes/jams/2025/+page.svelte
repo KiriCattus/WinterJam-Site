@@ -77,16 +77,14 @@
 </section>
 
 <section id="entries">
-	<div class="p-5 bg-black bg-opacity-30 rounded-xl flex place-items-center flex-col">
-  	<h2>Entries</h2>
-	  <ul class="flex flex-col items-center justify-center w-full m-auto mt-8">
-		  {#each data.mods as mod}
-			  <li class="min-h-max">
-				  <ModEntry data={mod} />
-			  </li>
-		  {/each}
-	  </ul>
-	</div>
+	<h2>Entries</h2>
+	<ul class="flex flex-col items-center justify-center w-full m-auto mt-8">
+	  {#each data.mods as mod}
+		  <li class="min-h-max">
+			  <ModEntry data={mod} />
+		  </li>
+	  {/each}
+	</ul>
 </section>
 
 <section id="sponsors" class="text-center">

@@ -15,7 +15,7 @@
 	{rel}
 	title={name}
 	class={classNames(
-		'bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 divide-gray-200 dark:divide-gray-700 shadow-md flex max-w-sm md:max-w-xl hover:bg-gray-100 dark:hover:bg-gray-700 mb-4 flex-col p-6 items-center gap-2',
+		'bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 divide-gray-200 dark:divide-gray-700 shadow-md flex max-w-sm md:max-w-xl hover:bg-gray-100 dark:hover:bg-gray-700 mb-4 flex-col p-6 bg-opacity-30 gap-2',
 		reverse ? 'md:flex-row-reverse' : 'md:flex-row'
 	)}
 >
