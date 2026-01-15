@@ -55,11 +55,17 @@
 <section id="info" class="mt-12 w-5/6">
 	<div class="p-5 bg-black bg-opacity-30 rounded-xl flex place-items-center flex-col">
 		<h2>Submissions</h2>
-		<!-- h4>The submissions window opens on the 20th of December! Please check back then!</h4> -->
-		
+		<h2>WinterJam 2025 has ended.</h2>
+		<p>There were a total of {data.mods.length} projects submitted this time!</p>
+		<p>To everyone who took part this year, thank you for joining us and having fun making mods together!</p>
+		<p>When the server goes offline we will upload the world save for anyone to continue playing around with the submissions :D</p>
+		<!-- h4>The submissions window opens on the 20th of December! Please check back then!</h4>-->
+		<!--
 		<a href="submit" class="underline hover:text-important focus:text-important">
 			Click here to submit your project!
 		</a>
+		-->
+		<!--
 		<hr class="mx-auto h-px my-8 bg-gray-200 border-0 dark:bg-gray-70 w-9/12" />
 		<div class="self-start">
 			<h4>ℹ Notice: Work on world generation first!</h4>
@@ -69,10 +75,7 @@
 				server and pack. The remainder of content can be added later on if required.
 			</span>
 		</div>
-		
-		<!-- <h2>WinterJam 2025 has ended.</h2>
-		<p>There were a total of {data.mods.length} projects submitted this time!</p>
-		<p>The server will remain online for 2 months after the jam ends so you can keep playing!</p> -->
+		-->
 	</div>
 </section>
 

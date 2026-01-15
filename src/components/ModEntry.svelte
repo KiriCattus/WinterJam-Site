@@ -32,7 +32,7 @@
 		{/if}
 	</div>
 
-	<div class="flex flex-col items-center max-w-sm leading-tight">
+	<div class="flex flex-col items-center max-w-sm leading-tight bg-opacity-30">
 		<h2 class="tracking-wide">{mod.name}</h2>
 		<span class="inline-block tracking-tight text-center">
 			{mod.summary}

@@ -20,9 +20,12 @@
 	<div class="container relative mx-auto">
 		<Navbar {activeUrl}>
 			<NavLi href="/">Home</NavLi>
+			<!--
 			<NavLi href="/rules">Rules</NavLi>
 			<NavLi href="/faq">FAQ</NavLi>
 			<NavLi href="/jams/2025/submit">Submit a Project</NavLi>
+			-->
+
 			<NavLi class="cursor-pointer">
 				News<ChevronDownOutline class="inline w-3 h-3 ml-2 text-primary-800 dark:text-white" />
 			</NavLi>
@@ -36,6 +39,7 @@
 					</DropdownItem>
 				{/each}
 			</Dropdown>
+
 			<NavLi class="cursor-pointer">
 				Jams<ChevronDownOutline class="inline w-3 h-3 ml-2 text-primary-800 dark:text-white" />
 			</NavLi>
@@ -50,6 +54,7 @@
 					</DropdownItem>
 				{/each}
 			</Dropdown>
+
 			<ExternalLink class="text-xl" href="/discord" noIcon>Discord</ExternalLink>
 			<ExternalLink class="text-xl" href="https://bsky.app/profile/tophatcat.dev" noIcon>Bluesky</ExternalLink>
 		</Navbar>

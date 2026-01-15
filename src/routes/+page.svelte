@@ -31,7 +31,6 @@
 
 <header class="w-full pb-12 m-auto md:w-10/12 lg:w-3/4">
 	<enhanced:img src="$assets/images/banner_large.png" alt="WinterJam Banner" class="md:pb-12" />
-	<h1 class="block w-full">Welcome to WinterJam!</h1>
 </header>
 
 <section
@@ -62,17 +61,35 @@
 
 <section id="info" class="p-5 bg-black bg-opacity-30 rounded-xl">
 	<p class="text-2xl text-justify">
-		This is the annual winter celebration for the modded Minecraft community. During winter we host
+		WinterJam is the annual winter celebration for the game modding community. During winter we host
 		a mod jam where members of the community are encouraged to create new mods that fit the seasonal
-		theme. Participants are encouraged to collaborate, explore new skills, and challenge themselves.
-		During WinterJam we also host Minecraft servers where anyone can join and check out the mod
-		submissions.
+		theme. Participants are encouraged to collaborate, explore new skills, and challenge themselves!
 	</p>
 </section>
 
 <section id="news" class="p-5 bg-black bg-opacity-30 rounded-xl">
 	<h2 class="pb-5 mb-4 text-6xl text-left underline font-blocky">News</h2>
 	<div class="flex flex-col gap-4">
+		<article>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2026-01-15 &ast; WinterJam 2025 has ended!
+			</h3>
+			<p class="text-xl text-justify">
+				For those who participated in WinterJam 2025, we want to extend a huge thank you for for joining us this year!
+				We had an amazing time seeing all the incredible mods created during the jam, and we hope you did too!
+				We will attempt to contact participants regarding prizes over the next week via Discord so please keep an eye out for a ping from Kiri.
+				Thank you all once again for joining us this year, and we hope to see you again for WinterJam 2026 &lt;3
+			</p>
+			<h3 class="mb-0 text-2xl text-left underline font-blocky">
+				2026-01-13 &ast; Pack Release Announcement!
+			</h3>
+			<p class="text-xl text-justify">
+				Now that the submissions have been collected and reviewed, we are excited to announce that the WinterJam 2025 modpack is live!
+			  				You can download the modpack from <ExternalLink href="https://www.curseforge.com/minecraft/modpacks/winterjam-2025" class="underline">CurseForge</ExternalLink>
+				and join the official WinterJam 2025 server to experience all the amazing mods created during this year's jam!
+			Once the server closes down, we will be releasing the world save for anyone to use whenever they want!
+			</p>
+		</article>
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
 				2025-12-25 &ast; New Sponsor Announcement!
@@ -83,6 +100,7 @@
 				WinterJam x CurseForge 2025 shirt! (Where the shipping company permits &ast;)
 				Details for how to apply for the reward will be announced at a later date,
 				but for now please enjoy the rest of the jam and remember to thank CurseForge for sponsoring the prize pool this year!
+			</p>
 		</article>
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
@@ -95,6 +113,7 @@
 				<span class="p-2 text-xs underline bg-black rounded-lg bg-opacity-30 font-blocky">21.11.0-beta</span>
 				for WinterJam 2025! Get ready to start working on your submissions! 
 				There was also a minor correction to the submission deadline on the rules page, please make sure to check when you can!
+			</p>
 		</article>
 		<article>
 			<h3 class="mb-0 text-2xl text-left underline font-blocky">
